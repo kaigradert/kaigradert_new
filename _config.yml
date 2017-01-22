@@ -8,3 +8,17 @@ collections:
   uploads:
     title: Uploads
     output: true
+contact:
+  AngelList: https://angel.co/kai
+  LinkedIn: http://www.linkedin.com/in/kaigradert
+  Twitter: https://twitter.com/kaigradert
+  Flickr: http://www.flickr.com/photos/kaigradert/sets/
+  Instagram: http://instagram.com/kaikemono
+  Google: https://plus.google.com/+KaiGradert/
+  SmugMug: https://kaigradert.smugmug.com/
+  Feed: "/feed.xml"
+meta:
+  bio: Designer, Photographer, Father
+  description: Designer, tea lover and husband. Living in California.
+  gravatar: 11e4ed5d85b6bccce20f8f86476785d6
+  keywords: User Experience, Visual Design, UX, Design, Google, Apple, Consulting
