@@ -1,0 +1,2 @@
+# https://gist.github.com/dvessel/1478685
+excludeFiles = "{$excludeFiles,*.html,*.css,*.ru,*.codekit,.tm_properties}"
