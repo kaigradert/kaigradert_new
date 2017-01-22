@@ -1,36 +1,47 @@
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<!-- Plain Description -->
-	<title>{{ site.title }}</title>
-	<meta name="description" content="{% if page.excerpt %}{{page.excerpt}}{% else %}{{site.tagline}}{% endif %}">
-	<link rel="icon" type="image/png" href="/favicon.png">
-	
-	<!-- Google+ -->
-	<link rel="publisher" href="https://plus.google.com/{{site.googleplus}}"/>
-	<meta itemprop="name" content="{% if page.fulltitle %}{{page.fulltitle}}{% else %}{{page.title}} | {{ site.title }} {% endif %}">
-	<meta itemprop="description" content="{% if page.excerpt %}{{page.excerpt}}{% else %}{{site.tagline}}{% endif %}">
-	<meta itemprop="image" content="{% if page.image %}{{site.url}}{{page.image}}{% else %}{{site.url}}{{site.socialimg}}{% endif %}">
-	
-	<!-- Facebook -->
-	<meta property="og:type" content="website"/>
-	<meta property="og:title" content="{% if page.fulltitle %}{{page.fulltitle}}{% else %}{{page.title}} | {{ site.title }} {% endif %}"/>
-	<meta property="og:description" content="{% if page.excerpt %}{{page.excerpt}}{% else %}{{site.tagline}}{% endif %}"/>
-	<meta property="og:image" content="{% if page.image %}{{site.url}}{{page.image}}{% else %}{{site.url}}{{site.socialimg}}{% endif %}"/>
-	<meta property="og:url" content="{{site.url}}{{page.url}}"/>
-	<meta property="og:site_name" content="{{ site.title }} "/>
-	
-	<!-- Twitter -->
-	<meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="{% if page.fulltitle %}{{page.fulltitle}}{% else %}{{page.title}} | {{ site.title }} {% endif %}">
-	<meta name="twitter:description" content="{% if page.excerpt %}{{page.excerpt}}{% else %}{{site.tagline}}{% endif %}">
-	<meta name="twitter:image" content="{{site.url}}{{site.socialimg}}">
-	<meta name="twitter:url" content="{{site.url}}{{page.url}}">
-	
-	<!-- CSS & fonts -->
-	<link rel="stylesheet" href="css/app.css">
-	<!-- Put your fonts here -->
-
+  <meta charset='utf-8'>
+  <title>{{ title }} | {{ site.title }}</title>
+  <meta content='on' http-equiv='cleartype'>
+  <meta content='True' name='HandheldFriendly'>
+  <meta content='width=device-width, minimum-scale=1, initial-scale=1' name='viewport'>
+  <!-- / for Google -->
+  <meta content="{{ site.meta['config_description'] }}" name='description'>
+  <meta content="{{ site.meta['config_keywords'] }}" name='keywords'>
+  <meta content='{{ site.title }}' name='author'>
+  <meta content="&amp;copy;{{ site.time | date: '%Y' }} {{ site.title }}" name='copyright'>
+  <!-- / for Facebook -->
+  <meta content='{{ title }} | {{ site.title }}' property='og:title'>
+  <meta content='article' property='og:type'>
+  {% for asset in assets %}
+  {% if asset.type == 'image' %}
+  <meta content='{{ site.permalink }}{{ asset.url }}' property='og:image'>
+  {% endif %}
+  {% endfor %}
+  <meta content="http://www.gravatar.com/avatar/{{ site.meta['config_gravatar'] }}.png?s=400" property='og:image'>
+  <meta content='{{ permalink }}/' property='og:url'>
+  <meta content='{{ description }}' property='og:description'>
+  <meta content='{{ site.title }}' property='og:site_name'>
+  <meta content='1389774573' property='fb:admins'>
+  <!-- / for Twitter -->
+  <meta content='summary' name='twitter:card'>
+  <meta content='{{ title }} | {{ site.title }}' name='twitter:title'>
+  <meta content='{{ description }}' name='twitter:description'>
+  {% for asset in assets %}
+  {% if asset.type == 'image' %}
+  <meta content='{{ site.permalink }}{{ asset.url }}' name='twitter:image'>
+  {% endif %}
+  {% endfor %}
+  <meta content="http://www.gravatar.com/avatar/{{site.meta['config_gravatar']}}.png?s=400" name='twitter:image'>
+  <link href='{{site.feed_url}}' rel='alternate' type='application/rss+xml'>
+  <link href='/assets/favicon.ico' rel='shortcut icon'>
+  <!-- / Style Sheets -->
+  <link href='/styles/styles.css' rel='stylesheet' type='text/css'>
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css' media='screen' rel='stylesheet' type='text/css'>
+  <!-- / Modernizr -->
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js' type='text/javascript'></script>
+  <!-- / Fight FOUC! http://www.paulirish.com/2009/avoiding-the-fouc-v3/ -->
+  <script>document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/,'js no-fouc');</script>
+  <!-- / Typekit -->
+  <script src="https://use.typekit.net/boj0vyn.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>

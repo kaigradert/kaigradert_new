@@ -1,0 +1,11 @@
+<header class='header' role='banner'>
+  <h1>
+    <a href='/' title="{{ site.title }} – {{site.meta['bio']}}">{{ site.title }}</a>
+  </h1>
+  <nav>
+    {% for page in site.pages %}
+    <a class='{% if page.url == url %}active{% endif %}' href='{{ page.url }}'>{{ page.title }}</a>
+    {% endfor %}
+    <a class='{% if page.url == url %}active{% endif %}' href='http://photos.kaigradert.com' target='_blank'>Photography</a>
+  </nav>
+</header>
