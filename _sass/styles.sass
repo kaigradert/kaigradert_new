@@ -1,0 +1,607 @@
+@import bourbon
+
+// Variables
+// ----------------------------------------------------------------------------
+
+// Colors
+$colorBody:             #4d4d4d
+$colorMuted:            #999999
+$colorHeadline:         #262626
+$colorShaded:           rgba(black, 0.05)
+$colorBorder:           #e6e7e9
+
+$colorLinkSunday:       #cc8f14
+$colorLinkMonday:       #6b990f
+$colorLinkTuesday:      #b80960
+$colorLinkWednesday:    #a26016
+$colorLinkThursday:     #127db3
+$colorLinkFriday:       #6b990f
+$colorLinkSaturday:     #6b990f
+
+// Radius
+$goldenRatio:           1.618
+$radiusSmall:           2px
+$radiusMedium:          $radiusSmall * $goldenRatio
+$radiusLarge:           $radiusMedium * $goldenRatio
+
+// Layout
+$widthPage:             1140px
+
+
+
+// Mixins
+// ----------------------------------------------------------------------------
+
+=debug($color)
+  background-color: rgba($color, 0.3)
+
+=radius($radius)
+  border-radius: $radius
+
+=for($point)
+  // http://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+  // http://css-tricks.com/media-queries-sass-3-2-and-codekit/
+  @if $point == handheld
+    @media only screen and (min-width: 320px)
+      @content
+  @else if $point == tablet
+    @media only screen and (min-width: 569px)
+      @content
+  @else if $point == desktop
+    @media only screen and (min-width: 1024px)
+      @content
+
+=fontBody($weight:'normal')
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif
+  @if $weight == "light"
+    font-weight: 300
+  @else if $weight == "normal"
+    font-weight: 400
+  @else if $weight == "bold"
+    font-weight: 700
+
+=fontSerif($weight:'normal')
+  font-family: "ff-meta-serif-web-pro",serif
+  @if $weight == "normal"
+    font-weight: 500
+  @else if $weight == "bold"
+    font-weight: 700
+
+=fontSansSerif($weight:'normal')
+  font-family: "jaf-facitweb",sans-serif
+  @if $weight == "light"
+    font-weight: 200
+  @else if $weight == "normal"
+    font-weight: 400
+  @else if $weight == "bold"
+    font-weight: 600
+
+
+
+// Helpers
+// ----------------------------------------------------------------------------
+
+.listStyleNone
+  list-style: none
+  margin: 0
+  padding: 0
+
+.truncate
+  overflow: hidden
+  text-overflow: ellipsis
+  white-space: nowrap
+
+.fixBoxModel
+  // http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+  box-sizing: border-box
+
+.round
+  border-radius: 50%
+
+.pageInset
+  +for(handheld)
+    margin-left: 0
+    margin-right: 0
+  +for(tablet)
+    margin-left: 10%
+    margin-right: 10%
+  +for(desktop)
+    margin-left: 13%
+    margin-right: 13%
+
+.pod
+  +radius($radiusMedium)
+  @extend .pageInset
+  background-color: $colorShaded
+  color: inherit !important
+  display: block
+  padding: 1em
+  text-shadow: rgba(white, 0.5) 1px 1px 0
+
+.wf-loading .main
+  visibility: hidden
+
+.wf-active .main
+  visibility: visible
+
+
+
+// Basic
+// ----------------------------------------------------------------------------
+
+html, body
+  @extend .fixBoxModel
+  margin: 0 auto
+  padding: 0
+
+html
+  -webkit-font-smoothing: antialiased
+  -webkit-overflow-scrolling: touch
+  +fontSerif
+  background-color: white
+  color: $colorBody
+  line-height: 1
+  padding-bottom: 4em
+
+body
+  -webkit-overflow-scrolling: touch
+  overflow-x: hidden
+  overflow-y: auto
+  +for(handheld)
+  +for(tablet)
+  +for(desktop)
+    font-size: 20px
+
+a
+  color: inherit
+  outline: 0
+  text-decoration: none
+  &:hover
+    cursor: pointer
+
+.day-0 a
+  color: $colorLinkSunday
+
+.day-1 a
+  color: $colorLinkMonday
+
+.day-2 a
+  color: $colorLinkTuesday
+
+.day-3 a
+  color: $colorLinkWednesday
+
+.day-4 a
+  color: $colorLinkThursday
+
+.day-5 a
+  color: $colorLinkFriday
+
+.day-6 a
+  color: $colorLinkSaturday
+
+p, ul
+  line-height: 1.8
+  margin-bottom: 0
+  margin-top: 1em
+  &:first-child
+    margin-top: 0
+  &:last-child
+    margin-bottom: 0
+
+h1, h2, h3, h4, h5, h6
+  color: $colorHeadline
+  line-height: 1.4
+  &:first-child
+    margin-top: 0
+  &:last-child
+    margin-bottom: 0
+
+h1
+  +fontSansSerif(light)
+  margin: 0
+  text-transform: uppercase
+  +for(handheld)
+    font-size: 1.6em
+  +for(tablet)
+    font-size: 1.8em
+  +for(desktop)
+    font-size: 2em
+
+h2
+  +fontSansSerif(light)
+  margin-bottom: 1em
+  margin-top: 0
+  text-transform: uppercase
+  +for(handheld)
+    font-size: 1.6em
+  +for(tablet)
+    font-size: 1.8em
+  +for(desktop)
+    font-size: 2em
+
+h3
+  +fontSansSerif()
+  font-size: 1.4em
+  margin-bottom: 1em
+  margin-top: 2em
+  text-transform: uppercase
+
+h4
+  +fontSansSerif()
+  font-size: 1em
+  margin-bottom: 1em
+  margin-top: 2em
+  text-transform: none
+
+blockquote
+  border-color: $colorBorder
+  border-style: solid
+  border-width: 1px 0
+  font-style: italic
+  margin: 3em auto
+  padding: 2em 0
+  p
+    @extend .pageInset
+    font-size: 32px
+    margin-bottom: 0
+    margin-top: 0
+    em
+      display: block
+      font-size: 20px
+      margin-top: 1em
+      white-space: nowrap
+  footer
+    @extend .pageInset
+    display: block
+    font-size: 20px
+    margin-top: 1em
+    white-space: nowrap
+
+
+
+// Navigation
+// ----------------------------------------------------------------------------
+
+.header
+
+  // sticky header
+  position: fixed
+  left: 0
+  top: 0
+  width: 100%
+  z-index: 1
+  //transition-duration: .5s
+  //transition-property: height, padding-top, padding-left
+  //transition-timing-function: cubic-bezier( 0.215, 0.610, 0.355, 1.000 )
+
+  // styling
+  $linkPadding: 5px 6px
+  background-color: $colorHeadline
+  box-sizing: border-box
+  color: white
+  line-height: 1
+  overflow: hidden
+  text-transform: uppercase
+
+  +for(handheld)
+    font-size: 12px
+    padding: 1em 1em
+  +for(tablet)
+    font-size: 14px
+    padding: 1em 2em
+  +for(desktop)
+    font-size: 14px
+  a
+    +radius($radiusMedium)
+    color: inherit
+    display: inline-block
+    padding: $linkPadding
+  h1
+    +fontSansSerif
+    color: inherit
+    float: left
+    font-size: inherit
+    line-height: inherit
+  nav
+    +fontSansSerif
+    float: right
+    font-size: inherit
+    line-height: inherit
+    a + a
+      +for(handheld)
+        margin-left: .5em
+      +for(tablet)
+        margin-left: 1em
+      +for(desktop)
+        margin-left: 1em
+    a.active
+      background-color: #fff
+      color: #000
+      text-decoration: none
+
+
+
+// Layout
+// ----------------------------------------------------------------------------
+
+.main
+  @extend .fixBoxModel
+  margin: 0 auto 0
+  max-width: $widthPage
+  +for(handheld)
+    padding: 0 1em
+  +for(tablet)
+    padding: 0 2em
+  +for(desktop)
+    padding: 0 2em
+
+
+
+// Article
+// ----------------------------------------------------------------------------
+
+article
+  margin-top: 6em
+  &:first-child
+    margin-top: 8em
+  &.lede
+    >p:first-of-type
+      border-bottom: 1px solid #d9d9d9
+      color: #999
+      margin-bottom: 2em
+      padding-bottom: 2em
+      text-transform: uppercase
+  >*
+    @extend .pageInset
+  figure
+    display: block
+    margin: 3em auto
+    padding: 0
+    &+figure
+      margin-top: 2em
+    figcaption
+      +fontSansSerif
+      display: block
+      font-size: 12px
+      line-height: 1.8
+      margin-top: 2em
+      text-align: center
+    &+h3, &+h4
+      margin-top: 4em
+    p
+      margin: 0
+    img
+      display: block
+      margin: 0
+      width: 100%
+  img
+    display: block
+    margin: 3em auto
+    width: 100%
+    & + img
+      margin-top: 2em
+    & + h3, & + h4
+      background-color: red
+      margin-top: 4em
+  .meta
+    color: $colorMuted
+    display: block
+    font-size: 14px
+    margin-top: 3em
+    white-space: nowrap
+    .tags_article
+      display: inline
+      span
+        text-transform: lowercase
+        & + span:before
+          content: "· "
+  .more
+    white-space: nowrap
+  .footnote
+    font-size: 12px
+    margin-top: 3em
+
+.back
+  @extend .pod
+  margin-top: 4em
+  text-align: center
+  text-decoration: none
+
+
+
+// Video
+// ----------------------------------------------------------------------------
+
+video
+  height: auto !important
+  margin: 3em auto
+  width: 100% !important
+
+// 16:9
+figure.video
+  height: 0
+  padding-bottom: 56.25%
+  padding-top: 0
+  position: relative
+  &.ratio4x3
+    padding-bottom: 75%
+  iframe, object, embed
+    height: 100%
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+
+
+
+// Excerpt
+// ----------------------------------------------------------------------------
+
+.js .excerpt
+  //opacity: 0
+
+.excerpt
+  h2
+    color: $colorHeadline
+    a
+      color: inherit
+  .tags_excerpt
+    +fontSansSerif
+    @extend .listStyleNone
+    @extend .pageInset
+    font-size: 12px
+    line-height: 1
+    overflow: hidden
+    li
+      float: left
+      & + li
+        margin-left: 1em
+    a
+      background-color: $colorShaded
+      border-radius: $radiusMedium
+      color: inherit
+      display: block
+      padding: 5px 10px
+      text-transform: uppercase
+      &.current
+        color: #fff
+
+.day-0 .excerpt .tags_excerpt a.current
+  background-color: $colorLinkSunday
+
+.day-1 .excerpt .tags_excerpt a.current
+  background-color: $colorLinkMonday
+
+.day-2 .excerpt .tags_excerpt a.current
+  background-color: $colorLinkTuesday
+
+.day-3 .excerpt .tags_excerpt a.current
+  background-color: $colorLinkWednesday
+
+.day-4 .excerpt .tags_excerpt a.current
+  background-color: $colorLinkThursday
+
+.day-5 .excerpt .tags_excerpt a.current
+  background-color: $colorLinkFriday
+
+.day-6 .excerpt .tags_excerpt a.current
+  background-color: $colorLinkSaturday
+
+
+
+// Work
+// ----------------------------------------------------------------------------
+
+.page-work
+  article.project
+    & + article
+      margin-top: 6em
+    figure
+      display: block
+      margin: 0
+      overflow: hidden
+      img
+        clear: both
+        display: block
+        float: left
+        margin: 0
+        max-width: 100%
+        width: 100%
+        & + img
+          margin-top: 2px
+    figcaption
+      margin: 0
+      p
+        margin: 0
+        &:first-of-type
+          margin-top: 1em
+
+  dl.meta
+    +fontSansSerif
+    @extend .listStyleNone
+    background-color: $colorShaded
+    color: $colorHeadline
+    line-height: 1
+    margin-top: 2px
+    overflow: hidden
+    div
+      display: block
+      padding: 10px 16px
+      +for(handheld)
+        float: none
+        box-shadow: rgba(white, 1) 0 2px 0
+      +for(tablet)
+        float: left
+        box-shadow: rgba(white, 1) 2px 0 0
+      +for(desktop)
+        float: left
+        box-shadow: rgba(white, 1) 2px 0 0
+    dt
+      font-size: 10px
+      font-weight: 700
+      margin: 0
+      text-transform: uppercase
+      +for(handheld)
+        display: inline-block
+      +for(tablet)
+        display: block
+      +for(desktop)
+        display: block
+    dd
+      display: block
+      font-size: 12px
+      margin: 0
+      +for(handheld)
+        display: inline-block
+      +for(tablet)
+        display: block
+        margin-top: 10px
+      +for(desktop)
+        display: block
+        margin-top: 10px
+
+
+
+// Footer
+// ----------------------------------------------------------------------------
+
+.footer
+  +fontSansSerif
+  @extend .fixBoxModel
+  @extend .pageInset
+  clear: both
+  color: $colorMuted
+  display: block
+  font-size: 10px
+  margin-top: 10em
+  overflow: hidden
+  text-transform: uppercase
+  z-index: 1
+  ul
+    @extend .listStyleNone
+    line-height: 3
+    overflow: hidden
+    li
+      float: left
+      margin-right: 2em
+      &.copyright
+        margin-right: 0
+        +for(handheld)
+          float: left
+        +for(tablet)
+          float: left
+        +for(desktop)
+          float: right
+    a
+      color: #555 !important
+      text-decoration: none
+
+
+
+// Comments
+// ----------------------------------------------------------------------------
+
+#disqus_thread
+  @extend .pageInset
+  margin-top: 6em

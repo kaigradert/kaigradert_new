@@ -1,0 +1,28 @@
+%article{:class => "{% if meta['lede'] == 'yes' %}lede{% endif %}"}
+
+  %h2 {{ title|smartypants }}
+
+  {% if body %}
+  {{ body }}
+  {% endif %}
+
+  {% if type == "post" %}
+  .meta
+    %time{:datetime => "{{ date | date: '%b %d, %Y' }}"}
+      Posted on {{ date | date: "%b %d, %Y" }}
+    {% for tagset in taxonomy %}
+    .tags_article
+      in
+      {% for tag in tagset %}
+      %span
+        %a{:href => "{{ tag.url }}"} {{ tag.value }}
+      {% endfor %}
+    {% endfor %}
+  {% endif %}
+
+  {% if page.pages %}
+  %nav
+    {% for subpage in pages %}
+    %a{:href => "{{ subpage.url }}"} {{ subpage.title }}
+    {% endfor %}
+  {% endif %}

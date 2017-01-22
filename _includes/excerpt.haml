@@ -1,0 +1,54 @@
+{% for post in posts %}
+%article.excerpt
+
+  {% if post.meta['type'] == "quote" %}
+
+  %blockquote
+    %p
+      {{ post.body | strip_html }}
+      {% if post.meta['source'] %}
+      %footer
+        &ndash;
+        {% if post.meta['link'] %}
+        %a{:href => "{{ post.meta['link'] }}", :target => "_blank"}
+          {{ post.meta['source'] }}
+        {% else %}
+        {{ post.meta['source'] }}
+        {% endif %}
+      {% endif %}
+
+  {% else %}
+
+  %h2
+    %a{:href => "{{ post.url }}"} {{ post.title | smartypants }}
+
+  {% if parent.slug == "tags" %}
+  {% for tagset in post.taxonomy %}
+  %ul.tags_excerpt
+    {% for tag in tagset %}
+    {% capture keyword %}{{ slug|replace:'-',' ' }}{% endcapture %}
+    %li
+      %a{:class => "{% if keyword == tag.value %}current{% endif %}", :href => "{{ tag.url }}"} {{ tag.value }}
+    {% endfor %}
+  {% endfor %}
+  {% endif %}
+
+  {% if post.assets.size > 0 %}
+  %figure
+    %a{:href => "{{ post.url }}"}
+      %img{:alt => "{{ post.title }}", :src => "{{ post.assets.first.url }}"}/
+  {% endif %}
+
+  {% if post.body %}
+  {% capture body_full %}{{ post.body | strip_html }}{% endcapture %}
+  {% capture body_truncated %}{{ body_full | truncatewords: 50, '&hellip;' }}{% endcapture %}
+  %p
+    {{ body_truncated }}
+    {% if body_full != body_truncated %}
+    %a.more{:href => "{{ post.url }}", :title => "{{ post.title }}"} read all
+    {% endif %}
+
+  {% endif %}
+  {% endif %}
+
+{% endfor %}

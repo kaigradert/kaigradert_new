@@ -1,0 +1,8 @@
+%header.header{:role => "banner"}
+  %h1
+    %a{:href => "/", :title => "{{ site.title }} – {{site.meta['bio']}}"} {{ site.title }}
+  %nav
+    {% for page in site.pages %}
+    %a{:class => "{% if page.url == url %}active{% endif %}", :href => "{{ page.url }}"} {{ page.title }}
+    {% endfor %}
+    %a{:class => "{% if page.url == url %}active{% endif %}", :href => "http://photos.kaigradert.com", :target => "_blank"} Photography

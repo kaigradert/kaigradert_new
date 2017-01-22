@@ -1,0 +1,22 @@
+!!!
+%html{:class => "no-js {% if parent %}parent-{{ parent.slug }} {% endif %}page-{{ slug }} day-{{ site.time | date: '%w' }}", :lang => "en"}
+  {% include 'includes/head' %}
+
+  %body
+    {% include 'includes/nav' %}
+
+    %section.main
+      {% case slug %}
+      {% when 'blog' %}
+      {% include 'includes/excerpt' %}
+      {% when 'work' %}
+      {% include 'includes/work' %}
+      {% else %}
+      {% include 'includes/article' %}
+      {% include 'includes/back' %}
+      {% endcase %}
+
+      {% include 'includes/comments' %}
+      {% include 'includes/footer' %}
+
+    {% include 'includes/scripts' %}
