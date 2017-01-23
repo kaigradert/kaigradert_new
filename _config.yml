@@ -14,21 +14,29 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title:            Kai Gradert New
+title:            Kai Gradert
+url:              http://kaigradert.com # the base hostname & protocol for your site, e.g. http://example.com
 timezone:         UTC
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
+permalink:        pretty
 email:            kai.gradert@gmail.com
 description:      Write an awesome description for your new site here.
 baseurl:          "" # the subpath of your site, e.g. /blog
-url:              "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: kaigradert
-github_username:  kaigradert
+
+collections:
+  uploads:
+    title: Uploads
+    output: true
+  blog:
+    output: true
+  work:
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    permalink: "//Users/kai/Dropbox/Projects/Siteleaf/siteleaf_kaigradert_export /:title/"
+
 markdown:         kramdown
 theme:            minima
 gems:
