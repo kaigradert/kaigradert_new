@@ -1,6 +1,6 @@
 ---
-title: About
-date: 2013-06-16 13:53:00 Z
+title: About 2
+date: 2013-06-16 06:53:00 -07:00
 lede: 'yes'
 comments: 'no'
 layout: default
