@@ -1,13 +1,13 @@
 ---
 title: Three Days of Perseid Meteor Shower in 60 Seconds
 date: 2013-08-13 15:37:00 Z
-assets:
-- path: "/uploads/kai_gradert_meteor_madness__mg_0888_20130812.jpg"
-  name: kai_gradert_meteor_madness__mg_0888_20130812
 tags:
 - video
 - photography
 - travel
+assets:
+- path: "/uploads/kai_gradert_meteor_madness__mg_0888_20130812.jpg"
+  name: kai_gradert_meteor_madness__mg_0888_20130812
 ---
 
 Shot on Friday, Saturday and Sunday night in Joshua Tree National Park during a time-lapse workshop.Enjoy the movie:

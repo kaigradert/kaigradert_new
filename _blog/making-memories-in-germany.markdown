@@ -1,10 +1,10 @@
 ---
 title: Making Memories in Germany
 date: 2016-01-04 04:09:00 Z
-comments: 'no'
 tags:
 - travel
 - family
+comments: 'no'
 ---
 
 We finally made it to Germany. This trip was long overdue. Traveling with a 16-months-old is exhausting, but seeing my Mom meet Aadi for the first time was all worth it.

@@ -1,10 +1,10 @@
 ---
 title: Getting Started With Siteleaf
 date: 2013-07-03 14:46:00 Z
-assets:
-- path: "/uploads/Getting Started With Siteleaf.jpg"
 tags:
 - video
+assets:
+- path: "/uploads/Getting Started With Siteleaf.jpg"
 ---
 
 Manage your website in the cloud and publish to your FTP, Amazon S3, or Rackspace Cloud account. Your data is archived forever, independent of our service.

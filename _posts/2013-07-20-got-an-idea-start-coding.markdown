@@ -1,12 +1,12 @@
 ---
 title: Got an Idea? Start Coding!
 date: 2013-07-20 17:16:00 Z
-assets:
-- path: "/uploads/Global Service Jam 2013.jpg"
-- path: "/uploads/Global Service Jam 2013 - Notes.jpg"
 tags:
 - design
 - thoughts
+assets:
+- path: "/uploads/Global Service Jam 2013.jpg"
+- path: "/uploads/Global Service Jam 2013 - Notes.jpg"
 ---
 
 How many times are you being pproached with the question: “Do you know a designer or developer who can help me with an incredible idea?”

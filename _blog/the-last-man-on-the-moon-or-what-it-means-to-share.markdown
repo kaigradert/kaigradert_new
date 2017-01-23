@@ -1,9 +1,9 @@
 ---
 title: The Last Man on the Moon, or What It Means to Share
 date: 2016-03-12 18:25:00 Z
-comments: 
 tags:
 - thoughts
+comments: 
 ---
 
 I just finished watching [The Last Man on the Moon](http://thelastmanonthemoon.com/). And now I am trying to understand what it’s like to experience something so rare as walking on the moon. It's such a profound experience, yet you cannot fully share it with anybody. Where do you begin?

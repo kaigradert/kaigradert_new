@@ -1,10 +1,10 @@
 ---
 title: 52 Lost Gems
 date: 2017-01-16 23:49:00 Z
-lede: 'yes'
 tags:
 - photography
 - travel
+lede: 'yes'
 ---
 
 A common problem of working with a digital camera is the sheer amount of images you generate over time.

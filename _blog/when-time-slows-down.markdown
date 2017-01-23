@@ -1,9 +1,9 @@
 ---
 title: When time slows down
 date: 2016-08-29 02:22:00 Z
-lede: 'yes'
 tags:
 - family
+lede: 'yes'
 ---
 
 It was overcast but we were itching to get out of the house for a little bit of nature and family time.

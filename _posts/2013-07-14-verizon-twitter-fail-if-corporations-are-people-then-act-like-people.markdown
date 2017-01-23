@@ -1,10 +1,10 @@
 ---
 title: If Corporations Are People, Then Act Like People
 date: 2013-07-14 17:25:00 Z
-assets:
-- path: "/uploads/Tweet by Kai Gradert.png"
 tags:
 - thoughts
+assets:
+- path: "/uploads/Tweet by Kai Gradert.png"
 ---
 
 It's surprising that after all these years some brands still do not understand how to engage with social media.

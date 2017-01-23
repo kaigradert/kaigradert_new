@@ -1,6 +1,8 @@
 ---
 title: Cycling from San Francisco to Los Angeles with Google Glass
 date: 2013-06-19 18:28:00 Z
+tags:
+- travel
 assets:
 - path: "/uploads/001_Aids_LifeCycle_2013_Through_Google_Glass.jpg"
 - path: "/uploads/002_Aids_LifeCycle_2013_Through_Google_Glass.jpg"
@@ -25,8 +27,6 @@ assets:
 - path: "/uploads/021_Aids_LifeCycle_2013_Through_Google_Glass.jpg"
 - path: "/uploads/022_Aids_LifeCycle_2013_Through_Google_Glass.jpg"
 - path: "/uploads/000_Aids_LifeCycle_2013_Through_Google_Glass.jpg"
-tags:
-- travel
 ---
 
 Last week I joined 2203 riders and 552 roadies on a 7-day bike ride from San Francisco to Los Angeles to raise money and awareness in the fight against HIV/AIDS.

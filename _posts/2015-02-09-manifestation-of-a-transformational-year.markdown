@@ -1,12 +1,12 @@
 ---
 title: Manifestation of a Transformational Year
 date: 2015-02-09 06:05:00 Z
-assets:
-- path: "/uploads/12757544133_7bbc494dcc_h.jpg"
 tags:
 - photography
 - travel
 - video
+assets:
+- path: "/uploads/12757544133_7bbc494dcc_h.jpg"
 ---
 
 2014 has been a transformational year. The birth of our son, relocation to a new city, closure of one startup adventure, the beginning of another startup journey and the launch of various big design projects.

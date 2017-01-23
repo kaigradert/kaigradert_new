@@ -1,11 +1,11 @@
 ---
 title: Why Cheers?
 date: 2012-12-15 10:54:00 Z
-assets:
-- path: "/uploads/cheers.jpg"
 tags:
 - thoughts
 - design
+assets:
+- path: "/uploads/cheers.jpg"
 ---
 
 Sometimes we need a little boost. A simple reminder to “look on the bright side” or “stop and smell the roses”. Sometimes we get so caught up in the daily grind that we forget to be grateful for the little (and not-so-little) things in life.
