@@ -1,5 +1,5 @@
 ---
-title: Kai Gradert
+title: Kai Gradert v2
 timezone: UTC
 collections:
   blog:
@@ -24,7 +24,7 @@ url: http://kaigradert.com
 permalink: pretty
 email: kai.gradert@gmail.com
 description: Write an awesome description for your new site here.
-baseurl: ''
+baseurl: 
 markdown: kramdown
 theme: minima
 gems:
