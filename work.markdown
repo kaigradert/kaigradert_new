@@ -1,6 +1,6 @@
 ---
 title: Work
-date: 2013-06-15 22:53:00 Z
+date: 2013-06-15 15:53:00 -07:00
 lede: 'yes'
 comments: 'no'
 ---
