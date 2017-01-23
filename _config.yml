@@ -19,12 +19,12 @@ defaults:
     path: ''
     type: posts
   values:
-    permalink: "//Users/kai/Dropbox/Projects/Siteleaf/siteleaf_kaigradert_export /:title/"
+    permalink: ''
 url: http://kaigradert.com
 permalink: pretty
 email: kai.gradert@gmail.com
 description: Write an awesome description for your new site here.
-baseurl: 
+baseurl:
 markdown: kramdown
 theme: minima
 gems:

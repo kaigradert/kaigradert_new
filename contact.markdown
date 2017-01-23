@@ -3,6 +3,7 @@ title: Contact
 date: 2015-02-18 19:48:00 Z
 published: false
 comments: 'no'
+layout: default
 ---
 
 <form accept-charset="UTF-8" action="https://formkeep.com/f/7a20bd6fdaa9" method="POST">

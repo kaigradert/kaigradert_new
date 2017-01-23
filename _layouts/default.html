@@ -3,6 +3,31 @@
   {% include head.html %}
   <body>
     {% include nav.html %}
-    {{ content }}
+    <section class='main'>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      PARENT SLUG
+      <br>
+      {{ parent.slug }}
+      <br>
+      <br>
+      SLUG
+      <br>
+      {{ slug }}
+      <br>
+      <br>
+      TIME
+      <br>
+      {{ site.time | date: '%w' }}
+      <br>
+      <br>
+      {{ content }}
+      {% include comments.html %}
+      {% include footer.html %}
+    </section>
+    {% include scripts.html %}
   </body>
 </html>
