@@ -1,0 +1,30 @@
+<article class="{% if meta['lede'] == 'yes' %}lede{% endif %}">
+  <h2>{{ title|smartypants }}</h2>
+  {% if body %}
+  {{ body }}
+  {% endif %}
+  {% if type == "post" %}
+  <div class='meta'>
+    <time datetime="{{ date | date: '%b %d, %Y' }}">
+      Posted on {{ date | date: "%b %d, %Y" }}
+    </time>
+    {% for tagset in taxonomy %}
+    <div class='tags_article'>
+      in
+      {% for tag in tagset %}
+      <span>
+        <a href='{{ tag.url }}'>{{ tag.value }}</a>
+      </span>
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+  {% if page.pages %}
+  <nav>
+    {% for subpage in pages %}
+    <a href='{{ subpage.url }}'>{{ subpage.title }}</a>
+    {% endfor %}
+  </nav>
+  {% endif %}
+</article>

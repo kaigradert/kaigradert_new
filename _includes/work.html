@@ -1,0 +1,31 @@
+<article class="{% if meta['lede'] == 'yes' %}lede{% endif %}">
+  <h2>
+    {{ title|smartypants }}
+  </h2>
+  {% if body %}
+  {{ body }}
+  {% endif %}
+</article>
+{% for post in posts %}
+<a name='{{post.slug}}'></a>
+<article class='project'>
+  <figure>
+    {% for asset in post.assets %}
+    <img alt='{{ post.title }}' src='{{ asset.url }}'>
+    {% endfor %}
+    {% if post.body %}
+    <figcaption>{{ post.body }}</figcaption>
+    {% endif %}
+  </figure>
+  {% if post.meta %}
+  <dl class='meta'>
+    {% for data in post.meta %}
+    <div>
+      <dt>{{ data.key }}</dt>
+      <dd>{{ data.value }}</dd>
+    </div>
+    {% endfor %}
+  </dl>
+  {% endif %}
+</article>
+{% endfor %}
