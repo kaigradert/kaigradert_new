@@ -1,2 +1,3 @@
 # https://gist.github.com/dvessel/1478685
 excludeFiles = "{$excludeFiles,*.ru,*.codekit3,.tm_properties}"
+excludeDirectories = "{$excludeDirectories,_site}"
