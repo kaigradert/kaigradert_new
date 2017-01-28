@@ -7,12 +7,16 @@
 
     %section.main
       {% case slug %}
+
       {% when 'blog' %}
       {% include excerpt.html %}
+
       {% when 'work' %}
       {% include work.html %}
+
       {% else %}
       {% include article.html %}
+
       {% include back.html %}
       {% endcase %}
 
