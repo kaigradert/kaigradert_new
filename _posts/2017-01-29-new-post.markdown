@@ -1,6 +1,11 @@
 ---
 title: New Post
 date: 2017-01-29 15:15:00 -08:00
+categories:
+- Blog
+- Work
+tags:
+- photo
 ---
 
 Test Test
