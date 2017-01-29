@@ -3,7 +3,6 @@ title: Work
 date: 2013-06-15 15:53:00 -07:00
 position: 2
 lede: 'yes'
-comments: 'no'
 layout: page
 ---
 
