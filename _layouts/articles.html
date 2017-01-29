@@ -5,9 +5,8 @@
     {% include nav.html %}
     <section class='main'>
       <article class='excerpt'>
-        HelloWorld
         <ul>
-          {% for post in posts %}
+          {% for post in site.blog %}
           <li>
             <a href='{{ post.url }}'>
               {{ post.title }}

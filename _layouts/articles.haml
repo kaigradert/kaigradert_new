@@ -4,12 +4,10 @@
 
   %body
     {% include nav.html %}
-
     %section.main
       %article.excerpt
-        HelloWorld
         %ul
-          {% for post in posts %}
+          {% for post in site.blog %}
           %li
             %a{:href => "{{ post.url }}"}
               {{ post.title }}
