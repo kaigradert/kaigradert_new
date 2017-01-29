@@ -1,18 +1,15 @@
 <footer class='footer'>
   <ul>
-    {{ if site.meta }}
-    {% for data in site.meta %}
-    {% assign key = data.key | split:'_' %}
-    {% if key[0] == 'contact' %}
+    {{ if site.contact }}
+    {% for data in site.contact %}
     <li>
-      <a href='{{ data.value }}' rel='me' target='_blank' title='{{ site.title }} on {{ key[1] }}'>{{ key[1] }}</a>
+      <a href='{{ data[1] }}' rel='me' target='_blank' title='{{ site.title }} on {{ data[0] }}'>{{ data[0] }}</a>
     </li>
-    {% endif %}
     {% endfor %}
     {{ endif }}
     <li class='copyright'>
       &copy;{{ site.time | date: '%Y' }}
-      <a href='mailto:kai.gradert@gmail.com?subject%3DWebsite%20Inquiry' target='_blank' title='Email {{ site.title }}'>{{ site.title }}</a>
+      <a href='mailto: + {{ site.email }} + ?subject%3DWebsite%20Inquiry' target='_blank' title='Email {{ site.title }}'>{{ site.title }}</a>
     </li>
   </ul>
 </footer>
