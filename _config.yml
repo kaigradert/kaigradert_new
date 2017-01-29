@@ -27,22 +27,13 @@ defaults:
   values:
     layout: ''
     author: ''
-description: Designer, tea lover and husband. Living in California.
+description: I am a designer at AngelList. Currently living in California. My interests
+  range from photography to technology.
 url: http://kaigradert.com
-baseurl: 
-permalink: pretty
+keywords: User Experience, Visual Design, UX, Design, Google, Apple, Consulting
 email: kai.gradert@gmail.com
-markdown: kramdown
-gems:
-- jekyll-feed
-exclude:
-- Gemfile
-- Gemfile.lock
-- config.codekit3
-- styles/global.sass
 bio: Designer, Photographer, Father
 gravatar: 11e4ed5d85b6bccce20f8f86476785d6
-keywords: User Experience, Visual Design, UX, Design, Google, Apple, Consulting
 contact:
   AngelList: https://angel.co/kai
   Flickr: http://www.flickr.com/photos/kaigradert/sets/
@@ -52,3 +43,13 @@ contact:
   SmugMug: https://kaigradert.smugmug.com/
   Twitter: https://twitter.com/kaigradert
 Feed: "/feed.xml"
+baseurl: 
+permalink: pretty
+markdown: kramdown
+gems:
+- jekyll-feed
+exclude:
+- Gemfile
+- Gemfile.lock
+- config.codekit3
+- styles/global.sass
