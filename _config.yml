@@ -3,7 +3,7 @@ title: Kai Gradert - New
 timezone: America/Los_Angeles
 collections:
   blog:
-    title: Posts
+    title: Blog
     output: true
     layout: page
   posts:
