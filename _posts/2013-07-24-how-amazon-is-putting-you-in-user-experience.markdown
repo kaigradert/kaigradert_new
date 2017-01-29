@@ -1,11 +1,11 @@
 ---
 title: How Amazon Is Putting “You” In User Experience
-date: 2013-07-24 15:07:00 -07:00
+date: 2013-07-24 22:07:00 Z
+assets:
+- path: "/uploads/Amazon-Fulfillment.jpg"
 tags:
 - design
 - thoughts
-assets:
-- path: "/uploads/Amazon-Fulfillment.jpg"
 ---
 
 Last night I placed an order with Amazon at 9:30 pm. This morning the package arrived at 9:30 am. Twelve hours later. Wow!
