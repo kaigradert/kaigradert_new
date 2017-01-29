@@ -1,10 +1,26 @@
 ---
+
+# SITE SETTINGS
+
+# Name of your blog (this will show up at the top of your page and in the RSS feed)
 title: Kai Gradert v2
+
+# Short description (goes below the title; it will also be used in the RSS feed)
+description: Write an awesome description for your new site here.
+
+# URL
+url: http://kaigradert.com
+baseurl:
+permalink: pretty
+
+# Email
+email: kai.gradert@gmail.com
+
+# Timezone
 timezone: America/Los_Angeles
+
+# Collections
 collections:
-  blog:
-    title: Blog
-    output: true
   posts:
     title: Posts
     output: true
@@ -14,19 +30,25 @@ collections:
   work:
     title: Work
     output: true
+
+# Defaults
 defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    permalink: ''
-url: http://kaigradert.com
-permalink: pretty
-email: kai.gradert@gmail.com
-description: Write an awesome description for your new site here.
-baseurl:
+  - scope:
+      path: ''
+      type: 'posts'
+    values:
+      permalink: ''
+      layout: ''
+  - scope:
+      path: 'projects'
+      type: 'posts'
+    values:
+      layout: 'work'
+      author: ''
+
+# BUILD SETTINGS
+
 markdown: kramdown
-theme: minima
 gems:
 - jekyll-feed
 exclude:

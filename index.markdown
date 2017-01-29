@@ -1,4 +1,5 @@
 ---
-layout: index
+layout: default
 ---
 
+TEST TWO
