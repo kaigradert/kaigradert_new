@@ -4,6 +4,11 @@
   <body>
     {% include nav.html %}
     <section class='main'>
+      {% if page.title == 'Blog' %}
+      THIS IS THE BLOG
+      {% else %}
+      Do something if condition is false
+      {% endif %}
       {{ content }}
       {% include comments.html %}
       {% include footer.html %}
