@@ -29,11 +29,12 @@ defaults:
     author: ''
 description: I am a designer at AngelList. Currently living in California. My interests
   range from photography to technology.
-url: http://kaigradert.com
+author: Kai Gradert
+bio: Designer, Photographer, Father
 keywords: User Experience, Visual Design, UX, Design, Google, Apple, Consulting
 email: kai.gradert@gmail.com
-bio: Designer, Photographer, Father
 gravatar: 11e4ed5d85b6bccce20f8f86476785d6
+url: http://kaigradert.com
 contact:
   AngelList: https://angel.co/kai
   Flickr: http://www.flickr.com/photos/kaigradert/sets/
