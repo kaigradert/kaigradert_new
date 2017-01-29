@@ -24,7 +24,8 @@ defaults:
   values:
     layout: ''
     author: ''
-description: I am a designer at AngelList. Currently living in California. My interests range from photography to technology.
+description: I am a designer at AngelList. Currently living in California. My interests
+  range from photography to technology.
 author: Kai Gradert
 bio: Designer, Photographer, Father
 keywords: User Experience, Visual Design, UX, Design, Google, Apple, Consulting
@@ -40,7 +41,7 @@ contact:
   SmugMug: https://kaigradert.smugmug.com/
   Twitter: https://twitter.com/kaigradert
 Feed: "/feed.xml"
-baseurl:
+baseurl: 
 permalink: pretty
 markdown: kramdown
 gems:

@@ -1,12 +1,12 @@
 ---
 title: Meteor Shower and Timelapse Workshop in Joshua Tree
-date: 2013-08-07 22:26:00 Z
-assets:
-- path: "/uploads/The Galactic Core of the Milky Way by Henry Jun Wah Lee.jpg"
+date: 2013-08-07 15:26:00 -07:00
 tags:
 - photography
 - travel
 - video
+assets:
+- path: "/uploads/The Galactic Core of the Milky Way by Henry Jun Wah Lee.jpg"
 ---
 
 With photography, as with most everything else in life, half of the battle is being in the right place at the right time.

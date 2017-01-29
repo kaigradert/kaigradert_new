@@ -1,13 +1,13 @@
 ---
 title: 'Google Glass Review: Wearable Computing Requires Durable Hardware'
-date: 2013-06-27 11:44:00 Z
+date: 2013-06-27 04:44:00 -07:00
+tags:
+- thoughts
+- design
 assets:
 - path: "/uploads/Google_Glass_Hardware_Issues_-_Projector_Backside_Bubbling_Up.jpg"
 - path: "/uploads/Google_Glass_Hardware_Issues.jpg"
 - path: "/uploads/Google_Glass_Hardware_Issues_-_Projector_Frontside_Peeling_Off.jpg"
-tags:
-- thoughts
-- design
 ---
 
 I applied for the Explorer Program with the intention to take Google Glass on a one-week cycling trip down the California coastline. I did.
