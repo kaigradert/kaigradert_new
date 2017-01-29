@@ -27,7 +27,7 @@ defaults:
   values:
     layout: ''
     author: ''
-description: Write an awesome description for your new site here.
+description: Designer, tea lover and husband. Living in California.
 url: http://kaigradert.com
 baseurl: 
 permalink: pretty
@@ -40,3 +40,15 @@ exclude:
 - Gemfile.lock
 - config.codekit3
 - styles/global.sass
+bio: Designer, Photographer, Father
+gravatar: 11e4ed5d85b6bccce20f8f86476785d6
+keywords: User Experience, Visual Design, UX, Design, Google, Apple, Consulting
+contact:
+  AngelList: https://angel.co/kai
+  Flickr: http://www.flickr.com/photos/kaigradert/sets/
+  Google: https://plus.google.com/+KaiGradert/
+  Instagram: http://instagram.com/kaikemono
+  LinkedIn: http://www.linkedin.com/in/kaigradert
+  SmugMug: https://kaigradert.smugmug.com/
+  Twitter: https://twitter.com/kaigradert
+Feed: "/feed.xml"
