@@ -4,7 +4,7 @@ date: 2013-06-15 15:53:00 -07:00
 position: 2
 lede: 'yes'
 comments: 'no'
-layout: default
+layout: page
 ---
 
 Over the years, I have had the pleasure to collaborate with talented and unique individuals, agencies and brands.
