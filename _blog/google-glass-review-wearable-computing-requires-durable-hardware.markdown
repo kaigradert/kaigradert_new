@@ -1,6 +1,6 @@
 ---
 title: 'Google Glass Review: Wearable Computing Requires Durable Hardware'
-date: 2013-06-27 11:44:00 Z
+date: 2013-06-27 04:44:00 -07:00
 tags:
 - thoughts
 - design

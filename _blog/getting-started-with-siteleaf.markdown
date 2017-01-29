@@ -1,6 +1,6 @@
 ---
 title: Getting Started With Siteleaf
-date: 2013-07-03 14:46:00 Z
+date: 2013-07-03 07:46:00 -07:00
 tags:
 - video
 assets:

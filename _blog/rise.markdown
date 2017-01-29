@@ -1,6 +1,6 @@
 ---
 title: The Prediction of Everything
-date: 2016-06-27 04:06:00 Z
+date: 2016-06-26 21:06:00 -07:00
 tags:
 - photography
 - travel

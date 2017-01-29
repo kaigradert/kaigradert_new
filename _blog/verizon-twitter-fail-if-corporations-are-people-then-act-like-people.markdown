@@ -1,6 +1,6 @@
 ---
 title: If Corporations Are People, Then Act Like People
-date: 2013-07-14 17:25:00 Z
+date: 2013-07-14 10:25:00 -07:00
 tags:
 - thoughts
 assets:

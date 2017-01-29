@@ -1,6 +1,6 @@
 ---
 title: Meteor Shower and Timelapse Workshop in Joshua Tree
-date: 2013-08-07 22:26:00 Z
+date: 2013-08-07 15:26:00 -07:00
 tags:
 - photography
 - travel

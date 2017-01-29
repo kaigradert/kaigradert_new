@@ -1,6 +1,6 @@
 ---
 title: When time slows down
-date: 2016-08-29 02:22:00 Z
+date: 2016-08-28 19:22:00 -07:00
 tags:
 - family
 lede: 'yes'

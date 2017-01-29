@@ -1,6 +1,6 @@
 ---
 title: 52 Lost Gems
-date: 2017-01-16 23:49:00 Z
+date: 2017-01-16 15:49:00 -08:00
 tags:
 - photography
 - travel

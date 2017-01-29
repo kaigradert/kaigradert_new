@@ -1,6 +1,6 @@
 ---
 title: Freedom to Live
-date: 2013-06-29 04:34:00 Z
+date: 2013-06-28 21:34:00 -07:00
 tags:
 - quote
 type: quote

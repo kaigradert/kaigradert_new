@@ -1,6 +1,6 @@
 ---
 title: Spreading My Wings With a Little Macro Photography
-date: 2013-07-11 06:41:00 Z
+date: 2013-07-10 23:41:00 -07:00
 tags:
 - travel
 - photography

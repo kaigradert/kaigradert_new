@@ -1,6 +1,6 @@
 ---
 title: Three Days of Perseid Meteor Shower in 60 Seconds
-date: 2013-08-13 15:37:00 Z
+date: 2013-08-13 08:37:00 -07:00
 tags:
 - video
 - photography

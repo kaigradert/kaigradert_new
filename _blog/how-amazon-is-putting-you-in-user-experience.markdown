@@ -1,6 +1,6 @@
 ---
 title: How Amazon Is Putting “You” In User Experience
-date: 2013-07-24 22:07:00 Z
+date: 2013-07-24 15:07:00 -07:00
 tags:
 - design
 - thoughts

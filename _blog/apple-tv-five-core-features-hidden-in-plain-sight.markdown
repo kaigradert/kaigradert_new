@@ -1,6 +1,6 @@
 ---
 title: 'Apple TV: Five Core Features Hidden in Plain Sight'
-date: 2013-01-06 18:56:00 Z
+date: 2013-01-06 10:56:00 -08:00
 tags:
 - thoughts
 - design

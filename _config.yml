@@ -2,6 +2,9 @@
 title: Kai Gradert v2
 timezone: America/Los_Angeles
 collections:
+  blog:
+    title: Blog
+    output: true
   posts:
     title: Posts
     output: true

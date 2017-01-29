@@ -1,6 +1,6 @@
 ---
 title: Recap From the UX Happy Hour in Eagle Rock
-date: 2013-08-08 00:07:00 Z
+date: 2013-08-07 17:07:00 -07:00
 tags:
 - design
 assets:

@@ -1,6 +1,6 @@
 ---
 title: The Last Man on the Moon, or What It Means to Share
-date: 2016-03-12 18:25:00 Z
+date: 2016-03-12 10:25:00 -08:00
 tags:
 - thoughts
 comments: 

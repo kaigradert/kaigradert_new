@@ -1,6 +1,6 @@
 ---
 title: Interview With Ev Williams About the Early Days at Blogger & Twitter
-date: 2013-07-01 09:05:00 Z
+date: 2013-07-01 02:05:00 -07:00
 tags:
 - video
 assets:

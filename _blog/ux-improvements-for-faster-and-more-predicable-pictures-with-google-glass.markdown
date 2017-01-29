@@ -1,6 +1,6 @@
 ---
 title: Usability Improvements for Faster & More Predicable Pictures With Google Glass
-date: 2013-07-15 00:02:00 Z
+date: 2013-07-14 17:02:00 -07:00
 tags:
 - design
 - thoughts

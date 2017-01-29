@@ -1,6 +1,6 @@
 ---
 title: Cycling from San Francisco to Los Angeles with Google Glass
-date: 2013-06-19 18:28:00 Z
+date: 2013-06-19 11:28:00 -07:00
 tags:
 - travel
 assets:

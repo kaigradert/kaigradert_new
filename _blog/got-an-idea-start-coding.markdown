@@ -1,6 +1,6 @@
 ---
 title: Got an Idea? Start Coding!
-date: 2013-07-20 17:16:00 Z
+date: 2013-07-20 10:16:00 -07:00
 tags:
 - design
 - thoughts

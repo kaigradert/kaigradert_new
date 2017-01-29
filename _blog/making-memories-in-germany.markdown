@@ -1,6 +1,6 @@
 ---
 title: Making Memories in Germany
-date: 2016-01-04 04:09:00 Z
+date: 2016-01-03 20:09:00 -08:00
 tags:
 - travel
 - family

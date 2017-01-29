@@ -1,6 +1,6 @@
 ---
 title: Manifestation of a Transformational Year
-date: 2015-02-09 06:05:00 Z
+date: 2015-02-08 22:05:00 -08:00
 tags:
 - photography
 - travel

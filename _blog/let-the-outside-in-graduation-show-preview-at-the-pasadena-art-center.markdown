@@ -1,6 +1,6 @@
 ---
 title: 'Let The Outside In: Graduation Show Preview at the Pasadena Art Center'
-date: 2013-08-17 18:58:00 Z
+date: 2013-08-17 11:58:00 -07:00
 tags:
 - design
 assets:
