@@ -21,7 +21,7 @@ defaults:
     type: posts
   values:
     permalink: ''
-    layout: default
+    layout: page
 - scope:
     path: projects
     type: posts
@@ -45,7 +45,7 @@ contact:
   SmugMug: https://kaigradert.smugmug.com/
   Twitter: https://twitter.com/kaigradert
 Feed: "/feed.xml"
-baseurl: 
+baseurl:
 permalink: pretty
 markdown: kramdown
 gems:
