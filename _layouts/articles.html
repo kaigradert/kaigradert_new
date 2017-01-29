@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html class="no-js {% if parent %}parent-{{ parent.slug }} {% endif %}page-{{ slug }} day-{{ site.time | date: '%w' }}" lang='en'>
+  {% include head.html %}
+  <body>
+    {% include nav.html %}
+    <section class='main'>
+      {% for post in site.blog reversed %}
+      <div>
+        <h2>
+          <a href='{{ post.url }}'>{{ post.title | strip_html | smartypants }}</a>
+        </h2>
+        {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+      </div>
+      {% endfor %}
+    </section>
+    {% include scripts.html %}
+  </body>
+</html>
