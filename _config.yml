@@ -17,7 +17,13 @@ defaults:
     type: posts
   values:
     permalink: ''
-    layout: 'page'
+    layout: default
+- scope:
+    path: projects
+    type: posts
+  values:
+    layout: ''
+    author: ''
 description: I am a designer at AngelList. Currently living in California. My interests range from photography to technology.
 author: Kai Gradert
 bio: Designer, Photographer, Father

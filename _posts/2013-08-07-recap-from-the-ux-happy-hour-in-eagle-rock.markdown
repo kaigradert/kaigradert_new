@@ -1,6 +1,8 @@
 ---
 title: Recap From the UX Happy Hour in Eagle Rock
-date: 2013-08-08 00:07:00 Z
+date: 2013-08-07 17:07:00 -07:00
+tags:
+- design
 assets:
 - path: "/uploads/IMG_6786.jpg"
 - path: "/uploads/IMG_6802.jpg"
@@ -8,8 +10,6 @@ assets:
 - path: "/uploads/IMG_6796.jpg"
 - path: "/uploads/IMG_6801.jpg"
 - path: "/uploads/IMG_6785.jpg"
-tags:
-- design
 ---
 
 We just wrapped up another UX Happy Hour in Los Angeles and the turnout was fantastic.

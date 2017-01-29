@@ -1,6 +1,6 @@
 ---
 title: The Interface Is the Padded Cell
-date: 2013-07-25 16:33:00 Z
+date: 2013-07-25 09:33:00 -07:00
 tags:
 - design
 - video
