@@ -1,9 +1,9 @@
-%article{:class => "{% if meta['lede'] == 'yes' %}lede{% endif %}"}
+%article{:class => "{% if page.lede == 'yes' %}lede{% endif %}"}
 
-  %h2 {{ title|smartypants }}
+  %h2 {{ page.title | smartypants }}
 
-  {% if body %}
-  {{ body }}
+  {% if content %}
+  {{ content }}
   {% endif %}
 
   {% if type == "post" %}

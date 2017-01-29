@@ -6,18 +6,8 @@
     {% include nav.html %}
 
     %section.main
-      {% if page.title == 'Blog' %}
-      %br
-      %br
-      %br
-      %br
-      %br
-      THIS IS THE BLOG
-      {% else %}
-      Do something if condition is false
-      {% endif %}
 
-      {{ content }}
+      {% include article.html %}
 
       {% include comments.html %}
       {% include footer.html %}

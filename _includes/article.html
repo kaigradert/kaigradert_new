@@ -1,7 +1,7 @@
-<article class="{% if meta['lede'] == 'yes' %}lede{% endif %}">
-  <h2>{{ title|smartypants }}</h2>
-  {% if body %}
-  {{ body }}
+<article class="{% if page.lede == 'yes' %}lede{% endif %}">
+  <h2>{{ page.title | smartypants }}</h2>
+  {% if content %}
+  {{ content }}
   {% endif %}
   {% if type == "post" %}
   <div class='meta'>
