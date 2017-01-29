@@ -1,6 +1,8 @@
 ---
 title: 'Let The Outside In: Graduation Show Preview at the Pasadena Art Center'
-date: 2013-08-17 18:58:00 Z
+date: 2013-08-17 11:58:00 -07:00
+tags:
+- design
 assets:
 - path: "/uploads/Grad_Show_Preview_at_the_Pasadena_Art_Center_04.jpg"
 - path: "/uploads/Grad_Show_Preview_at_the_Pasadena_Art_Center_01.jpg"
@@ -8,8 +10,6 @@ assets:
 - path: "/uploads/Grad_Show_Preview_at_the_Pasadena_Art_Center_05.jpg"
 - path: "/uploads/Grad_Show_Preview_at_the_Pasadena_Art_Center_03.jpg"
 - path: "/uploads/Grad_Show_Preview_at_the_Pasadena_Art_Center_10.jpg"
-tags:
-- design
 ---
 
 Thursday evening I stopped by at the Pasadena Art Center to get a first look at this term’s Graduation Show.
