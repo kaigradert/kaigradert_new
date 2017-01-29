@@ -1,7 +1,7 @@
 ---
-title: Homepage
+title: Blog
 position: 0
 layout: default
 ---
 
-Homepage
+Article overview goes here
