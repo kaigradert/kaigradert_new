@@ -29,7 +29,7 @@ defaults:
     author: ''
 description: Write an awesome description for your new site here.
 url: http://kaigradert.com
-baseurl: 
+baseurl:
 permalink: pretty
 email: kai.gradert@gmail.com
 markdown: kramdown
@@ -39,3 +39,4 @@ exclude:
 - Gemfile
 - Gemfile.lock
 - config.codekit3
+- styles/global.sass
