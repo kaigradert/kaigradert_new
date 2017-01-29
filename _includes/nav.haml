@@ -5,4 +5,3 @@
     {% for page in site.pages %}
     %a{:class => "{% if page.url == url %}active{% endif %}", :href => "{{ page.url }}"} {{ page.title }}
     {% endfor %}
-    %a{:class => "{% if page.url == url %}active{% endif %}", :href => "http://photos.kaigradert.com", :target => "_blank"} Photography

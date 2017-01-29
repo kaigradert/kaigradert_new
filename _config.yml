@@ -22,7 +22,7 @@ defaults:
     path: projects
     type: posts
   values:
-    layout: work
+    layout: ''
     author: ''
 description: Write an awesome description for your new site here.
 url: http://kaigradert.com
