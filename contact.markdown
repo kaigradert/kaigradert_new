@@ -1,6 +1,6 @@
 ---
 title: Contact
-date: 2015-02-18 19:48:00 Z
+date: 2015-02-18 11:48:00 -08:00
 published: false
 comments: 'no'
 layout: default
