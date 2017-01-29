@@ -6,11 +6,14 @@
     {% include nav.html %}
 
     %section.main
-      {% for post in site.blog reversed %}
-      %div
-        %h2
-          %a{:href => "{{ post.url }}"} {{ post.title | strip_html | smartypants }}
-        {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
-      {% endfor %}
+      %article.excerpt
+        HelloWorld
+        %ul
+          {% for post in posts %}
+          %li
+            %a{:href => "{{ post.url }}"}
+              {{ post.title }}
+            %time {{ post.date | date: "%B %-d, %Y" }}
+          {% endfor %}
 
     {% include scripts.html %}
