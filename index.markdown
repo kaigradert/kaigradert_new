@@ -2,7 +2,7 @@
 title: Blog
 position: 0
 comments: 'no'
-layout: default
+layout: blog
 ---
 
 Article overview goes here

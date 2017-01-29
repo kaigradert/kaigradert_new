@@ -1,0 +1,16 @@
+!!!
+%html{:class => "no-js {% if parent %}parent-{{ parent.slug }} {% endif %}page-{{ slug }} day-{{ site.time | date: '%w' }}", :lang => "en"}
+  {% include head.html %}
+
+  %body
+    {% include nav.html %}
+
+    %section.main
+      {% for post in site.blog reversed %}
+      %div
+        %h2
+          %a{:href => "{{ post.url }}"} {{ post.title | strip_html | smartypants }}
+        {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+      {% endfor %}
+
+    {% include scripts.html %}
