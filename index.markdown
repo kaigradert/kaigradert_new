@@ -1,6 +1,7 @@
 ---
 title: Blog
 position: 0
+comments: 'no'
 layout: default
 ---
 
