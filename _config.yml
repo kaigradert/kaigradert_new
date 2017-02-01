@@ -6,33 +6,15 @@ collections:
     title: Uploads
     output: true
   work:
+    title: Work
     output: true
 defaults:
 - scope:
     path: ''
     type: posts
   values:
-    permalink: "/blog/:title/"
-# collections:
-#   blog:
-#     title: Blog
-#     output: true
-#   posts:
-#     title: Posts
-#     output: true
-#   uploads:
-#     title: Uploads
-#     output: true
-#   work:
-#     title: Work
-#     output: true
-# defaults:
-# - scope:
-#     path: ''
-#     type: posts
-#   values:
-#     permalink: ''
-#     layout: page
+    permalink: '/blog/:title/'
+    layout: page
 description: I am a designer at AngelList. Currently living in California. My interests
   range from photography to technology.
 author: Kai Gradert
