@@ -5,7 +5,6 @@ collections:
   blog:
     title: Blog
     output: true
-    layout: page
   posts:
     title: Posts
     output: true
@@ -22,12 +21,6 @@ defaults:
   values:
     permalink: ''
     layout: page
-- scope:
-    path: projects
-    type: posts
-  values:
-    layout: ''
-    author: ''
 description: I am a designer at AngelList. Currently living in California. My interests
   range from photography to technology.
 author: Kai Gradert
@@ -45,7 +38,7 @@ contact:
   SmugMug: https://kaigradert.smugmug.com/
   Twitter: https://twitter.com/kaigradert
 Feed: "/feed.xml"
-baseurl: 
+baseurl:
 permalink: pretty
 markdown: kramdown
 gems:

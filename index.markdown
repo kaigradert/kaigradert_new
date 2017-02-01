@@ -1,7 +1,5 @@
 ---
 title: Blog
 position: 0
-layout: articles
+layout: index
 ---
-
-This is a test
