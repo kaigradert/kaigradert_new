@@ -1,8 +1,6 @@
 ---
 title: When time slows down
-date: 2016-08-28 19:22:00 -07:00
-tags:
-- family
+date: 2016-08-29 02:22:00 Z
 lede: 'yes'
 assets:
 - path: "/uploads/29263501556_0afe07861a_k.jpg"
@@ -13,6 +11,8 @@ assets:
   name: 28676466863_0480154091_h
 - path: "/uploads/29297284045_0614cda254_h.jpg"
   name: 29297284045_0614cda254_h
+tags:
+- family
 ---
 
 It was overcast but we were itching to get out of the house for a little bit of nature and family time.

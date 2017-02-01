@@ -1,6 +1,6 @@
 ---
 title: Create Something That Has Never Been Seen Before
-date: 2013-07-25 09:33:00 -07:00
+date: 2013-07-25 16:33:00 Z
 tags:
 - video
 - design

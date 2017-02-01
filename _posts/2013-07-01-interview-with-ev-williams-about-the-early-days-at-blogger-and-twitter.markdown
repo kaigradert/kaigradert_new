@@ -1,10 +1,10 @@
 ---
 title: Interview With Ev Williams About the Early Days at Blogger & Twitter
-date: 2013-07-01 02:05:00 -07:00
-tags:
-- video
+date: 2013-07-01 09:05:00 Z
 assets:
 - path: "/uploads/Foundation_31_with_Ev_Williams.jpg"
+tags:
+- video
 ---
 
 Serial entrepreneur Evan Williams talks candidly about his experiences building Blogger, Twitter, and his latest project, Medium.

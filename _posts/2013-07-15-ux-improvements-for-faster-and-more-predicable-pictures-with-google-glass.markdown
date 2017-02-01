@@ -1,9 +1,6 @@
 ---
 title: Usability Improvements for Faster & More Predicable Pictures With Google Glass
-date: 2013-07-14 17:02:00 -07:00
-tags:
-- design
-- thoughts
+date: 2013-07-15 00:02:00 Z
 assets:
 - path: "/uploads/Wake-Up-Glass-and-Take-a-Picture.jpg"
 - path: "/uploads/Google-Glass-Record-a-Video-Live-Viewfinder.jpg"
@@ -11,6 +8,9 @@ assets:
 - path: "/uploads/Google-Glass.jpg"
 - path: "/uploads/Wake-Up-Glass-and-Record-a-Video.jpg"
 - path: "/uploads/Google-Glass-Viewfinder-Before-After.jpg"
+tags:
+- design
+- thoughts
 ---
 
 The camera has quickly become the stand-out feature for me after using Google Glass (XE6 and XE7) extensively for the past few weeks.
