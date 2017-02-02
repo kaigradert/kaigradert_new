@@ -1,6 +1,9 @@
 ---
 title: Spreading My Wings With a Little Macro Photography
-date: 2013-07-11 06:41:00 Z
+date: 2013-07-10 23:41:00 -07:00
+tags:
+- travel
+- photography
 assets:
 - path: "/uploads/Sierraville Trip - Kai Gradert - 180 mm ISO 100 - 07.jpg"
 - path: "/uploads/Sierraville Trip - Kai Gradert - 180 mm ISO 800 - 05.jpg"
@@ -11,9 +14,6 @@ assets:
 - path: "/uploads/Sierraville Trip - Kai Gradert - 180 mm ISO 800 - 01.jpg"
 - path: "/uploads/Sierraville Trip - Kai Gradert - 180 mm ISO 100 - 08.jpg"
 - path: "/uploads/Sierraville Trip - Kai Gradert.jpg"
-tags:
-- travel
-- photography
 ---
 
 My wife and I recently spent a long weekend at a friends cabin in Sierraville, overlooking the vast valley and enjoying quiet time in nature. The perfect opportunity to try out some new photo techniques.

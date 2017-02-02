@@ -1,11 +1,11 @@
 ---
 title: 'Apple TV: Five Core Features Hidden in Plain Sight'
-date: 2013-01-06 18:56:00 Z
-assets:
-- path: "/uploads/Apple-TV-Five-Apple-TV-Features-Hidden-in-Plain-Sight.jpg"
+date: 2013-01-06 10:56:00 -08:00
 tags:
 - thoughts
 - design
+assets:
+- path: "/uploads/Apple-TV-Five-Apple-TV-Features-Hidden-in-Plain-Sight.jpg"
 ---
 
 With CES is in full swing and the rumor mill running wild about Apple coming out with a TV, it's time to take a closer look at the current version of Apple TV.

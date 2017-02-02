@@ -1,6 +1,9 @@
 ---
 title: Making Memories in Germany
-date: 2016-01-04 04:09:00 Z
+date: 2016-01-03 20:09:00 -08:00
+tags:
+- travel
+- family
 comments: 'no'
 assets:
 - path: "/uploads/kaigradert_xmas_germany_MG_2403.jpg"
@@ -17,9 +20,6 @@ assets:
   name: kaigradert_xmas_germany_MG_2208
 - path: "/uploads/kaigradert_xmas_germany_MG_1568.jpg"
   name: kaigradert_xmas_germany_MG_1568
-tags:
-- travel
-- family
 ---
 
 We finally made it to Germany. This trip was long overdue. Traveling with a 16-months-old is exhausting, but seeing my Mom meet Aadi for the first time was all worth it.
