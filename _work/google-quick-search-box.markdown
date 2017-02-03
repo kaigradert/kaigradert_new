@@ -10,4 +10,3 @@ images:
 - path: "/uploads/2007-Google-Quick-Search-Box-01-By-Kai-Gradert.jpg"
   title: Google Toolbar
 ---
-
