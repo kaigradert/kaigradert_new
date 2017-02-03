@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html class="no-js {% if parent %}parent-{{ parent.slug }} {% endif %}page-{{ slug }} day-{{ site.time | date: '%w' }}" lang='en'>
+  {% include head.html %}
+  <body>
+    {% include nav.html %}
+    <section class='main'>
+      {% include main.html %}
+      {% include back.html %}
+      {% include comments.html %}
+      {% include footer.html %}
+    </section>
+    {% include scripts.html %}
+  </body>
+</html>

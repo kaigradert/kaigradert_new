@@ -17,7 +17,7 @@ defaults:
     type: posts
   values:
     permalink: "/blog/:title/"
-    layout: page
+    layout: post
 description: I am a designer at AngelList. Currently living in California. My interests
   range from photography to technology.
 author: Kai Gradert
@@ -34,7 +34,7 @@ contact:
   LinkedIn: http://www.linkedin.com/in/kaigradert
   SmugMug: https://kaigradert.smugmug.com/
   Twitter: https://twitter.com/kaigradert
-baseurl: 
+baseurl:
 permalink: pretty
 markdown: kramdown
 gems:

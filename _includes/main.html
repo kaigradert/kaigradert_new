@@ -20,14 +20,10 @@
     {% endfor %}
   </div>
   {% endif %}
-  {% if page.pages %}
-  <nav>
-    {% for subpage in pages %}
-    <a href='{{ subpage.url }}'>{{ subpage.title }}</a>
-    {% endfor %}
-  </nav>
-  {% endif %}
-  {% if type == "post" %}
-  {% include comments.html %}
-  {% endif %}
+  <!-- {% if page.pages %} -->
+  <!-- %nav -->
+  <!-- {% for subpage in pages %} -->
+  <!-- %a{:href => "{{ subpage.url }}"} {{ subpage.title }} -->
+  <!-- {% endfor %} -->
+  <!-- {% endif %} -->
 </article>

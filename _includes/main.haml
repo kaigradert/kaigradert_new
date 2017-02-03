@@ -6,6 +6,7 @@
   {{ content }}
   {% endif %}
 
+  -# SHOW META TAGS FOR POSTS
   {% if type == "post" %}
   .meta
     %time{:datetime => "{{ date | date: '%b %d, %Y' }}"}
@@ -20,13 +21,9 @@
     {% endfor %}
   {% endif %}
 
-  {% if page.pages %}
-  %nav
-    {% for subpage in pages %}
-    %a{:href => "{{ subpage.url }}"} {{ subpage.title }}
-    {% endfor %}
-  {% endif %}
-
-  {% if type == "post" %}
-  {% include comments.html %}
-  {% endif %}
+  / {% if page.pages %}
+  / %nav
+  /   {% for subpage in pages %}
+  /   %a{:href => "{{ subpage.url }}"} {{ subpage.title }}
+  /   {% endfor %}
+  / {% endif %}
