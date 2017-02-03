@@ -8,7 +8,7 @@
   (function() {
     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
     dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')%html{:class => "no-js {% if parent %}parent-{{ parent.slug }} {% endif %}page-{{ page.title | downcase }} day-{{ site.time | date: '%w' }}", :lang => "en"} || document.getElementsByTagName('body')%html{:class => "no-js {% if parent %}parent-{{ parent.slug }} {% endif %}page-{{ page.title | downcase }} day-{{ site.time | date: '%w' }}", :lang => "en"}).appendChild(dsq);
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
   })();
 </script>
 <noscript>
