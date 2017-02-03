@@ -1,9 +1,10 @@
 ---
 title: Intel Viiv
-date: 2006-06-15 20:46:00 Z
-year: '2006'
+date: 2006-06-15 14:46:00 -07:00
+year: 2006
 company: Frog Design & Intel
 project: Viiv Media Platform
 role: UX Design
+image: "/uploads/2006-Intel-Viiv-01-By-Kai-Gradert.jpg"
 ---
 
