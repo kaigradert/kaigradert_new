@@ -1,4 +1,5 @@
 ---
+title: Google Toolbar
 meta:
 - title: Google Toolbar
   date: 2007-06-17 04:41:00 -07:00
@@ -10,3 +11,4 @@ images:
 - path: "/uploads/2007-Google-Toolbar-By-Kai-Gradert.jpg"
   title: Google Toolbar
 ---
+

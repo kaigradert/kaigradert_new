@@ -1,4 +1,5 @@
 ---
+title: Kais Power Show
 meta:
 - title: Kai's Power Show
   date: 1997-06-17 04:27:00 -07:00

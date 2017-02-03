@@ -1,4 +1,5 @@
 ---
+title: Kais Photo Soap
 meta:
 - title: Kai's Photo Soap
   date: 1997-06-17 06:23:00 -07:00

@@ -1,4 +1,5 @@
 ---
+title: Original Imac Interface
 meta:
 - title: Original iMac Interface
   date: 1998-06-17 02:38:00 -07:00

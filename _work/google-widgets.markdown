@@ -1,4 +1,5 @@
 ---
+title: Google Widgets
 meta:
 - title: Google Widgets
   date: 2007-06-17 04:52:00 -07:00

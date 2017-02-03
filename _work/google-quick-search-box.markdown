@@ -1,4 +1,5 @@
 ---
+title: Google Quick Search Box
 meta:
 - title: Google Quick Search Box
   date: 2007-06-17 04:48:00 -07:00

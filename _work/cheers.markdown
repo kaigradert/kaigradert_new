@@ -1,4 +1,5 @@
 ---
+title: Cheers
 meta:
 - title: Cheers
   date: 2013-02-14 13:36:00 -08:00

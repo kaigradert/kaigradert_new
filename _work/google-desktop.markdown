@@ -1,4 +1,5 @@
 ---
+title: Google Desktop
 meta:
 - title: Google Desktop
   date: 2007-06-15 08:34:00 -07:00

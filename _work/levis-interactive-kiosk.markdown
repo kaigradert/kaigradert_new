@@ -1,4 +1,5 @@
 ---
+title: Levis Interactive Kiosk
 meta:
 - title: Levis Interactive Kiosk
   date: 1996-06-17 06:17:00 -07:00

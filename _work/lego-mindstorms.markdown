@@ -1,4 +1,5 @@
 ---
+title: Lego Mindstorms
 meta:
 - title: LEGO Mindstorms
   date: 1999-06-17 02:43:00 -07:00
@@ -10,3 +11,4 @@ images:
 - path: "/uploads/1999-Lego-01-By-Kai-Gradert.jpg"
   title: LEGO Mindstorms
 ---
+

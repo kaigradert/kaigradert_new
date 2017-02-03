@@ -1,4 +1,5 @@
 ---
+title: Picasa
 meta:
 - title: Picasa
   date: 2004-06-17 02:49:00 -07:00
