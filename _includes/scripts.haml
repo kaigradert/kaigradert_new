@@ -17,6 +17,11 @@
 / http://fancyapps.com/fancybox/
 %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"}
 
+:javascript
+  $(document).ready(function() {
+  	$(".fancybox").fancybox();
+  });
+
 / Google Analytics
 :javascript
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
