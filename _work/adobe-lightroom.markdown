@@ -1,4 +1,5 @@
 ---
+title: Adobe Lightroom
 meta:
 - title: Adobe Lightroom
   date: 2014-03-24 12:56:00 -07:00
