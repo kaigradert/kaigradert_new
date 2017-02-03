@@ -8,6 +8,8 @@ year: 2001
 company: Cooperating Systems
 project: HelloWorld
 role: Founder/Designer
-image: "/uploads/2001-HelloWorld-01-By-Kai-Gradert.jpg"
+images:
+- path: "/uploads/2001-HelloWorld-01-By-Kai-Gradert.jpg"
+  title: HelloWorld
 ---
 

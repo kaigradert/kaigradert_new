@@ -5,13 +5,13 @@
   {{ content }}
   {% endif %}
 
-{% for project in site.work %}
+{% for project in site.work reversed %}
 %a{:name => "{{project.slug}}"}
 %article.project
   %figure
 
-    {% for asset in project.assets %}
-    %img{:alt => "{{ project.title }}", :src => "{{ project.image }}"}
+    {% for image in project.images %}
+    %img{:alt => "{{ project.title }}", :src => "{{ image.path }}"}
     {% endfor %}
 
     {% if project.content %}
@@ -22,7 +22,7 @@
   %dl.meta
     {% for data in project.meta %}
     %div
-      %dt {{ data.key }}
+      %dt {{ data.key }} Has Meta
       %dd {{ data.value }}
     {% endfor %}
   {% endif %}

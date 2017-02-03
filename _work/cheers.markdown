@@ -5,6 +5,8 @@ year: 2010 - 2013
 company: Cheerful, Inc.
 project: Cheers
 role: Founder/Designer
-image: "/uploads/cheers_2.jpg"
+images:
+- path: "/uploads/cheers_2.jpg"
+  title: Cheers
 ---
 

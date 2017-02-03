@@ -5,6 +5,8 @@ year: 2007
 company: Google
 project: Browser Toolbar
 role: UX Design
-image: "/uploads/2007-Google-Toolbar-By-Kai-Gradert.jpg"
+images:
+- path: "/uploads/2007-Google-Toolbar-By-Kai-Gradert.jpg"
+  title: Google Toolbar
 ---
 

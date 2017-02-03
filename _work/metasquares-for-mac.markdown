@@ -5,6 +5,8 @@ year: 2008
 company: MetaTools
 project: MetaSquares Game
 role: Visual Design
-image: "/uploads/2008-MetaSquares-for-Mac-By-Kai-Gradert.jpg"
+images:
+- path: "/uploads/2008-MetaSquares-for-Mac-By-Kai-Gradert.jpg"
+  title: MetaSquares for Mac
 ---
 

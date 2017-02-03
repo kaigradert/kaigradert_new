@@ -5,6 +5,7 @@ year: 2007
 company: Google
 project: Quick Search Box
 role: UX Design
-image: "/uploads/2007-Google-Quick-Search-Box-01-By-Kai-Gradert.jpg"
+images:
+- path: "/uploads/2007-Google-Quick-Search-Box-01-By-Kai-Gradert.jpg"
+  title: Google Toolbar
 ---
-

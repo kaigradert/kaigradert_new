@@ -5,6 +5,8 @@ year: 2007
 company: Google
 project: Google Desktop/Sidebar
 role: UX/Product Design
-image: "/uploads/2007-Google-Sidebar-By-Kai-Gradert.jpg"
+images:
+- path: "/uploads/2007-Google-Sidebar-By-Kai-Gradert.jpg"
+  title: Google Desktop
 ---
 

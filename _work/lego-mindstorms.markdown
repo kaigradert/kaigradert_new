@@ -5,6 +5,8 @@ year: 1999
 company: MetaCreations & LEGO Group
 project: LEGO Mindstorms
 role: Lead Design
-image: "/uploads/1999-Lego-01-By-Kai-Gradert.jpg"
+images:
+- path: "/uploads/1999-Lego-01-By-Kai-Gradert.jpg"
+  title: LEGO Mindstorms
 ---
 

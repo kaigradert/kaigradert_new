@@ -5,6 +5,8 @@ year: 2004
 company: Lifescape Solutions (IdeaLab)
 project: " Picasa Photo Organizer"
 role: Visual Design
-image: "/uploads/2004-Picasa-03-By-Kai-Gradert.jpg"
+images:
+- path: "/uploads/2004-Picasa-03-By-Kai-Gradert.jpg"
+  title: Picasa
 ---
 

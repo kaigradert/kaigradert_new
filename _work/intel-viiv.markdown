@@ -5,6 +5,8 @@ year: 2006
 company: Frog Design & Intel
 project: Viiv Media Platform
 role: UX Design
-image: "/uploads/2006-Intel-Viiv-01-By-Kai-Gradert.jpg"
+images:
+- path: "/uploads/2006-Intel-Viiv-01-By-Kai-Gradert.jpg"
+  title: Intel Viiv
 ---
 

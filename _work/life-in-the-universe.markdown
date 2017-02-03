@@ -5,6 +5,8 @@ year: 1997
 company: MetaTools
 project: Life In The Universe
 role: Lead Design
-image: "/uploads/1997-Life-In-The-Universe-01-By-Kai-Gradert.jpg"
+images:
+- path: "/uploads/1997-Life-In-The-Universe-01-By-Kai-Gradert.jpg"
+  title: Life In The Universe
 ---
 
