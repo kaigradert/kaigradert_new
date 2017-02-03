@@ -10,3 +10,4 @@ images:
 - path: "/uploads/cheers_2.jpg"
   title: Cheers
 ---
+
