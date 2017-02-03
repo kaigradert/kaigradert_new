@@ -1,5 +1,5 @@
 !!!
-%html{:class => "no-js {% if parent %}parent-{{ parent.slug }} {% endif %}page-{{ slug }} day-{{ site.time | date: '%w' }}", :lang => "en"}
+%html{:class => "no-js {% if parent %}parent-{{ parent.slug }} {% endif %}page-{{ page.title | downcase }} day-{{ site.time | date: '%w' }}", :lang => "en"}
   {% include head.html %}
   %body
     {% include nav.html %}

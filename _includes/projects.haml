@@ -5,7 +5,7 @@
   {{ content }}
   {% endif %}
 
-{% for project in site.work reversed %}
+{% for project in site.work %}
 %a{:name => "{{project.slug}}"}
 %article.project
   %figure
@@ -22,8 +22,8 @@
   %dl.meta
     {% for data in project.meta %}
     %div
-      %dt {{ data.key }} Has Meta
-      %dd {{ data.value }}
+      %dt {{ project.meta[0] }}
+      %dd {{ project.meta[1] }}
     {% endfor %}
   {% endif %}
 

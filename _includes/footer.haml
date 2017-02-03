@@ -3,7 +3,7 @@
     {{ if site.contact }}
     {% for data in site.contact %}
     %li
-      %a{:href => "{{ data[1] }}", :rel => "me", :target => "_blank", :title => "{{ site.title }} on {{ data[0] }}"} {{ data[0] }}
+      %a{:href => "{{ data[1] }}", :rel => "me", :target => "_blank", :title => "{{ site.title }} on {{ data%html{:class => "no-js {% if parent %}parent-{{ parent.slug }} {% endif %}page-{{ page.title | downcase }} day-{{ site.time | date: '%w' }}", :lang => "en"} }}"} {{ data%html{:class => "no-js {% if parent %}parent-{{ parent.slug }} {% endif %}page-{{ page.title | downcase }} day-{{ site.time | date: '%w' }}", :lang => "en"} }}
     {% endfor %}
     {{ endif }}
     %li.copyright

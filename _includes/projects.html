@@ -4,7 +4,7 @@
   {{ content }}
   {% endif %}
 </article>
-{% for project in site.work reversed %}
+{% for project in site.work %}
 <a name='{{project.slug}}'></a>
 <article class='project'>
   <figure>
@@ -19,8 +19,8 @@
   <dl class='meta'>
     {% for data in project.meta %}
     <div>
-      <dt>{{ data.key }} Has Meta</dt>
-      <dd>{{ data.value }}</dd>
+      <dt>{{ project.meta[0] }}</dt>
+      <dd>{{ project.meta[1] }}</dd>
     </div>
     {% endfor %}
   </dl>

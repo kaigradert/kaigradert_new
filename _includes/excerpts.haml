@@ -38,7 +38,7 @@
   {% if post.images.size > 0 %}
   %figure
     %a{:href => "{{ post.url }}"}
-      %img{:alt => "{{ post.title }}", :src => "{{ post.images[0].path }}"}
+      %img{:alt => "{{ post.title }}", :src => "{{ post.images%html{:class => "no-js {% if parent %}parent-{{ parent.slug }} {% endif %}page-{{ page.title | downcase }} day-{{ site.time | date: '%w' }}", :lang => "en"}.path }}"}
   {% endif %}
 
   -# EXCERPT

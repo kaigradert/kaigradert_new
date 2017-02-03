@@ -10,4 +10,3 @@ images:
 - path: "/uploads/lightroom_loupe_by_kai_gradert.jpg"
   title: Adobe Lightroom
 ---
-
