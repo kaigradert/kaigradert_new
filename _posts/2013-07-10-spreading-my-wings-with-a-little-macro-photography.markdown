@@ -4,7 +4,7 @@ date: 2013-07-10 23:41:00 -07:00
 tags:
 - travel
 - photography
-assets:
+images:
 - path: "/uploads/Sierraville Trip - Kai Gradert - 180 mm ISO 100 - 07.jpg"
 - path: "/uploads/Sierraville Trip - Kai Gradert - 180 mm ISO 800 - 05.jpg"
 - path: "/uploads/Sierraville Trip - Kai Gradert - 180 mm ISO 800 - 04.jpg"

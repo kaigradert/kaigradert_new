@@ -3,7 +3,7 @@ title: Recap From the UX Happy Hour in Eagle Rock
 date: 2013-08-07 17:07:00 -07:00
 tags:
 - design
-assets:
+images:
 - path: "/uploads/IMG_6786.jpg"
 - path: "/uploads/IMG_6802.jpg"
 - path: "/uploads/IMG_6794.jpg"

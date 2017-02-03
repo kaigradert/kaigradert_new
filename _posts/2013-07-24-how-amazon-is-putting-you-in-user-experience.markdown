@@ -4,7 +4,7 @@ date: 2013-07-24 15:07:00 -07:00
 tags:
 - design
 - thoughts
-assets:
+images:
 - path: "/uploads/Amazon-Fulfillment.jpg"
 ---
 

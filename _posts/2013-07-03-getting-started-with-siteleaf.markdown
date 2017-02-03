@@ -3,7 +3,7 @@ title: Getting Started With Siteleaf
 date: 2013-07-03 07:46:00 -07:00
 tags:
 - video
-assets:
+images:
 - path: "/uploads/Getting Started With Siteleaf.jpg"
 ---
 

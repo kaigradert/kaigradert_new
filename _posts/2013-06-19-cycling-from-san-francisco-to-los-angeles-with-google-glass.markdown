@@ -3,7 +3,7 @@ title: Cycling from San Francisco to Los Angeles with Google Glass
 date: 2013-06-19 11:28:00 -07:00
 tags:
 - travel
-assets:
+images:
 - path: "/uploads/001_Aids_LifeCycle_2013_Through_Google_Glass.jpg"
 - path: "/uploads/002_Aids_LifeCycle_2013_Through_Google_Glass.jpg"
 - path: "/uploads/004_Aids_LifeCycle_2013_Through_Google_Glass.jpg"

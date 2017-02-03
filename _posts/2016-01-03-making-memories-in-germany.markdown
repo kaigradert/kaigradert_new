@@ -4,7 +4,7 @@ date: 2016-01-03 20:09:00 -08:00
 tags:
 - travel
 - family
-assets:
+images:
 - path: "/uploads/kaigradert_xmas_germany_MG_2403.jpg"
   title: kaigradert_xmas_germany_MG_2403
 - path: "/uploads/kaigradert_xmas_germany_MG_1575.jpg"

@@ -4,7 +4,7 @@ date: 2013-06-27 04:44:00 -07:00
 tags:
 - thoughts
 - design
-assets:
+images:
 - path: "/uploads/Google_Glass_Hardware_Issues_-_Projector_Backside_Bubbling_Up.jpg"
 - path: "/uploads/Google_Glass_Hardware_Issues.jpg"
 - path: "/uploads/Google_Glass_Hardware_Issues_-_Projector_Frontside_Peeling_Off.jpg"

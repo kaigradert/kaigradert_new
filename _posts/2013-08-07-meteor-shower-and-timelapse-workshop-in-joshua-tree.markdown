@@ -5,7 +5,7 @@ tags:
 - photography
 - travel
 - video
-assets:
+images:
 - path: "/uploads/The Galactic Core of the Milky Way by Henry Jun Wah Lee.jpg"
 ---
 

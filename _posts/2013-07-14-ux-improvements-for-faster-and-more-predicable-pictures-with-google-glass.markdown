@@ -4,7 +4,7 @@ date: 2013-07-14 17:02:00 -07:00
 tags:
 - design
 - thoughts
-assets:
+images:
 - path: "/uploads/Wake-Up-Glass-and-Take-a-Picture.jpg"
 - path: "/uploads/Google-Glass-Record-a-Video-Live-Viewfinder.jpg"
 - path: "/uploads/Google-Glass-Take-a-Picture-Live-Viewfinder.jpg"

@@ -4,7 +4,7 @@ date: 2013-07-20 10:16:00 -07:00
 tags:
 - design
 - thoughts
-assets:
+images:
 - path: "/uploads/Global Service Jam 2013.jpg"
 - path: "/uploads/Global Service Jam 2013 - Notes.jpg"
 ---

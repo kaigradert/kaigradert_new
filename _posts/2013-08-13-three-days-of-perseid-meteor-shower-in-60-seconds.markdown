@@ -5,9 +5,9 @@ tags:
 - video
 - photography
 - travel
-assets:
+images:
 - path: "/uploads/kai_gradert_meteor_madness__mg_0888_20130812.jpg"
-  name: kai_gradert_meteor_madness__mg_0888_20130812
+  title: kai_gradert_meteor_madness__mg_0888_20130812
 ---
 
 Shot on Friday, Saturday and Sunday night in Joshua Tree National Park during a time-lapse workshop.Enjoy the movie:

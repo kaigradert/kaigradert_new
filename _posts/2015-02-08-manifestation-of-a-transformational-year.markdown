@@ -5,7 +5,7 @@ tags:
 - photography
 - travel
 - video
-assets:
+images:
 - path: "/uploads/12757544133_7bbc494dcc_h.jpg"
 ---
 

@@ -4,7 +4,7 @@ date: 2013-01-06 10:56:00 -08:00
 tags:
 - thoughts
 - design
-assets:
+images:
 - path: "/uploads/Apple-TV-Five-Apple-TV-Features-Hidden-in-Plain-Sight.jpg"
 ---
 
