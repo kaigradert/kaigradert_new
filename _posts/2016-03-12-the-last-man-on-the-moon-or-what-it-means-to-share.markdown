@@ -3,14 +3,13 @@ title: The Last Man on the Moon, or What It Means to Share
 date: 2016-03-12 10:25:00 -08:00
 tags:
 - thoughts
-comments: 
-assets:
+images:
 - path: "/uploads/Apollo_17_Extravehicular_Activity.jpg"
-  name: Apollo_17_Extravehicular_Activity
+  title: Apollo 17 Extravehicular Activity
 - path: "/uploads/Earth_in_Full_View_-_NASA.jpg"
-  name: Earth_in_Full_View_-_NASA
+  title: Earth in Full View - NASA
 - path: "/uploads/Kai Gradert__2015-09-24_184618__MG_8489.jpg"
-  name: Kai Gradert__2015-09-24_184618__MG_8489
+  title: Kai Gradert__2015-09-24_184618__MG_8489
 ---
 
 I just finished watching [The Last Man on the Moon](http://thelastmanonthemoon.com/). And now I am trying to understand what it’s like to experience something so rare as walking on the moon. It's such a profound experience, yet you cannot fully share it with anybody. Where do you begin?
