@@ -4,15 +4,15 @@ date: 2016-08-28 19:22:00 -07:00
 tags:
 - family
 lede: 'yes'
-assets:
+images:
 - path: "/uploads/29263501556_0afe07861a_k.jpg"
-  name: 29263501556_0afe07861a_k
+  title: 29263501556_0afe07861a_k
 - path: "/uploads/29297269675_70e23e4be9_h.jpg"
-  name: 29297269675_70e23e4be9_h
+  title: 29297269675_70e23e4be9_h
 - path: "/uploads/28676466863_0480154091_h.jpg"
-  name: 28676466863_0480154091_h
+  title: 28676466863_0480154091_h
 - path: "/uploads/29297284045_0614cda254_h.jpg"
-  name: 29297284045_0614cda254_h
+  title: 29297284045_0614cda254_h
 ---
 
 It was overcast but we were itching to get out of the house for a little bit of nature and family time.
