@@ -1,14 +1,13 @@
 ---
 title: HelloWorld
-date: 2001-06-17 10:46:00 Z
+date: 2001-06-17 04:46:00 -07:00
 tags:
 - OSX
 - Visual Design
-year: '2001'
+year: 2001
 company: Cooperating Systems
 project: HelloWorld
 role: Founder/Designer
-BLAH:
-- Orange
+image: "/uploads/2001-HelloWorld-01-By-Kai-Gradert.jpg"
 ---
 
