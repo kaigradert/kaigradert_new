@@ -5,9 +5,9 @@ tags:
 - photography
 - travel
 - video
-assets:
+images:
 - path: "/uploads/hero.jpg"
-  name: hero
+  title: Sunrise over Half Dome
 ---
 
 I am just finishing up the work on a new timelapse movie. I shot the first sequence for this film a little over three years ago on a visit to Sequoia National Park. The rest of the clips were captured in Arizona, Utah, Yosemite and Joshua Tree over the last two years.
