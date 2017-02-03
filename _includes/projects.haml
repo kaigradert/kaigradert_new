@@ -5,17 +5,17 @@
   {{ content }}
   {% endif %}
 
-{% for project in work.posts %}
-%a{:name => "{{post.slug}}"}
+{% for project in site.work %}
+%a{:name => "{{project.slug}}"}
 %article.project
   %figure
 
     {% for asset in project.assets %}
-    %img{:alt => "{{ project.title }}", :src => "{{ asset.url }}"}
+    %img{:alt => "{{ project.title }}", :src => "{{ project.image }}"}
     {% endfor %}
 
-    {% if project.body %}
-    %figcaption {{ project.body }}
+    {% if project.content %}
+    %figcaption {{ project.content }}
     {% endif %}
 
   {% if project.meta %}

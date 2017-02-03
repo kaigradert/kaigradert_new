@@ -4,15 +4,15 @@
   {{ content }}
   {% endif %}
 </article>
-{% for project in work.posts %}
-<a name='{{post.slug}}'></a>
+{% for project in site.work %}
+<a name='{{project.slug}}'></a>
 <article class='project'>
   <figure>
     {% for asset in project.assets %}
-    <img alt='{{ project.title }}' src='{{ asset.url }}'>
+    <img alt='{{ project.title }}' src='{{ project.image }}'>
     {% endfor %}
-    {% if project.body %}
-    <figcaption>{{ project.body }}</figcaption>
+    {% if project.content %}
+    <figcaption>{{ project.content }}</figcaption>
     {% endif %}
   </figure>
   {% if project.meta %}
