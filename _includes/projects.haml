@@ -1,28 +1,26 @@
 %article{:class => "{% if page.lede == 'yes' %}lede{% endif %}"}
 
-  %h2
-    {{ title|smartypants }}
-
-  {% if body %}
-  {{ body }}
+  %h2 {{ page.title | smartypants }}
+  {% if content %}
+  {{ content }}
   {% endif %}
 
-{% for post in posts %}
+{% for project in work.posts %}
 %a{:name => "{{post.slug}}"}
 %article.project
   %figure
 
-    {% for asset in post.assets %}
-    %img{:alt => "{{ post.title }}", :src => "{{ asset.url }}"}
+    {% for asset in project.assets %}
+    %img{:alt => "{{ project.title }}", :src => "{{ asset.url }}"}
     {% endfor %}
 
-    {% if post.body %}
-    %figcaption {{ post.body }}
+    {% if project.body %}
+    %figcaption {{ project.body }}
     {% endif %}
 
-  {% if post.meta %}
+  {% if project.meta %}
   %dl.meta
-    {% for data in post.meta %}
+    {% for data in project.meta %}
     %div
       %dt {{ data.key }}
       %dd {{ data.value }}
