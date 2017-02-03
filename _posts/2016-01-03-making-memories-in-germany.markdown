@@ -4,22 +4,21 @@ date: 2016-01-03 20:09:00 -08:00
 tags:
 - travel
 - family
-comments: 'no'
 assets:
 - path: "/uploads/kaigradert_xmas_germany_MG_2403.jpg"
-  name: kaigradert_xmas_germany_MG_2403
+  title: kaigradert_xmas_germany_MG_2403
 - path: "/uploads/kaigradert_xmas_germany_MG_1575.jpg"
-  name: kaigradert_xmas_germany_MG_1575
+  title: kaigradert_xmas_germany_MG_1575
 - path: "/uploads/kaigradert_xmas_germany_MG_2436.jpg"
-  name: kaigradert_xmas_germany_MG_2436
+  title: kaigradert_xmas_germany_MG_2436
 - path: "/uploads/kaigradert_xmas_germany_MG_1434.jpg"
-  name: kaigradert_xmas_germany_MG_1434
+  title: kaigradert_xmas_germany_MG_1434
 - path: "/uploads/kaigradert_xmas_germany_MG_1582.jpg"
-  name: kaigradert_xmas_germany_MG_1582
+  title: kaigradert_xmas_germany_MG_1582
 - path: "/uploads/kaigradert_xmas_germany_MG_2208.jpg"
-  name: kaigradert_xmas_germany_MG_2208
+  title: kaigradert_xmas_germany_MG_2208
 - path: "/uploads/kaigradert_xmas_germany_MG_1568.jpg"
-  name: kaigradert_xmas_germany_MG_1568
+  title: kaigradert_xmas_germany_MG_1568
 ---
 
 We finally made it to Germany. This trip was long overdue. Traveling with a 16-months-old is exhausting, but seeing my Mom meet Aadi for the first time was all worth it.
