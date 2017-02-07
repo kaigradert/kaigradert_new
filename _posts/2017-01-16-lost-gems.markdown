@@ -9,16 +9,16 @@ images:
 - path: "/uploads/31475940574_60bf54db55_h.jpg"
   title: Sunrise on the Rocks
 loop:
-- - week: 1
+- - title: Week 1
     image: https://c1.staticflickr.com/1/763/31475940574_60bf54db55_h.jpg
     link: 
-  - week: 2
+  - title: Week 2
     image: https://c1.staticflickr.com/1/586/32222374481_f1ea56102f_h.jpg
     link: 
-  - week: 3
+  - title: Week 3
     image: https://c1.staticflickr.com/1/744/32381214115_7b0cf3eb7e_h.jpg
     link: https://unsplash.com/@kai
-  - week: 4
+  - title: Week 4
     image: https://c1.staticflickr.com/1/561/32056121750_ef06ff9d71_h.jpg
     link: 
 scripts:
