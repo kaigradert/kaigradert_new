@@ -21,7 +21,8 @@ loop:
   - week: 4
     image: https://c1.staticflickr.com/1/561/32056121750_ef06ff9d71_h.jpg
     link: 
-script: <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+scripts:
+- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 ---
 
 A common problem of working with a digital camera is the sheer amount of images you generate over time.
