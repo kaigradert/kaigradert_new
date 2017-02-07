@@ -8,6 +8,7 @@ lede: 'yes'
 images:
 - path: "/uploads/31475940574_60bf54db55_h.jpg"
   title: Sunrise on the Rocks
+loop: 
 ---
 
 A common problem of working with a digital camera is the sheer amount of images you generate over time.
