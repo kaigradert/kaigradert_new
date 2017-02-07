@@ -8,6 +8,7 @@ lede: 'yes'
 images:
 - path: "/uploads/31475940574_60bf54db55_h.jpg"
   title: Sunrise on the Rocks
+scripts: <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 ---
 
 A common problem of working with a digital camera is the sheer amount of images you generate over time.
@@ -23,8 +24,6 @@ The goal of this project is to reduce the size of my photo catalog and hopefully
 </figcaption>
 </figure>
 
-<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
 ### Week 3
 
 <figure>
@@ -35,8 +34,6 @@ Available as free download at <a href="https://unsplash.com/@kai" target="_blank
 </figcaption>
 </figure>
 
-<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
 ### Week 2
 
 <figure>
@@ -46,8 +43,6 @@ Available as free download at <a href="https://unsplash.com/@kai" target="_blank
 </figcaption>
 </figure>
 
-<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
 ### Week 1
 
 <figure>
@@ -56,5 +51,3 @@ Available as free download at <a href="https://unsplash.com/@kai" target="_blank
 <figcaption>
 </figcaption>
 </figure>
-
-<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
