@@ -1,18 +1,18 @@
 {% for post in site.posts %}
 <article class='excerpt'>
-  {% if post.meta['type'] == "quote" %}
+  {% if post.type == "quote" %}
   <blockquote>
     <p>
-      {{ post.body | strip_html }}
-      {% if post.meta['source'] %}
+      {{ post.content | strip_html }}
+      {% if post.source %}
       <footer>
         &ndash;
-        {% if post.meta['link'] %}
-        <a href="{{ post.meta['link'] }}" target='_blank'>
-          {{ post.meta['source'] }}
+        {% if post.link %}
+        <a href='{{ post.link }}' target='_blank'>
+          {{ post.source }}
         </a>
         {% else %}
-        {{ post.meta['source'] }}
+        {{ post.source }}
         {% endif %}
       </footer>
       {% endif %}
