@@ -8,18 +8,18 @@ lede: 'yes'
 images:
 - path: "/uploads/31475940574_60bf54db55_h.jpg"
   title: Sunrise on the Rocks
-loop:
-- - title: Week 1
-    image: https://c1.staticflickr.com/1/763/31475940574_60bf54db55_h.jpg
-    link: 
-  - title: Week 2
-    image: https://c1.staticflickr.com/1/586/32222374481_f1ea56102f_h.jpg
+lostgems:
+- - title: Week 4
+    image: 32056121750
     link: 
   - title: Week 3
-    image: https://c1.staticflickr.com/1/744/32381214115_7b0cf3eb7e_h.jpg
+    image: 32381214115
     link: https://unsplash.com/@kai
-  - title: Week 4
-    image: https://c1.staticflickr.com/1/561/32056121750_ef06ff9d71_h.jpg
+  - title: Week 2
+    image: 32222374481
+    link: 
+  - title: Week 1
+    image: 31475940574
     link: 
 scripts:
 - <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
