@@ -3,27 +3,21 @@
   {% if content %}
   {{ content }}
   {% endif %}
-  {% if type == "post" %}
+  {% if page.id %}
   <div class='meta'>
     <time datetime="{{ date | date: '%b %d, %Y' }}">
-      Posted on {{ date | date: "%b %d, %Y" }}
+      Posted on {{ page.date | date: "%B %-d, %Y" }}
     </time>
-    {% for tagset in taxonomy %}
+    {% if page.tags != null %}
     <div class='tags_article'>
       in
-      {% for tag in tagset %}
+      {% for tag in page.tags %}
       <span>
-        <a href='{{ tag.url }}'>{{ tag.value }}</a>
+        <a href="/{{ site.tag_page_dir }}/{{ tag | slugify: 'pretty' }}/">{{ tag }}</a>
       </span>
       {% endfor %}
     </div>
-    {% endfor %}
+    {% endif %}
   </div>
   {% endif %}
-  <!-- {% if page.pages %} -->
-  <!-- %nav -->
-  <!-- {% for subpage in pages %} -->
-  <!-- %a{:href => "{{ subpage.url }}"} {{ subpage.title }} -->
-  <!-- {% endfor %} -->
-  <!-- {% endif %} -->
 </article>
