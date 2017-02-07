@@ -4,7 +4,14 @@
   <body>
     {% include nav.html %}
     <section class='main'>
+      {% case page.title %}
+      {% when 'Blog' %}
+      {% include excerpt.html %}
+      {% when 'Work' %}
+      {% include projects.html %}
+      {% else %}
       {% include article.html %}
+      {% endcase %}
       {% include footer.html %}
     </section>
     {% include scripts.html %}
