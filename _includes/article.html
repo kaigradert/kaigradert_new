@@ -7,17 +7,31 @@
   <div class='meta'>
     <time datetime="{{ date | date: '%b %d, %Y' }}">
       Posted on {{ page.date | date: "%B %-d, %Y" }}
-    </time>
-    {% if page.tags != null %}
-    <div class='tags_article'>
+      {% if page.tags %}
       in
-      {% for tag in page.tags %}
+      {% for page_tag in page.tags %}
+      {% assign page_tag_downcase = page_tag | downcase %}
+      {% for site_tag in site.tags %}
+      {% assign site_tag_title = site_tag.title | downcase %}
+      {% if site_tag_title == page_tag_downcase %}
       <span>
-        <a href="/{{ site.tag_page_dir }}/{{ tag | slugify: 'pretty' }}/">{{ tag }}</a>
+        <a href='{{ site_tag.permalink }}'>{{ site_tag.title }}</a>
       </span>
+      {% endif %}
       {% endfor %}
-    </div>
-    {% endif %}
+      {% endfor %}
+      {% endif %}
+      <!-- {% if page.previous.url %} -->
+      <!-- %br -->
+      <!-- Previous: -->
+      <!-- %a{:href => "{{page.previous.url}}", :title => "{{page.previous.title}}"} {{page.previous.title}} -->
+      <!-- {% endif %} -->
+      <!-- {% if page.next.url %} -->
+      <!-- %br -->
+      <!-- Next: -->
+      <!-- %a{:href => "{{page.next.url}}", :title => "{{page.next.title}}"} {{page.next.title}} -->
+      <!-- {% endif %} -->
+    </time>
   </div>
   {% endif %}
 </article>

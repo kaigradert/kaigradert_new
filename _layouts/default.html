@@ -4,11 +4,20 @@
   <body>
     {% include nav.html %}
     <section class='main'>
+      <!-- {% if page.path contains "posts" %} -->
+      <!-- This page is a post -->
+      <!-- {% elsif page.path contains "tags" %} -->
+      <!-- This page is a Tag -->
+      <!-- {% else %} -->
+      <!-- Regular old page -->
+      <!-- {% endif %} -->
       {% case page.title %}
       {% when 'Blog' %}
       {% include excerpt.html %}
       {% when 'Work' %}
       {% include projects.html %}
+      {% when 'Design' %}
+      {% include tags.html %}
       {% else %}
       {% include article.html %}
       {% endcase %}

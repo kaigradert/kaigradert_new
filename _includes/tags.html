@@ -1,0 +1,13 @@
+<article>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  Nothing Here
+</article>
+{% assign tag = page.title | downcase %}
+{% assign tag_posts = site.tags[tag] %}
+{% for post in tag_posts %}
+{% endfor %}
