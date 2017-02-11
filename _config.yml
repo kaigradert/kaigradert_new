@@ -47,7 +47,7 @@ contact:
   LinkedIn: http://www.linkedin.com/in/kaigradert
   SmugMug: https://kaigradert.smugmug.com/
   Twitter: https://twitter.com/kaigradert
-baseurl:
+baseurl: 
 permalink: pretty
 markdown: kramdown
 gems:
