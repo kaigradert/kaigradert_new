@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8"/>
-	<meta name="layout" content="default"/>
-</head>
-<body>
-
-<p>{% for post in site.posts %}
+layout: default
+{% for post in site.posts %}
 {% include excerpt.html %}
-{% endfor %}</p>
-
-</body>
-</html>
+{% endfor %}

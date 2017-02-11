@@ -1,7 +1,0 @@
----
-layout: default
----
-
-{% for post in site.posts %}
-{% include excerpt.html %}
-{% endfor %}
