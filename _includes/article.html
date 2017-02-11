@@ -11,7 +11,7 @@
       in
       {% for page_tag in page.tags %}
       {% assign page_tag_downcase = page_tag | downcase %}
-      {% for site_tag in site.tags %}
+      {% for site_tag in site.blog_tags %}
       {% assign site_tag_title = site_tag.title | downcase %}
       {% if site_tag_title == page_tag_downcase %}
       <span>

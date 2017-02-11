@@ -1,11 +1,11 @@
 ---
-title: Kai Gradert - New
+title: Kai Gradert
 timezone: America/Los_Angeles
 collections:
   posts:
     title: Posts
     output: true
-  tags:
+  blog_tags:
     title: Tags
     output: true
   uploads:
@@ -28,9 +28,9 @@ defaults:
     layout: post
 - scope:
     path: ''
-    type: tags
+    type: blog_tags
   values:
-    layout: tags
+    layout: tag
 description: I am a designer at AngelList. Currently living in California. My interests
   range from photography to technology.
 author: Kai Gradert
@@ -47,7 +47,7 @@ contact:
   LinkedIn: http://www.linkedin.com/in/kaigradert
   SmugMug: https://kaigradert.smugmug.com/
   Twitter: https://twitter.com/kaigradert
-baseurl: 
+baseurl:
 permalink: pretty
 markdown: kramdown
 gems:
