@@ -1,5 +1,5 @@
 <article class="{% if page.lede == 'yes' %}lede{% endif %}">
-  <h2>{{ page.title | smartypants }}</h2>
+  <h2>{{ page.title | smartify }}</h2>
   {% if content %}
   {{ content }}
   {% endif %}

@@ -14,13 +14,13 @@ collections:
   work:
     title: Work
     output: true
-posts:
+defaults:
 - scope:
     path: ''
     type: posts
   values:
     permalink: "/blog/:title/"
-    layout: index
+    layout: post
 - scope:
     path: ''
     type: tags
