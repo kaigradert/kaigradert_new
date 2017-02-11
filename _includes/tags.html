@@ -1,6 +1,9 @@
 <article>
   <h2>{{ page.title | smartify }}</h2>
-  <article>
-    Render title/excerpts to tags
-  </article>
+  <div>
+    {% for post in site.tags.Family %}
+    Do Something
+    {{ post }}
+    {% endfor %}
+  </div>
 </article>
