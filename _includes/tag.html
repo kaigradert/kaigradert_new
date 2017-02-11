@@ -1,0 +1,5 @@
+{% assign tag = page.title | downcase %}
+{% assign tag_posts = site.tags[tag] %}
+{% for post in tag_posts %}
+{% include excerpt.html %}
+{% endfor %}
