@@ -20,7 +20,7 @@
   </blockquote>
   {% else %}
   <h2>
-    <a href='{{ post.url }}'>{{ post.title | smartypants }}</a>
+    <a href='{{ post.url }}'>{{ post.title | smartify }}</a>
   </h2>
   {% if post.tags %}
   <ul class='tags_excerpt'>

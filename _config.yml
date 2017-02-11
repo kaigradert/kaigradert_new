@@ -17,6 +17,11 @@ collections:
 defaults:
 - scope:
     path: ''
+    type: pages
+  values:
+    layout: page
+- scope:
+    path: ''
     type: posts
   values:
     permalink: "/blog/:title/"
@@ -42,7 +47,7 @@ contact:
   LinkedIn: http://www.linkedin.com/in/kaigradert
   SmugMug: https://kaigradert.smugmug.com/
   Twitter: https://twitter.com/kaigradert
-baseurl: 
+baseurl:
 permalink: pretty
 markdown: kramdown
 gems:
