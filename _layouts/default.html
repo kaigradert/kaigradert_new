@@ -1,26 +1,10 @@
 <!DOCTYPE html>
-<html class="no-js page-{{ page.title | downcase }} day-{{ site.time | date: '%w' }}" lang='en'>
+<html class="no-js page-{{ page.layout }} page-{{ page.title | downcase | replace: ' ', '-' }} day-{{ site.time | date: '%w' }}" lang='en'>
   {% include head.html %}
   <body>
     {% include nav.html %}
     <section class='main'>
-      <!-- {% if page.path contains "posts" %} -->
-      <!-- This page is a post -->
-      <!-- {% elsif page.path contains "tags" %} -->
-      <!-- This page is a Tag -->
-      <!-- {% else %} -->
-      <!-- Regular old page -->
-      <!-- {% endif %} -->
-      {% case page.title %}
-      {% when 'Blog' %}
-      {% include excerpt.html %}
-      {% when 'Work' %}
-      {% include projects.html %}
-      {% when 'Design' %}
-      {% include tags.html %}
-      {% else %}
-      {% include article.html %}
-      {% endcase %}
+      {{ content }}
       {% include footer.html %}
     </section>
     {% include scripts.html %}

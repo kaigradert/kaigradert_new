@@ -3,7 +3,7 @@ title: About
 date: 2013-06-16 06:53:00 -07:00
 position: 1
 lede: 'yes'
-layout: default
+layout: index
 ---
 
 Kai’s combined background in physics, mechanical engineering, typography and design makes him uniquely qualified to successfully integrate science with creativity.
