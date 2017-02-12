@@ -16,7 +16,7 @@ lost_gems:
       to Iceland in 2015.
     link: https://www.flickr.com/photos/kaigradert/31475940574
     image: "/uploads/Lost%20Gem%20-%20Sunrise%20on%20the%20Rocks.jpg"
-    unsplash:
+    unsplash: 
   - week: Week 2
     title: Salt Formations
     caption: A long exposure of salt formations in the Dead Sea. I was only there
@@ -33,14 +33,14 @@ lost_gems:
       light was warm and golden. The windshield was covered in bugs.
     link: https://www.flickr.com/photos/kaigradert/32381214115
     image: "/uploads/Lost%20Gem%20-%20A%20Bugs%20Life.jpg"
-    unsplash:
+    unsplash: 
   - week: Week 4
     title: Blue Hour
     caption: Big Oak Flat tunnel in Yosemite during the Blue Hour. The vibrant fluorescent
       light from the tunnel set against the blue evening light.
     link: https://www.flickr.com/photos/kaigradert/32056121750
     image: "/uploads/Lost%20Gem%20-%20Blue%20Hour.jpg"
-    unsplash:
+    unsplash: 
 ---
 
 A common problem of working with a digital camera is the sheer amount of images you generate over time.
