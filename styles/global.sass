@@ -119,6 +119,9 @@ $widthPage:             1140px
 .wf-active .main
   visibility: visible
 
+.textalign--left
+  text-align: left
+
 
 
 // Basic
@@ -357,6 +360,7 @@ article
       margin-top: 2em
     figcaption
       +fontSansSerif
+      @extend .pageInset
       display: block
       font-size: 12px
       line-height: 1.8
@@ -385,12 +389,11 @@ article
     font-size: 14px
     margin-top: 3em
     white-space: nowrap
-    .tags_article
-      display: inline
-      span
-        text-transform: lowercase
-        & + span:before
-          content: "· "
+    span
+      & + span:before
+        content: ", "
+      & + span:last-child:before
+        content: "and"
   .more
     white-space: nowrap
   .footnote

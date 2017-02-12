@@ -3,36 +3,40 @@
   {% if content %}
   {{ content }}
   {% endif %}
+  {% if page.lost_gems %}
+  {% include lost_gems.html %}
+  {% endif %}
   {% if page.id %}
   <div class='meta'>
     <time datetime="{{ date | date: '%b %d, %Y' }}">
       Posted on {{ page.date | date: "%B %-d, %Y" }}
-      {% if page.tags %}
-      in
-      {% for page_tag in page.tags %}
-      {% assign page_tag_downcase = page_tag | downcase %}
-      {% for site_tag in site.blog_tags %}
-      {% assign site_tag_title = site_tag.title | downcase %}
-      {% if site_tag_title == page_tag_downcase %}
-      <span>
-        <a href='{{ site_tag.permalink }}'>{{ site_tag.title }}</a>
-      </span>
-      {% endif %}
-      {% endfor %}
-      {% endfor %}
-      {% endif %}
-      <!-- {% if page.previous.url %} -->
-      <!-- %br -->
-      <!-- Previous: -->
-      <!-- %a{:href => "{{page.previous.url}}", :title => "{{page.previous.title}}"} {{page.previous.title}} -->
-      <!-- {% endif %} -->
-      <!-- {% if page.next.url %} -->
-      <!-- %br -->
-      <!-- Next: -->
-      <!-- %a{:href => "{{page.next.url}}", :title => "{{page.next.title}}"} {{page.next.title}} -->
-      <!-- {% endif %} -->
     </time>
+    {% if page.tags %}
+    in
+    {% for page_tag in page.tags %}
+    {% assign page_tag_downcase = page_tag | downcase %}
+    {% for site_tag in site.blog_tags %}
+    {% assign site_tag_title = site_tag.title | downcase %}
+    {% if site_tag_title == page_tag_downcase %}
+    <span>
+      <a href='{{ site_tag.permalink }}'>{{ site_tag.title }}</a>
+    </span>
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+    {% endif %}
+    <!-- {% if page.previous.url %} -->
+    <!-- %br -->
+    <!-- Previous: -->
+    <!-- %a{:href => "{{page.previous.url}}", :title => "{{page.previous.title}}"} {{page.previous.title}} -->
+    <!-- {% endif %} -->
+    <!-- {% if page.next.url %} -->
+    <!-- %br -->
+    <!-- Next: -->
+    <!-- %a{:href => "{{page.next.url}}", :title => "{{page.next.title}}"} {{page.next.title}} -->
+    <!-- {% endif %} -->
   </div>
+  {% include back.html %}
   {% include comments.html %}
   {% endif %}
 </article>
