@@ -48,6 +48,12 @@ lost_gems:
     link: https://www.flickr.com/photos/kaigradert/32708718482/in/album-72157679118130865/
     image: "/uploads/Lost%20Gem%20-%20Icelandic%20Horse.jpg"
     unsplash: 
+  - week: Week6
+    title: Curiosity
+    caption: Eight months old. A short weekend camping trip with Aadi and friends.
+    link: https://www.flickr.com/photos/kaigradert/32024923654/
+    image: "/uploads/Lost%20Gem%20-%20Curiosity.jpg"
+    unsplash: 
 ---
 
 A common problem of working with a digital camera is the amount of images you generate over time.
