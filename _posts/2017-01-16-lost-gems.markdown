@@ -26,14 +26,14 @@ lost_gems:
       short exposure of just the background.
     link: https://www.flickr.com/photos/kaigradert/32222374481
     image: "/uploads/Lost%20Gem%20-%20Salt%20Formations.jpg"
-    unsplash: https://unsplash.com/@kai
+    unsplash: 
   - week: Week 3
     title: A Bugs Life
     caption: Road trip. On the way to Death Valley. It was a warm and sunny day. The
       light was warm and golden. The windshield was covered in bugs.
     link: https://www.flickr.com/photos/kaigradert/32381214115
     image: "/uploads/Lost%20Gem%20-%20A%20Bugs%20Life.jpg"
-    unsplash: 
+    unsplash: https://unsplash.com/@kai
   - week: Week 4
     title: Blue Hour
     caption: Big Oak Flat tunnel in Yosemite during the Blue Hour. The vibrant fluorescent
