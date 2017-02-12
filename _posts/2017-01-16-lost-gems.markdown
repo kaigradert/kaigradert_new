@@ -9,7 +9,15 @@ images:
 - path: "/uploads/31475940574_60bf54db55_h.jpg"
   title: Sunrise on the Rocks
 lost_gems:
-- - week: Week 2
+- - week: Week 1
+    title: Sunrise on the Rocks
+    caption: Beautiful soft light breaking through a large block of ice, producing
+      soft diffused shadows on the black-sand beach. I captured this image on a trip
+      to Iceland in 2015.
+    link: https://www.flickr.com/photos/kaigradert/31475940574
+    image: "/uploads/Lost%20Gem%20-%20Sunrise%20on%20the%20Rocks.jpg"
+    unsplash: 
+  - week: Week 2
     title: Salt Formations
     caption: A long exposure of salt formations in the Dead Sea. I was only there
       for one morning with little preparation. The long exposure and humid air blurred
@@ -18,16 +26,21 @@ lost_gems:
       short exposure of just the background.
     link: https://www.flickr.com/photos/kaigradert/32222374481
     image: "/uploads/Lost%20Gem%20-%20Salt%20Formations.jpg"
+    unsplash: https://unsplash.com/@kai
+  - week: Week 3
+    title: A Bugs Life
+    caption: Road trip. On the way to Death Valley. It was a warm and sunny day. The
+      light was warm and golden. The windshield was covered in bugs.
+    link: https://www.flickr.com/photos/kaigradert/32381214115
+    image: "/uploads/Lost%20Gem%20-%20A%20Bugs%20Life.jpg"
     unsplash: 
-  - week: Week 1
-    title: Sunrise on the Rocks
-    caption: Beautiful soft light breaking through a large block of ice, producing
-      soft diffused shadows on the black-sand beach. I captured this image on a trip
-      to Iceland in 2015.
-    link: https://www.flickr.com/photos/kaigradert/31475940574
-    image: "/uploads/Lost%20Gem%20-%20Sunrise%20on%20the%20Rocks.jpg"
+  - week: Week 4
+    title: Blue Hour
+    caption: Big Oak Flat tunnel in Yosemite during the Blue Hour. The vibrant fluorescent
+      light from the tunnel set against the blue evening light.
+    link: https://www.flickr.com/photos/kaigradert/32056121750
+    image: "/uploads/Lost%20Gem%20-%20Blue%20Hour.jpg"
     unsplash: 
-scripts: <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 ---
 
 A common problem of working with a digital camera is the sheer amount of images you generate over time.
