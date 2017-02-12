@@ -8,6 +8,11 @@ lede: 'yes'
 images:
 - path: "/uploads/31475940574_60bf54db55_h.jpg"
   title: Sunrise on the Rocks
+lost_gems:
+- - - title: Week 1
+      image: "/uploads/31475940574_60bf54db55_h.jpg"
+      link: http://flickr
+      caption: Some caption
 scripts: <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 ---
 
