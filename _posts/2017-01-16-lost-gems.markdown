@@ -41,6 +41,13 @@ lost_gems:
     link: https://www.flickr.com/photos/kaigradert/32056121750
     image: "/uploads/Lost%20Gem%20-%20Blue%20Hour.jpg"
     unsplash: 
+  - week: Week 5
+    title: Icelandic Horse
+    caption: When you look them in the eye, you can sense a thoughtfulness and calm
+      that you don't get with a lot of other creatures.
+    link: https://www.flickr.com/photos/kaigradert/32708718482/in/album-72157679118130865/
+    image: "/uploads/Lost%20Gem%20-%20Icelandic%20Horse.jpg"
+    unsplash: 
 ---
 
 A common problem of working with a digital camera is the sheer amount of images you generate over time.
