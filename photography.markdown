@@ -16,3 +16,9 @@ In addition to my design work, I am a passionate landscape and time-lapse photog
 
 
 I am available for worldwide assignments and coaching. Contact me via kai.gradert@gmail.com for licensing and bookings.
+
+<figure>
+<img src="/uploads/Hero%20-%20Photography.jpg" alt="Kai Gradert Photography">
+<figcaption>
+</figcaption>
+</figure>
