@@ -1,7 +1,6 @@
 ---
 title: Photography
 date: 2017-02-13 09:10:00 -08:00
-published: false
 image: "/uploads/Hero%20-%20Photography.jpg"
 ---
 
