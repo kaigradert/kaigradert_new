@@ -3,6 +3,7 @@ title: Photography
 date: 2017-02-13 09:10:00 -08:00
 position: 3
 image: "/uploads/Hero%20-%20Photography.jpg"
+layout: default
 ---
 
 In addition to my design work, I am a passionate landscape and time-lapse photographer. You can view my photography and film work here:
