@@ -6,7 +6,7 @@ image: "/uploads/Hero%20-%20Photography.jpg"
 layout: default
 ---
 
-In addition to my work as dsigner, I am a passionate landscape and time-lapse photographer.
+In addition to my work as a designer, I am a passionate landscape and time-lapse photographer.
 
 * <a href="http://photos.kaigradert.com" target="_blank" title="Kai Gradert Photography Portfolio">View my photography work</a>
 * <a href="https://vimeo.com/kaigradert" target="_blank" title="Kai Gradert Timelapse Portfolio">View my timelapse work</a>
