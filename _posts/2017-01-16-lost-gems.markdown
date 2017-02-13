@@ -49,12 +49,19 @@ lost_gems:
     link: https://www.flickr.com/photos/kaigradert/32708718482/in/album-72157679118130865/
     image: "/uploads/Lost%20Gem%20-%20Icelandic%20Horse.jpg"
     unsplash: 
-  - week: Week6
+  - week: Week 6
     title: Curiosity
     caption: Eight months old. A short weekend camping trip with Aadi and friends.
     link: https://www.flickr.com/photos/kaigradert/32024923654/
     image: "/uploads/Lost%20Gem%20-%20Curiosity.jpg"
     unsplash: 
+  - week: Week 7
+    title: Morning Meditation
+    caption: A quiet Summer morning during a visit to Joe's and Martha's cabin in
+      Sierraville. Aadi started walking during this trip. Good times.
+    link: https://www.flickr.com/photos/kaigradert/32764031571/in/album-72157677641911010/
+    image: "/uploads/Lost%20Gem%20-%20Morning%20Meditation.jpg"
+    unsplash: https://unsplash.com/@kai
 ---
 
 A common problem of working with a digital camera is the amount of images you generate over time.
