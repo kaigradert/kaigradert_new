@@ -7,8 +7,8 @@ tags:
 - family
 lede: 'yes'
 images:
-- path: "/uploads/31475940574_60bf54db55_h.jpg"
-  title: Sunrise on the Rocks
+- path: "/uploads/Lost%20Gem%20-%20Morning%20Meditation.jpg"
+  title: Lost Gems
 lost_gems:
 - - week: Week 1
     title: Sunrise on the Rocks
