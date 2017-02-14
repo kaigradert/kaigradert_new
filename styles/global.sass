@@ -95,8 +95,8 @@ $widthPage:             1140px
 
 .pageInset
   +for(handheld)
-    margin-left: 0
-    margin-right: 0
+    margin-left: 5%
+    margin-right: 5%
   +for(tablet)
     margin-left: 10%
     margin-right: 10%
@@ -340,9 +340,9 @@ blockquote
 // ----------------------------------------------------------------------------
 
 article
-  margin-top: 6em
+  margin-top: 4em
   &:first-child
-    margin-top: 8em
+    margin-top: 7em
   &.lede
     >p:first-of-type
       border-bottom: 1px solid #d9d9d9
@@ -354,7 +354,7 @@ article
     @extend .pageInset
   figure
     display: block
-    margin: 3em auto
+    margin: 2em auto
     padding: 0
     &+figure
       margin-top: 2em
@@ -387,7 +387,7 @@ article
     color: $colorMuted
     display: block
     font-size: 14px
-    margin-top: 3em
+    margin-top: 8em
     white-space: nowrap
     span
       & + span:before
@@ -605,4 +605,4 @@ figure.video
 
 #disqus_thread
   @extend .pageInset
-  margin-top: 6em
+  margin-top: 8em
