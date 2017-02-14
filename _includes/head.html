@@ -1,42 +1,8 @@
 <head>
   <meta charset='utf-8'>
-  <title>{{ page.title }} | {{ site.title }}</title>
-  <meta content='on' http-equiv='cleartype'>
-  <meta content='True' name='HandheldFriendly'>
-  <meta content='width=device-width, minimum-scale=1, initial-scale=1' name='viewport'>
-  <!-- / FOR GOOGLE -->
-  <meta content='{{ site.description }}' name='description'>
-  <meta content='{{ site.keywords }}' name='keywords'>
-  <meta content='{{ page.title }} | {{ site.title }}' name='author'>
-  <meta content="All rights reserved. {{ site.time | date: '%Y' }} {{ site.title }}" name='copyright'>
-  <!-- / FOR FACEBOOK -->
-  <meta content='{{ page.title }} | {{ site.title }}' property='og:title'>
-  <meta content='article' property='og:type'>
-  {% if page.images %}
-  {% for image in page.images %}
-  <meta content='{{ site.url }}{{ image.path }}' property='og:image'>
-  {% endfor %}
-  {% else %}
-  <meta content='http://www.gravatar.com/avatar/{{ site.gravatar }}.png?s=400' property='og:image'>
-  {% endif %}
-  <meta content='{{ site.url }}/' property='og:url'>
-  <meta content='{{ site.description }}' property='og:description'>
-  <meta content='{{ page.title }} | {{ site.title }}' property='og:site_name'>
-  <meta content='1389774573' property='fb:admins'>
-  <!-- / FOR TWITTER -->
-  <meta content='summary' name='twitter:card'>
-  <meta content='{{ page.title }} | {{ site.title }}' name='twitter:title'>
-  <meta content='{{ site.description }}' name='twitter:description'>
-  {% if page.images %}
-  {% for image in page.images %}
-  <meta content='{{ site.url }}{{ image.path }}' name='twitter:image'>
-  {% endfor %}
-  {% else %}
-  <meta content='http://www.gravatar.com/avatar/{{ site.gravatar }}.png?s=400' name='twitter:image'>
-  {% endif %}
-  <meta content='http://www.gravatar.com/avatar/{{site.gravatar}}.png?s=400' name='twitter:image'>
-  <link href='/uploads/favicon.ico' rel='shortcut icon'>
+  {% include meta.html %}
   {% feed_meta %}
+  <link href='/uploads/favicon.ico' rel='shortcut icon'>
   <!-- / STYLE SHEETS -->
   <link href='/styles/global.css' rel='stylesheet' type='text/css'>
   <link href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css' media='screen' rel='stylesheet' type='text/css'>

@@ -1,0 +1,32 @@
+<title>{{ page.title }} | {{ site.title }}</title>
+<!-- / FOR GOOGLE -->
+<meta content='{{ site.description }}' name='description'>
+<meta content='{{ site.keywords }}' name='keywords'>
+<meta content='{{ site.author }}' name='author'>
+<meta content="All rights reserved. {{ site.time | date: '%Y' }} {{ site.title }}" name='copyright'>
+<!-- / FOR FACEBOOK -->
+<meta content='{{ page.title }} | {{ site.title }}' property='og:title'>
+<meta content='article' property='og:type'>
+{% if page.images %}
+{% for image in page.images %}
+<meta content='{{ site.url }}{{ image.path }}' property='og:image'>
+{% endfor %}
+{% else %}
+<meta content='http://www.gravatar.com/avatar/{{ site.gravatar }}.png?s=400' property='og:image'>
+{% endif %}
+<meta content='{{ site.url }}/' property='og:url'>
+<meta content='{{ site.description }}' property='og:description'>
+<meta content='{{ page.title }} | {{ site.title }}' property='og:site_name'>
+<meta content='1389774573' property='fb:admins'>
+<!-- / FOR TWITTER -->
+<meta content='summary' name='twitter:card'>
+<meta content='@kaigradert' name='twitter:site'>
+<meta content='{{ page.title }} | {{ site.title }}' name='twitter:title'>
+<meta content='{{ site.description }}' name='twitter:description'>
+{% if page.images %}
+{% for image in page.images %}
+<meta content='{{ site.url }}{{ image.path }}' name='twitter:image'>
+{% endfor %}
+{% else %}
+<meta content='http://www.gravatar.com/avatar/{{ site.gravatar }}.png?s=400' name='twitter:image'>
+{% endif %}
