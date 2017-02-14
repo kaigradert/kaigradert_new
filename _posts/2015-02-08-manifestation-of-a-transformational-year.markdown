@@ -6,7 +6,7 @@ tags:
 - travel
 - video
 images:
-- path: "/uploads/12757544133_7bbc494dcc_h.jpg"
+- path: "/uploads/20140222-_MG_1679-Edit_kaigradert.jpg"
 ---
 
 2014 has been a transformational year. The birth of our son, relocation to a new city, closure of one startup adventure, the beginning of another startup journey and the launch of various big design projects.
