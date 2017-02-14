@@ -1,8 +1,0 @@
-*.codekit3
-*.haml
-*.sass
-.DS_Store
-.jekyll-metadata
-.sass-cache
-.tm_properties
-_site
