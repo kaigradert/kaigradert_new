@@ -47,9 +47,12 @@ contact:
   LinkedIn: http://www.linkedin.com/in/kaigradert
   SmugMug: https://kaigradert.smugmug.com/
   Twitter: https://twitter.com/kaigradert
-baseurl: 
+baseurl:
 permalink: pretty
 markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
 gems:
 - jekyll-feed
 - jekyll-sitemap
@@ -58,3 +61,4 @@ exclude:
 - Gemfile.lock
 - config.codekit3
 - styles/global.sass
+- ".gitignore"
