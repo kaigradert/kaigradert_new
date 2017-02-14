@@ -20,7 +20,7 @@ All had their place in time, and each provided a marginally better solution than
 
 Let's have a closer a look at what defines the core experience for the current version of Apple TV.
 
-####Responsive Interface
+#### Responsive Interface
 
 This one is so obvious; it shouldn't even be a called out. But it's a feature that is easily overlooked and often ignored.
 
@@ -30,7 +30,7 @@ Traditional set-top boxes experience a noticeable lack of pressing a button and 
 
 Once you get used to the responsive interface, there is simply no going back. Especially since consumers nowadays are used to responsive onscreen interactions through their touch devices.
 
-####Relevant Content
+#### Relevant Content
 
 Netflix used to be at the forefront of new releases for movies and TV shows. They had a vast catalog, made it easy to browse the catalog, and had a delivery system in place that was relatively fast and easy for the time. Then Netflix changed their entire model, and all the sudden they became (mostly) obsolete.
 
@@ -40,7 +40,7 @@ Our viewing habits have drastically changed over the past two years. From <em>pa
 
 The Apple catalog is not complete, but adding more content is easy once you have the core user experience and delivery system in place. Expect Apple to add more <em>a la carte</em> channels and services over time.
 
-####Incremental (Pay As You Go) Billing
+#### Incremental (Pay As You Go) Billing
 
 This is a sneaky one, but I am surprised how much I like it. To a point where I lost track how much I spend on movies each month.
 
@@ -50,7 +50,7 @@ In the past, out of all the monthly bills, the cable bill was always an annoyanc
 
 With millions of Apple accounts already linked to credit cards, it's a market that is waiting to be unlocked for on-demand content and incremental billing.
 
-####Rich Experience
+#### Rich Experience
 
 With the mass adoption of smartphones and beautifully designed apps, consumers have developed a new appreciation for design.
 
@@ -60,7 +60,7 @@ The design is part of the DNA and culture of Apple. It's baked into all their pr
 
 That's not something I would necessarily expect from cable providers. They have been stuck in the tracks for too long with their set-top boxes.
 
-####It's Ready, and It's Here!
+#### It's Ready, and It's Here!
 
 No doubt Apple can deliver beautifully designed TVs, with iSight, FaceTime, WiFi, and WhatNot built-in. But something is disconcerting about it.
 
@@ -70,7 +70,7 @@ A TV is unlike any other Apple product you might own. You don't have an emotiona
 
 The experience of a TV is on the screen, interface and the content.
 
-####Conclusion
+#### Conclusion
 
 I have no insights if Apple will release a TV. But, I wouldn't be surprised if their strategy is to put everybody on a wild goose-chase to figure out what silly features, widgets and gadgets to add to their devices.
 
@@ -78,6 +78,4 @@ Google TV already fell for this when they released their first version. It was s
 
 So maybe while everybody expects Apple to come out with big beautiful screens that <em><a href="http://www.forbes.com/sites/briancaulfield/2011/10/21/steve-jobs-on-tv-i-finally-cracked-it/" title="Steve Jobs On TV: 'I Finally Cracked It'">‘seamlessly sync with all of your devices and iCloud’</a></em>, they quietly partner with network and content providers to roll-out inexpensive set-top boxes to a mass audience.
 
-Apple TV… brought to you by Comcast, Time Warner, Charter, and AT&T. Just a wild guess on my part, though.
-
-Either way, I am perfectly happy with a $99 box and a TV of my choice. For now anyways ;-)
+Apple TV… brought to you by Comcast, Time Warner, Charter, and AT&T. Just a wild guess on my part, though. Either way, I am perfectly happy with a $99 box and a TV of my choice. For now anyways ;-)
