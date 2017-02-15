@@ -296,16 +296,33 @@ blockquote
     display: inline-block
     padding: $linkPadding
   h1
-    +fontSansSerif
     color: inherit
     float: left
     font-size: inherit
     line-height: inherit
+    +for(handheld)
+      +fontSansSerif(bold)
+    +for(tablet)
+      +fontSansSerif(normal)
+    +for(desktop)
+      +fontSansSerif(normal)
   nav
     +fontSansSerif
     float: right
     font-size: inherit
     line-height: inherit
+    +for(handheld)
+      clear: both
+      float: none
+      margin-top: 2.4em
+    +for(tablet)
+      clear: none
+      float: right
+      margin-top: 0
+    +for(desktop)
+      clear: none
+      float: right
+      margin-top: 0
     a + a
       +for(handheld)
         margin-left: .5em
@@ -388,7 +405,6 @@ article
     display: block
     font-size: 14px
     margin-top: 8em
-    white-space: nowrap
     span
       & + span:before
         content: ", "
