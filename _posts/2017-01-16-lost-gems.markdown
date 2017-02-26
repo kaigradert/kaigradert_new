@@ -7,7 +7,7 @@ tags:
 - family
 lede: 'yes'
 images:
-- path: "/uploads/Lost%20Gem%20-%20Morning%20Meditation.jpg"
+- path: "/uploads/Lost%20Gem%20-%20Day%20Hike%20at%20the%20Griffith%20Observatory.jpg"
   title: Lost Gems
 lost_gems:
 - - week: Week 1
