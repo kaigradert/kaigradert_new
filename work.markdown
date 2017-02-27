@@ -1,7 +1,7 @@
 ---
 title: Work
 date: 2013-06-15 15:53:00 -07:00
-position: 2
+position: 1
 lede: 'yes'
 layout: default
 ---
