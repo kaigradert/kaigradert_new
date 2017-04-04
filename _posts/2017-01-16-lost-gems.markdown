@@ -7,7 +7,7 @@ tags:
 - family
 lede: 'yes'
 images:
-- path: "/uploads/20141223-_MG_0141-Edit-2.jpg"
+- path: "/uploads/_MG_5968-Edit.jpg"
   title: Lost Gems
 lost_gems:
 - - week: Week 1
