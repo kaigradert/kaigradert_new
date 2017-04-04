@@ -74,6 +74,12 @@ lost_gems:
     link: https://www.flickr.com/photos/kaigradert/33697870091/in/album-72157677641911010/
     image: "/uploads/20141223-_MG_0141-Edit-2.jpg"
     unsplash: https://unsplash.com/@kai
+  - week: Week 10
+    title: Black Rock
+    caption: Rock formation on a black sand beach in Iceland
+    link: https://www.flickr.com/photos/kaigradert/33671321972/in/album-72157663559026033/
+    image: "/uploads/20150323-2015-03-23_143139__MG_9747-Edit.jpg"
+    unsplash: 
 ---
 
 A common problem of working with a digital camera is the number of images you generate over time.
