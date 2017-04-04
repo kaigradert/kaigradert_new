@@ -7,7 +7,7 @@ tags:
 - family
 lede: 'yes'
 images:
-- path: "/uploads/Lost%20Gem%20-%20Day%20Hike%20at%20the%20Griffith%20Observatory.jpg"
+- path: "/uploads/20141223-_MG_0141-Edit-2.jpg"
   title: Lost Gems
 lost_gems:
 - - week: Week 1
@@ -68,6 +68,54 @@ lost_gems:
     link: https://www.flickr.com/photos/kaigradert/32734730090/in/album-72157677641911010/
     image: "/uploads/Lost%20Gem%20-%20Day%20Hike%20at%20the%20Griffith%20Observatory.jpg"
     unsplash: https://unsplash.com/@kai
+- - week: Week 9
+    title: Buttery Sky
+    caption: On a cold winter evening in Palm Springs.
+    link: https://www.flickr.com/photos/kaigradert/33697870091/in/album-72157677641911010/
+    image: "/uploads/20141223-_MG_0141-Edit-2.jpg"
+    unsplash: https://unsplash.com/@kai
+  - week: 
+    title: 
+    caption: 
+    link: 
+    image: 
+    unsplash: 
+  - week: 
+    title: 
+    caption: 
+    link: 
+    image: 
+    unsplash: 
+  - week: 
+    title: 
+    caption: 
+    link: 
+    image: 
+    unsplash: 
+  - week: 
+    title: 
+    caption: 
+    link: 
+    image: 
+    unsplash: 
+  - week: 
+    title: 
+    caption: 
+    link: 
+    image: 
+    unsplash: 
+  - week: 
+    title: 
+    caption: 
+    link: 
+    image: 
+    unsplash: 
+  - week: 
+    title: 
+    caption: 
+    link: 
+    image: 
+    unsplash: 
 ---
 
 A common problem of working with a digital camera is the number of images you generate over time.
