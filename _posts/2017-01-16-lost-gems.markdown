@@ -78,7 +78,7 @@ lost_gems:
     title: Black Rock
     caption: Rock formation on a black sand beach in Iceland
     link: https://www.flickr.com/photos/kaigradert/33671321972/in/album-72157663559026033/
-    image: "/uploads/20150323-2015-03-23_143139__MG_9747-Edit.jpg"
+    image: "/uploads/0150323-2015-03-23_143139__MG_9747-Edit.jpg"
     unsplash: 
 ---
 
