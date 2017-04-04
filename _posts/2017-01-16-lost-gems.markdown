@@ -80,6 +80,12 @@ lost_gems:
     link: https://www.flickr.com/photos/kaigradert/33671321972/in/album-72157663559026033/
     image: "/uploads/0150323-2015-03-23_143139__MG_9747-Edit.jpg"
     unsplash: 
+  - week: Week 11
+    title: Golden Gate
+    caption: A calm and clear morning at the Golden Gate Bridge.
+    link: https://www.flickr.com/photos/kaigradert/33002109614/in/album-72157663559026033/
+    image: "/uploads/_MG_5968-Edit.jpg"
+    unsplash: 
 ---
 
 A common problem of working with a digital camera is the number of images you generate over time.
