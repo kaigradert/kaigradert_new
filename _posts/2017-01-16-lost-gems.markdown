@@ -86,6 +86,12 @@ lost_gems:
     link: https://www.flickr.com/photos/kaigradert/33002109614/in/album-72157663559026033/
     image: "/uploads/MG_5968-Edit.jpg"
     unsplash: 
+  - week: Week 12
+    title: Converse All Star
+    caption: Experimenting light painting with an old pair of sneakers.
+    link: https://www.flickr.com/photos/kaigradert/33699200951/in/album-72157677641911010/
+    image: "/uploads/20150123-_MG_0007-Edit.jpg"
+    unsplash: https://unsplash.com/@kai
 ---
 
 A common problem of working with a digital camera is the number of images you generate over time.
