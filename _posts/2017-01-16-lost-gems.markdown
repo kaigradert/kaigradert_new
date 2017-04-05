@@ -90,7 +90,7 @@ lost_gems:
     title: Converse All Star
     caption: Experimenting light painting with an old pair of sneakers.
     link: https://www.flickr.com/photos/kaigradert/33699200951/in/album-72157677641911010/
-    image: "/uploads/20150123-_MG_0007-Edit.jpg"
+    image: "/uploads/20150123-_MG_0007.jpg"
     unsplash: https://unsplash.com/@kai
 ---
 
