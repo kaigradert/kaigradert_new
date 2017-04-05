@@ -7,7 +7,7 @@ tags:
 - family
 lede: 'yes'
 images:
-- path: "/uploads/_MG_5968-Edit.jpg"
+- path: "/uploads/MG_5968-Edit.jpg"
   title: Lost Gems
 lost_gems:
 - - week: Week 1
@@ -84,7 +84,7 @@ lost_gems:
     title: Golden Gate
     caption: A calm and clear morning at the Golden Gate Bridge.
     link: https://www.flickr.com/photos/kaigradert/33002109614/in/album-72157663559026033/
-    image: "/uploads/_MG_5968-Edit.jpg"
+    image: "/uploads/MG_5968-Edit.jpg"
     unsplash: 
 ---
 
