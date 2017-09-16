@@ -1,6 +1,7 @@
 ---
 title: Timelapse Footage
 date: 2017-09-15 22:23:00 -07:00
+lede: 'yes'
 ---
 
 My work has appeared in documentary movies, commercials, magazines and on television. I am available for worldwide assignments and coaching.
