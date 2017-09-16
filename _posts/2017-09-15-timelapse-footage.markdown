@@ -19,7 +19,7 @@ Go…
 
 ### Yosemite
 
-Go…
+<iframe src="https://player.vimeo.com/video/234065743?color=ffffff&byline=0&portrait=0" width="640" height="427" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ### Utah & Arizona
 
