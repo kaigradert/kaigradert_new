@@ -15,12 +15,13 @@ All of my stock footage is available for licensing in stunning 4K resolution (8K
 
 ### Joshua Tree
 
-Go…
+<iframe src="https://player.vimeo.com/video/234063680?color=ffffff&byline=0&portrait=0" width="640" height="427" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ### Yosemite
 
-<iframe src="https://player.vimeo.com/video/234065743?color=ffffff&byline=0&portrait=0" width="640" height="427" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/234066661?color=ffffff&byline=0&portrait=0" width="640" height="427" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ### Utah & Arizona
 
-Go…
+<iframe src="https://player.vimeo.com/video/234060706?color=ffffff&byline=0&portrait=0" width="640" height="427" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/234060706">Arizona - Horseshoe Bend - Daytime - Clouds - Motion Control - 4K Timelapse</a> from <a href="https://vimeo.com/kaigradert">Kai Gradert</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
