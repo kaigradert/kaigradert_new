@@ -1,7 +1,6 @@
 ---
 title: Timelapse Footage
 date: 2017-09-15 22:23:00 -07:00
-published: false
 tags:
 - video
 - photography
