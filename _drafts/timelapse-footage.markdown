@@ -8,10 +8,14 @@ My work has appeared in documentary movies, commercials, magazines and on televi
 
 All of my stock footage is available for licensing in stunning 4K resolution (8K resolution is available for selected clips).  My stock footage is flicker-free, tack-sharp, and ready for production. Please contact hello@kaigradert.com if you are interested in my work or would like to discuss a new project.
 
-# Joshua Tree
+### Joshua Tree
 
 Go…
 
-# Yosemite
+### Yosemite
 
-# Utah & Arizona
+Go…
+
+### Utah & Arizona
+
+Go…
