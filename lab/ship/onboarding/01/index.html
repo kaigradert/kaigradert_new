@@ -1,0 +1,2005 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.5, maximum-scale=0.5, user-scalable=no">
+        <style>
+            body {
+                height:100%;
+                overflow: hidden;
+            }
+            html {
+                height:100%;
+            }
+        </style>
+		<script>
+			var MADebugMode = false;
+			var mitya = {};
+			var m = mitya;
+		</script>
+        <script>
+            var mityaSettings = {
+  "screenWidth" : 1280,
+  "screenHeight" : 960,
+  "screenDensity" : 1,
+  "imageFilepathPrefix" : ""
+};
+            var userCodeOnEnter = '';
+            var screens = [
+  {
+    "height" : 960,
+    "uid" : "9B674855-A9E9-4730-B181-DB4A049125E8",
+    "homeScreen" : true,
+    "layers" : [
+      {
+        "sketchClassName" : "MSLayerGroup",
+        "uid" : "B5F86932-C116-4A2D-8923-04703AA4B3D0",
+        "rotation" : -0,
+        "shadowRadius" : 0,
+        "width" : 1280,
+        "screenTransitions" : [
+          {
+            "action" : "On Load",
+            "uid" : "7694DDF1-98C7-4061-98E6-F0935CE4E8B2-13229-0000B70C97DB1F77",
+            "toScreenId" : "ACB704A2-5DEE-4706-ADA8-28916E6CF7FC",
+            "animation" : "Timeline",
+            "fromScreenId" : "9B674855-A9E9-4730-B181-DB4A049125E8",
+            "timelines" : [
+              {
+                "timelineLayers" : [
+                  {
+                    "guid" : "layout",
+                    "animationBands" : [
+
+                    ]
+                  },
+                  {
+                    "guid" : "main",
+                    "animationBands" : [
+                      {
+                        "transitions" : [
+                          {
+                            "c1y" : 0.46,
+                            "animationKey" : "x",
+                            "gsapEase" : "CustomEase.create('','0.250000,0.460000,0.450000,0.940000')",
+                            "controlPoints" : "0.25,0.46,0.45,0.94",
+                            "active" : true,
+                            "c2x" : 0.45,
+                            "previousEasingDuration" : 0.20000000298023224,
+                            "damping" : 30,
+                            "type" : 0,
+                            "keyframes" : [
+                              {
+                                "value" : 300,
+                                "time" : 0,
+                                "parsedValue" : 300
+                              },
+                              {
+                                "value" : 200,
+                                "time" : 0.30000001192092896,
+                                "parsedValue" : 200
+                              }
+                            ],
+                            "stiffness" : 300,
+                            "c2y" : 0.94,
+                            "c1x" : 0.25,
+                            "mass" : 3
+                          }
+                        ],
+                        "animationKey" : "x"
+                      }
+                    ]
+                  },
+                  {
+                    "guid" : "sidebar",
+                    "animationBands" : [
+                      {
+                        "transitions" : [
+                          {
+                            "c1y" : 0.46,
+                            "animationKey" : "x",
+                            "gsapEase" : "CustomEase.create('','0.250000,0.460000,0.450000,0.940000')",
+                            "controlPoints" : "0.25,0.46,0.45,0.94",
+                            "active" : true,
+                            "c2x" : 0.45,
+                            "previousEasingDuration" : 0.20000000298023224,
+                            "damping" : 30,
+                            "type" : 0,
+                            "keyframes" : [
+                              {
+                                "value" : 1277,
+                                "time" : 0,
+                                "parsedValue" : 1277
+                              },
+                              {
+                                "value" : 876,
+                                "time" : 0.30000001192092896,
+                                "parsedValue" : 876
+                              }
+                            ],
+                            "stiffness" : 300,
+                            "c2y" : 0.94,
+                            "c1x" : 0.25,
+                            "mass" : 3
+                          }
+                        ],
+                        "animationKey" : "x"
+                      }
+                    ]
+                  },
+                  {
+                    "guid" : "tooltip--step_3",
+                    "animationBands" : [
+
+                    ]
+                  },
+                  {
+                    "guid" : "tooltip--step_2",
+                    "animationBands" : [
+
+                    ]
+                  },
+                  {
+                    "guid" : "tooltip--step_1",
+                    "animationBands" : [
+                      {
+                        "transitions" : [
+                          {
+                            "c1y" : 0.46,
+                            "animationKey" : "opacity",
+                            "gsapEase" : "CustomEase.create('','0.250000,0.460000,0.450000,0.940000')",
+                            "controlPoints" : "0.25,0.46,0.45,0.94",
+                            "active" : true,
+                            "c2x" : 0.45,
+                            "previousEasingDuration" : 0.20000000298023224,
+                            "damping" : 30,
+                            "type" : 0,
+                            "keyframes" : [
+                              {
+                                "value" : 0,
+                                "time" : 0.20000000298023224,
+                                "parsedValue" : 0
+                              },
+                              {
+                                "value" : 1,
+                                "time" : 0.69999998807907104,
+                                "parsedValue" : 1
+                              }
+                            ],
+                            "stiffness" : 300,
+                            "c2y" : 0.94,
+                            "c1x" : 0.25,
+                            "mass" : 3
+                          }
+                        ],
+                        "animationKey" : "opacity"
+                      }
+                    ]
+                  }
+                ],
+                "duration" : 0.69999998807907104,
+                "active" : true
+              }
+            ],
+            "type" : 0,
+            "parentScreenTransitionUid" : "",
+            "autoReturn" : 0
+          }
+        ],
+        "borderOptions" : {
+          "lineCap" : "butt",
+          "lineDash" : "100%"
+        },
+        "borderColor" : "rgba(0,0,0,0.000000)",
+        "opacity" : 1,
+        "clip" : false,
+        "parentLayerUid" : "",
+        "left" : 0,
+        "hidden" : false,
+        "overrides" : {
+
+        },
+        "blendingMode" : "normal",
+        "shadowOffsetY" : 0,
+        "isSymbolInstance" : false,
+        "path" : "",
+        "flattenGroup" : true,
+        "backgroundColor" : "rgba(0,0,0,0.000000)",
+        "userCode" : "",
+        "index" : 0,
+        "parentScreenUid" : "9B674855-A9E9-4730-B181-DB4A049125E8",
+        "shadowColor" : "rgba(0,0,0,0.000000)",
+        "name" : "layout",
+        "height" : 960,
+        "borderWidth" : 0,
+        "top" : 0,
+        "isGroup" : false,
+        "verticalScroll" : false,
+        "parentLayerGuid" : "",
+        "imagePath" : "Final-Onboarding-01-images\/layout.png",
+        "cornerRadius" : 0,
+        "rasterized" : true,
+        "horizontalScroll" : false,
+        "shadowOffsetX" : 0,
+        "x" : 0,
+        "guid" : "layout",
+        "scale" : 1,
+        "parentSymbolID" : "",
+        "y" : 0
+      },
+      {
+        "sketchClassName" : "MSLayerGroup",
+        "uid" : "6ECF10E6-2ED5-4B9D-AFFA-DA37027DF9AE",
+        "rotation" : -0,
+        "shadowRadius" : 0,
+        "width" : 560,
+        "borderOptions" : {
+          "lineCap" : "butt",
+          "lineDash" : "100%"
+        },
+        "borderColor" : "rgba(0,0,0,0.000000)",
+        "opacity" : 1,
+        "clip" : false,
+        "parentLayerUid" : "",
+        "left" : 300,
+        "hidden" : false,
+        "overrides" : {
+
+        },
+        "blendingMode" : "normal",
+        "shadowOffsetY" : 0,
+        "isSymbolInstance" : false,
+        "path" : "",
+        "flattenGroup" : true,
+        "backgroundColor" : "rgba(0,0,0,0.000000)",
+        "userCode" : "",
+        "index" : 1,
+        "parentScreenUid" : "9B674855-A9E9-4730-B181-DB4A049125E8",
+        "shadowColor" : "rgba(0,0,0,0.000000)",
+        "name" : "main",
+        "height" : 632,
+        "borderWidth" : 0,
+        "top" : 164,
+        "isGroup" : false,
+        "verticalScroll" : false,
+        "parentLayerGuid" : "",
+        "imagePath" : "Final-Onboarding-01-images\/main.png",
+        "cornerRadius" : 0,
+        "rasterized" : true,
+        "horizontalScroll" : false,
+        "shadowOffsetX" : 0,
+        "x" : 300,
+        "guid" : "main",
+        "scale" : 1,
+        "parentSymbolID" : "",
+        "y" : 164
+      },
+      {
+        "sketchClassName" : "MSLayerGroup",
+        "uid" : "00427B76-7AB8-4BCD-BBC4-C52063CEB7F1",
+        "rotation" : -0,
+        "shadowRadius" : 0,
+        "width" : 405,
+        "borderOptions" : {
+          "lineCap" : "butt",
+          "lineDash" : "100%"
+        },
+        "borderColor" : "rgba(0,0,0,0.000000)",
+        "opacity" : 1,
+        "clip" : false,
+        "parentLayerUid" : "",
+        "left" : 1277,
+        "hidden" : false,
+        "overrides" : {
+
+        },
+        "blendingMode" : "normal",
+        "shadowOffsetY" : 0,
+        "isSymbolInstance" : false,
+        "path" : "",
+        "flattenGroup" : true,
+        "backgroundColor" : "rgba(0,0,0,0.000000)",
+        "userCode" : "",
+        "index" : 2,
+        "parentScreenUid" : "9B674855-A9E9-4730-B181-DB4A049125E8",
+        "shadowColor" : "rgba(0,0,0,0.000000)",
+        "name" : "sidebar",
+        "height" : 964,
+        "borderWidth" : 0,
+        "top" : -2,
+        "isGroup" : false,
+        "verticalScroll" : false,
+        "parentLayerGuid" : "",
+        "imagePath" : "Final-Onboarding-01-images\/sidebar.png",
+        "cornerRadius" : 0,
+        "rasterized" : true,
+        "horizontalScroll" : false,
+        "shadowOffsetX" : 0,
+        "x" : 1277,
+        "guid" : "sidebar",
+        "scale" : 1,
+        "parentSymbolID" : "",
+        "y" : -2
+      },
+      {
+        "sketchClassName" : "MSLayerGroup",
+        "uid" : "B16E5002-1CA7-441A-AD6D-68E025699A9C",
+        "rotation" : -0,
+        "shadowRadius" : 0,
+        "width" : 323,
+        "borderOptions" : {
+          "lineCap" : "butt",
+          "lineDash" : "100%"
+        },
+        "borderColor" : "rgba(0,0,0,0.000000)",
+        "opacity" : 0,
+        "clip" : false,
+        "parentLayerUid" : "",
+        "left" : 546,
+        "hidden" : false,
+        "overrides" : {
+
+        },
+        "blendingMode" : "normal",
+        "shadowOffsetY" : 0,
+        "isSymbolInstance" : false,
+        "path" : "",
+        "flattenGroup" : true,
+        "backgroundColor" : "rgba(0,0,0,0.000000)",
+        "userCode" : "",
+        "index" : 3,
+        "parentScreenUid" : "9B674855-A9E9-4730-B181-DB4A049125E8",
+        "shadowColor" : "rgba(0,0,0,0.000000)",
+        "name" : "tooltip--step_3",
+        "height" : 180,
+        "borderWidth" : 0,
+        "top" : 566,
+        "isGroup" : false,
+        "verticalScroll" : false,
+        "parentLayerGuid" : "",
+        "imagePath" : "Final-Onboarding-01-images\/tooltip--step_3.png",
+        "cornerRadius" : 0,
+        "rasterized" : true,
+        "horizontalScroll" : false,
+        "shadowOffsetX" : 0,
+        "x" : 546,
+        "guid" : "tooltip--step_3",
+        "scale" : 1,
+        "parentSymbolID" : "",
+        "y" : 566
+      },
+      {
+        "sketchClassName" : "MSLayerGroup",
+        "uid" : "E3BAA0F0-E283-4734-825D-013AC0E3592C",
+        "rotation" : -0,
+        "shadowRadius" : 0,
+        "width" : 323,
+        "borderOptions" : {
+          "lineCap" : "butt",
+          "lineDash" : "100%"
+        },
+        "borderColor" : "rgba(0,0,0,0.000000)",
+        "opacity" : 0,
+        "clip" : false,
+        "parentLayerUid" : "",
+        "left" : 546,
+        "hidden" : false,
+        "overrides" : {
+
+        },
+        "blendingMode" : "normal",
+        "shadowOffsetY" : 0,
+        "isSymbolInstance" : false,
+        "path" : "",
+        "flattenGroup" : true,
+        "backgroundColor" : "rgba(0,0,0,0.000000)",
+        "userCode" : "",
+        "index" : 4,
+        "parentScreenUid" : "9B674855-A9E9-4730-B181-DB4A049125E8",
+        "shadowColor" : "rgba(0,0,0,0.000000)",
+        "name" : "tooltip--step_2",
+        "height" : 152,
+        "borderWidth" : 0,
+        "top" : 353,
+        "isGroup" : false,
+        "verticalScroll" : false,
+        "parentLayerGuid" : "",
+        "imagePath" : "Final-Onboarding-01-images\/tooltip--step_2.png",
+        "cornerRadius" : 0,
+        "rasterized" : true,
+        "horizontalScroll" : false,
+        "shadowOffsetX" : 0,
+        "x" : 546,
+        "guid" : "tooltip--step_2",
+        "scale" : 1,
+        "parentSymbolID" : "",
+        "y" : 353
+      },
+      {
+        "sketchClassName" : "MSLayerGroup",
+        "uid" : "CE2B8941-03B2-439B-B9C0-B5241D1B265F",
+        "rotation" : -0,
+        "shadowRadius" : 0,
+        "width" : 323,
+        "borderOptions" : {
+          "lineCap" : "butt",
+          "lineDash" : "100%"
+        },
+        "borderColor" : "rgba(0,0,0,0.000000)",
+        "opacity" : 0,
+        "clip" : false,
+        "parentLayerUid" : "",
+        "left" : 546,
+        "hidden" : false,
+        "overrides" : {
+
+        },
+        "blendingMode" : "normal",
+        "shadowOffsetY" : 0,
+        "isSymbolInstance" : false,
+        "path" : "",
+        "flattenGroup" : true,
+        "backgroundColor" : "rgba(0,0,0,0.000000)",
+        "userCode" : "",
+        "index" : 5,
+        "parentScreenUid" : "9B674855-A9E9-4730-B181-DB4A049125E8",
+        "shadowColor" : "rgba(0,0,0,0.000000)",
+        "name" : "tooltip--step_1",
+        "height" : 180,
+        "borderWidth" : 0,
+        "top" : 140,
+        "isGroup" : false,
+        "verticalScroll" : false,
+        "parentLayerGuid" : "",
+        "imagePath" : "Final-Onboarding-01-images\/tooltip--step_1.png",
+        "cornerRadius" : 0,
+        "rasterized" : true,
+        "horizontalScroll" : false,
+        "shadowOffsetX" : 0,
+        "x" : 546,
+        "guid" : "tooltip--step_1",
+        "scale" : 1,
+        "parentSymbolID" : "",
+        "y" : 140
+      }
+    ],
+    "width" : 1280,
+    "userCodeOnEnter" : "",
+    "symbolID" : "",
+    "name" : "100 New Site"
+  },
+  {
+    "height" : 960,
+    "uid" : "ACB704A2-5DEE-4706-ADA8-28916E6CF7FC",
+    "homeScreen" : false,
+    "layers" : [
+      {
+        "sketchClassName" : "MSLayerGroup",
+        "uid" : "2924878D-37CD-4C3E-B1BE-C110458FFB2A",
+        "rotation" : -0,
+        "shadowRadius" : 0,
+        "width" : 1280,
+        "borderOptions" : {
+          "lineCap" : "butt",
+          "lineDash" : "100%"
+        },
+        "borderColor" : "rgba(0,0,0,0.000000)",
+        "opacity" : 1,
+        "clip" : false,
+        "parentLayerUid" : "",
+        "left" : 0,
+        "hidden" : false,
+        "overrides" : {
+
+        },
+        "blendingMode" : "normal",
+        "shadowOffsetY" : 0,
+        "isSymbolInstance" : false,
+        "path" : "",
+        "flattenGroup" : true,
+        "backgroundColor" : "rgba(0,0,0,0.000000)",
+        "userCode" : "",
+        "index" : 0,
+        "parentScreenUid" : "ACB704A2-5DEE-4706-ADA8-28916E6CF7FC",
+        "shadowColor" : "rgba(0,0,0,0.000000)",
+        "name" : "layout",
+        "height" : 960,
+        "borderWidth" : 0,
+        "top" : 0,
+        "isGroup" : false,
+        "verticalScroll" : false,
+        "parentLayerGuid" : "",
+        "imagePath" : "Final-Onboarding-01-images\/layout.png",
+        "cornerRadius" : 0,
+        "rasterized" : true,
+        "horizontalScroll" : false,
+        "shadowOffsetX" : 0,
+        "x" : 0,
+        "guid" : "layout",
+        "scale" : 1,
+        "parentSymbolID" : "",
+        "y" : 0
+      },
+      {
+        "sketchClassName" : "MSLayerGroup",
+        "uid" : "FD4B577D-CA16-499B-A3D7-481D2CEBE6EA",
+        "rotation" : -0,
+        "shadowRadius" : 0,
+        "width" : 560,
+        "borderOptions" : {
+          "lineCap" : "butt",
+          "lineDash" : "100%"
+        },
+        "borderColor" : "rgba(0,0,0,0.000000)",
+        "opacity" : 1,
+        "clip" : false,
+        "parentLayerUid" : "",
+        "left" : 200,
+        "hidden" : false,
+        "overrides" : {
+
+        },
+        "blendingMode" : "normal",
+        "shadowOffsetY" : 0,
+        "isSymbolInstance" : false,
+        "path" : "",
+        "flattenGroup" : true,
+        "backgroundColor" : "rgba(0,0,0,0.000000)",
+        "userCode" : "",
+        "index" : 1,
+        "parentScreenUid" : "ACB704A2-5DEE-4706-ADA8-28916E6CF7FC",
+        "shadowColor" : "rgba(0,0,0,0.000000)",
+        "name" : "main",
+        "height" : 632,
+        "borderWidth" : 0,
+        "top" : 164,
+        "isGroup" : false,
+        "verticalScroll" : false,
+        "parentLayerGuid" : "",
+        "imagePath" : "Final-Onboarding-01-images\/main.png",
+        "cornerRadius" : 0,
+        "rasterized" : true,
+        "horizontalScroll" : false,
+        "shadowOffsetX" : 0,
+        "x" : 200,
+        "guid" : "main",
+        "scale" : 1,
+        "parentSymbolID" : "",
+        "y" : 164
+      },
+      {
+        "sketchClassName" : "MSLayerGroup",
+        "uid" : "903A4FDD-51DE-4688-B6CB-47C8F8432CC8",
+        "rotation" : -0,
+        "shadowRadius" : 0,
+        "width" : 405,
+        "borderOptions" : {
+          "lineCap" : "butt",
+          "lineDash" : "100%"
+        },
+        "borderColor" : "rgba(0,0,0,0.000000)",
+        "opacity" : 1,
+        "clip" : false,
+        "parentLayerUid" : "",
+        "left" : 876,
+        "hidden" : false,
+        "overrides" : {
+
+        },
+        "blendingMode" : "normal",
+        "shadowOffsetY" : 0,
+        "isSymbolInstance" : false,
+        "path" : "",
+        "flattenGroup" : true,
+        "backgroundColor" : "rgba(0,0,0,0.000000)",
+        "userCode" : "",
+        "index" : 2,
+        "parentScreenUid" : "ACB704A2-5DEE-4706-ADA8-28916E6CF7FC",
+        "shadowColor" : "rgba(0,0,0,0.000000)",
+        "name" : "sidebar",
+        "height" : 964,
+        "borderWidth" : 0,
+        "top" : -2,
+        "isGroup" : false,
+        "verticalScroll" : false,
+        "parentLayerGuid" : "",
+        "imagePath" : "Final-Onboarding-01-images\/sidebar.png",
+        "cornerRadius" : 0,
+        "rasterized" : true,
+        "horizontalScroll" : false,
+        "shadowOffsetX" : 0,
+        "x" : 876,
+        "guid" : "sidebar",
+        "scale" : 1,
+        "parentSymbolID" : "",
+        "y" : -2
+      },
+      {
+        "sketchClassName" : "MSLayerGroup",
+        "uid" : "AD7F4CA9-CEBC-4F3B-8B48-B2DD58687696",
+        "rotation" : -0,
+        "shadowRadius" : 0,
+        "width" : 323,
+        "borderOptions" : {
+          "lineCap" : "butt",
+          "lineDash" : "100%"
+        },
+        "borderColor" : "rgba(0,0,0,0.000000)",
+        "opacity" : 0,
+        "clip" : false,
+        "parentLayerUid" : "",
+        "left" : 546,
+        "hidden" : false,
+        "overrides" : {
+
+        },
+        "blendingMode" : "normal",
+        "shadowOffsetY" : 0,
+        "isSymbolInstance" : false,
+        "path" : "",
+        "flattenGroup" : true,
+        "backgroundColor" : "rgba(0,0,0,0.000000)",
+        "userCode" : "",
+        "index" : 3,
+        "parentScreenUid" : "ACB704A2-5DEE-4706-ADA8-28916E6CF7FC",
+        "shadowColor" : "rgba(0,0,0,0.000000)",
+        "name" : "tooltip--step_3",
+        "height" : 180,
+        "borderWidth" : 0,
+        "top" : 566,
+        "isGroup" : false,
+        "verticalScroll" : false,
+        "parentLayerGuid" : "",
+        "imagePath" : "Final-Onboarding-01-images\/tooltip--step_3.png",
+        "cornerRadius" : 0,
+        "rasterized" : true,
+        "horizontalScroll" : false,
+        "shadowOffsetX" : 0,
+        "x" : 546,
+        "guid" : "tooltip--step_3",
+        "scale" : 1,
+        "parentSymbolID" : "",
+        "y" : 566
+      },
+      {
+        "sketchClassName" : "MSLayerGroup",
+        "uid" : "6FC4DA05-3687-42D2-915F-5D834081EEF0",
+        "rotation" : -0,
+        "shadowRadius" : 0,
+        "width" : 323,
+        "borderOptions" : {
+          "lineCap" : "butt",
+          "lineDash" : "100%"
+        },
+        "borderColor" : "rgba(0,0,0,0.000000)",
+        "opacity" : 0,
+        "clip" : false,
+        "parentLayerUid" : "",
+        "left" : 546,
+        "hidden" : false,
+        "overrides" : {
+
+        },
+        "blendingMode" : "normal",
+        "shadowOffsetY" : 0,
+        "isSymbolInstance" : false,
+        "path" : "",
+        "flattenGroup" : true,
+        "backgroundColor" : "rgba(0,0,0,0.000000)",
+        "userCode" : "",
+        "index" : 4,
+        "parentScreenUid" : "ACB704A2-5DEE-4706-ADA8-28916E6CF7FC",
+        "shadowColor" : "rgba(0,0,0,0.000000)",
+        "name" : "tooltip--step_2",
+        "height" : 152,
+        "borderWidth" : 0,
+        "top" : 353,
+        "isGroup" : false,
+        "verticalScroll" : false,
+        "parentLayerGuid" : "",
+        "imagePath" : "Final-Onboarding-01-images\/tooltip--step_2.png",
+        "cornerRadius" : 0,
+        "rasterized" : true,
+        "horizontalScroll" : false,
+        "shadowOffsetX" : 0,
+        "x" : 546,
+        "guid" : "tooltip--step_2",
+        "scale" : 1,
+        "parentSymbolID" : "",
+        "y" : 353
+      },
+      {
+        "sketchClassName" : "MSLayerGroup",
+        "uid" : "BFBDC989-EEFC-4C88-BCF2-506270A94303",
+        "rotation" : -0,
+        "shadowRadius" : 0,
+        "width" : 323,
+        "screenTransitions" : [
+          {
+            "action" : "Tap",
+            "uid" : "661A9D1C-ADD6-4772-B292-DEF0F7D7BCC8-13229-0000B75ECD59B59D",
+            "toScreenId" : "90351E82-C88C-4809-B970-459614E5EBAA",
+            "animation" : "Timeline",
+            "fromScreenId" : "ACB704A2-5DEE-4706-ADA8-28916E6CF7FC",
+            "timelines" : [
+              {
+                "timelineLayers" : [
+                  {
+                    "guid" : "layout",
+                    "animationBands" : [
+
+                    ]
+                  },
+                  {
+                    "guid" : "main",
+                    "animationBands" : [
+
+                    ]
+                  },
+                  {
+                    "guid" : "sidebar",
+                    "animationBands" : [
+
+                    ]
+                  },
+                  {
+                    "guid" : "tooltip--step_3",
+                    "animationBands" : [
+
+                    ]
+                  },
+                  {
+                    "guid" : "tooltip--step_2",
+                    "animationBands" : [
+                      {
+                        "transitions" : [
+                          {
+                            "c1y" : 0.46,
+                            "animationKey" : "opacity",
+                            "gsapEase" : "CustomEase.create('','0.250000,0.460000,0.450000,0.940000')",
+                            "controlPoints" : "0.25,0.46,0.45,0.94",
+                            "active" : true,
+                            "c2x" : 0.45,
+                            "previousEasingDuration" : 0.20000000298023224,
+                            "damping" : 30,
+                            "type" : 0,
+                            "keyframes" : [
+                              {
+                                "value" : 0,
+                                "time" : 0,
+                                "parsedValue" : 0
+                              },
+                              {
+                                "value" : 1,
+                                "time" : 0.5,
+                                "parsedValue" : 1
+                              }
+                            ],
+                            "stiffness" : 300,
+                            "c2y" : 0.94,
+                            "c1x" : 0.25,
+                            "mass" : 3
+                          }
+                        ],
+                        "animationKey" : "opacity"
+                      }
+                    ]
+                  },
+                  {
+                    "guid" : "tooltip--step_1",
+                    "animationBands" : [
+                      {
+                        "transitions" : [
+                          {
+                            "c1y" : 0.46,
+                            "animationKey" : "opacity",
+                            "gsapEase" : "CustomEase.create('','0.250000,0.460000,0.450000,0.940000')",
+                            "controlPoints" : "0.25,0.46,0.45,0.94",
+                            "active" : true,
+                            "c2x" : 0.45,
+                            "previousEasingDuration" : 0.20000000298023224,
+                            "damping" : 30,
+                            "type" : 0,
+                            "keyframes" : [
+                              {
+                                "value" : 1,
+                                "time" : 0,
+                                "parsedValue" : 1
+                              },
+                              {
+                                "value" : 0,
+                                "time" : 0.012000000104308128,
+                                "parsedValue" : 0
+                              }
+                            ],
+                            "stiffness" : 300,
+                            "c2y" : 0.94,
+                            "c1x" : 0.25,
+                            "mass" : 3
+                          }
+                        ],
+                        "animationKey" : "opacity"
+                      }
+                    ]
+                  }
+                ],
+                "duration" : 0.5,
+                "active" : true
+              }
+            ],
+            "type" : 0,
+            "parentScreenTransitionUid" : "",
+            "autoReturn" : 0
+          }
+        ],
+        "borderOptions" : {
+          "lineCap" : "butt",
+          "lineDash" : "100%"
+        },
+        "borderColor" : "rgba(0,0,0,0.000000)",
+        "opacity" : 1,
+        "clip" : false,
+        "parentLayerUid" : "",
+        "left" : 546,
+        "hidden" : false,
+        "overrides" : {
+
+        },
+        "blendingMode" : "normal",
+        "shadowOffsetY" : 0,
+        "isSymbolInstance" : false,
+        "path" : "",
+        "flattenGroup" : true,
+        "backgroundColor" : "rgba(0,0,0,0.000000)",
+        "userCode" : "",
+        "index" : 5,
+        "parentScreenUid" : "ACB704A2-5DEE-4706-ADA8-28916E6CF7FC",
+        "shadowColor" : "rgba(0,0,0,0.000000)",
+        "name" : "tooltip--step_1",
+        "height" : 180,
+        "borderWidth" : 0,
+        "top" : 140,
+        "isGroup" : false,
+        "verticalScroll" : false,
+        "parentLayerGuid" : "",
+        "imagePath" : "Final-Onboarding-01-images\/tooltip--step_1.png",
+        "cornerRadius" : 0,
+        "rasterized" : true,
+        "horizontalScroll" : false,
+        "shadowOffsetX" : 0,
+        "x" : 546,
+        "guid" : "tooltip--step_1",
+        "scale" : 1,
+        "parentSymbolID" : "",
+        "y" : 140
+      }
+    ],
+    "width" : 1280,
+    "userCodeOnEnter" : "",
+    "symbolID" : "",
+    "name" : "200 Step 1"
+  },
+  {
+    "height" : 960,
+    "uid" : "90351E82-C88C-4809-B970-459614E5EBAA",
+    "homeScreen" : false,
+    "layers" : [
+      {
+        "sketchClassName" : "MSLayerGroup",
+        "uid" : "6CE543B9-9AB4-44BC-9242-3B15DA845616",
+        "rotation" : -0,
+        "shadowRadius" : 0,
+        "width" : 1280,
+        "borderOptions" : {
+          "lineCap" : "butt",
+          "lineDash" : "100%"
+        },
+        "borderColor" : "rgba(0,0,0,0.000000)",
+        "opacity" : 1,
+        "clip" : false,
+        "parentLayerUid" : "",
+        "left" : 0,
+        "hidden" : false,
+        "overrides" : {
+
+        },
+        "blendingMode" : "normal",
+        "shadowOffsetY" : 0,
+        "isSymbolInstance" : false,
+        "path" : "",
+        "flattenGroup" : true,
+        "backgroundColor" : "rgba(0,0,0,0.000000)",
+        "userCode" : "",
+        "index" : 0,
+        "parentScreenUid" : "90351E82-C88C-4809-B970-459614E5EBAA",
+        "shadowColor" : "rgba(0,0,0,0.000000)",
+        "name" : "layout",
+        "height" : 960,
+        "borderWidth" : 0,
+        "top" : 0,
+        "isGroup" : false,
+        "verticalScroll" : false,
+        "parentLayerGuid" : "",
+        "imagePath" : "Final-Onboarding-01-images\/layout.png",
+        "cornerRadius" : 0,
+        "rasterized" : true,
+        "horizontalScroll" : false,
+        "shadowOffsetX" : 0,
+        "x" : 0,
+        "guid" : "layout",
+        "scale" : 1,
+        "parentSymbolID" : "",
+        "y" : 0
+      },
+      {
+        "sketchClassName" : "MSLayerGroup",
+        "uid" : "8FFAC0DD-A77F-449B-8C4F-F46AFD48A145",
+        "rotation" : -0,
+        "shadowRadius" : 0,
+        "width" : 560,
+        "borderOptions" : {
+          "lineCap" : "butt",
+          "lineDash" : "100%"
+        },
+        "borderColor" : "rgba(0,0,0,0.000000)",
+        "opacity" : 1,
+        "clip" : false,
+        "parentLayerUid" : "",
+        "left" : 200,
+        "hidden" : false,
+        "overrides" : {
+
+        },
+        "blendingMode" : "normal",
+        "shadowOffsetY" : 0,
+        "isSymbolInstance" : false,
+        "path" : "",
+        "flattenGroup" : true,
+        "backgroundColor" : "rgba(0,0,0,0.000000)",
+        "userCode" : "",
+        "index" : 1,
+        "parentScreenUid" : "90351E82-C88C-4809-B970-459614E5EBAA",
+        "shadowColor" : "rgba(0,0,0,0.000000)",
+        "name" : "main",
+        "height" : 632,
+        "borderWidth" : 0,
+        "top" : 164,
+        "isGroup" : false,
+        "verticalScroll" : false,
+        "parentLayerGuid" : "",
+        "imagePath" : "Final-Onboarding-01-images\/main.png",
+        "cornerRadius" : 0,
+        "rasterized" : true,
+        "horizontalScroll" : false,
+        "shadowOffsetX" : 0,
+        "x" : 200,
+        "guid" : "main",
+        "scale" : 1,
+        "parentSymbolID" : "",
+        "y" : 164
+      },
+      {
+        "sketchClassName" : "MSLayerGroup",
+        "uid" : "BC3A5E97-C496-40ED-8C34-97F5D9E0664B",
+        "rotation" : -0,
+        "shadowRadius" : 0,
+        "width" : 405,
+        "borderOptions" : {
+          "lineCap" : "butt",
+          "lineDash" : "100%"
+        },
+        "borderColor" : "rgba(0,0,0,0.000000)",
+        "opacity" : 1,
+        "clip" : false,
+        "parentLayerUid" : "",
+        "left" : 876,
+        "hidden" : false,
+        "overrides" : {
+
+        },
+        "blendingMode" : "normal",
+        "shadowOffsetY" : 0,
+        "isSymbolInstance" : false,
+        "path" : "",
+        "flattenGroup" : true,
+        "backgroundColor" : "rgba(0,0,0,0.000000)",
+        "userCode" : "",
+        "index" : 2,
+        "parentScreenUid" : "90351E82-C88C-4809-B970-459614E5EBAA",
+        "shadowColor" : "rgba(0,0,0,0.000000)",
+        "name" : "sidebar",
+        "height" : 964,
+        "borderWidth" : 0,
+        "top" : -2,
+        "isGroup" : false,
+        "verticalScroll" : false,
+        "parentLayerGuid" : "",
+        "imagePath" : "Final-Onboarding-01-images\/sidebar.png",
+        "cornerRadius" : 0,
+        "rasterized" : true,
+        "horizontalScroll" : false,
+        "shadowOffsetX" : 0,
+        "x" : 876,
+        "guid" : "sidebar",
+        "scale" : 1,
+        "parentSymbolID" : "",
+        "y" : -2
+      },
+      {
+        "sketchClassName" : "MSLayerGroup",
+        "uid" : "F1A5AB67-378F-4B71-BA4D-D38308F0A5CC",
+        "rotation" : -0,
+        "shadowRadius" : 0,
+        "width" : 323,
+        "borderOptions" : {
+          "lineCap" : "butt",
+          "lineDash" : "100%"
+        },
+        "borderColor" : "rgba(0,0,0,0.000000)",
+        "opacity" : 0,
+        "clip" : false,
+        "parentLayerUid" : "",
+        "left" : 546,
+        "hidden" : false,
+        "overrides" : {
+
+        },
+        "blendingMode" : "normal",
+        "shadowOffsetY" : 0,
+        "isSymbolInstance" : false,
+        "path" : "",
+        "flattenGroup" : true,
+        "backgroundColor" : "rgba(0,0,0,0.000000)",
+        "userCode" : "",
+        "index" : 3,
+        "parentScreenUid" : "90351E82-C88C-4809-B970-459614E5EBAA",
+        "shadowColor" : "rgba(0,0,0,0.000000)",
+        "name" : "tooltip--step_3",
+        "height" : 180,
+        "borderWidth" : 0,
+        "top" : 566,
+        "isGroup" : false,
+        "verticalScroll" : false,
+        "parentLayerGuid" : "",
+        "imagePath" : "Final-Onboarding-01-images\/tooltip--step_3.png",
+        "cornerRadius" : 0,
+        "rasterized" : true,
+        "horizontalScroll" : false,
+        "shadowOffsetX" : 0,
+        "x" : 546,
+        "guid" : "tooltip--step_3",
+        "scale" : 1,
+        "parentSymbolID" : "",
+        "y" : 566
+      },
+      {
+        "sketchClassName" : "MSLayerGroup",
+        "uid" : "060EDA3E-BD60-4352-8CE1-BD2D3C02AA66",
+        "rotation" : -0,
+        "shadowRadius" : 0,
+        "width" : 323,
+        "screenTransitions" : [
+          {
+            "action" : "Tap",
+            "uid" : "4E6AFF00-BB78-4DFD-BE9A-BC67BF82C2D9-13229-0000B7611398D746",
+            "toScreenId" : "9FCECB1A-26C1-4A36-9D69-7527E5745497",
+            "animation" : "Timeline",
+            "fromScreenId" : "90351E82-C88C-4809-B970-459614E5EBAA",
+            "timelines" : [
+              {
+                "timelineLayers" : [
+                  {
+                    "guid" : "layout",
+                    "animationBands" : [
+
+                    ]
+                  },
+                  {
+                    "guid" : "main",
+                    "animationBands" : [
+
+                    ]
+                  },
+                  {
+                    "guid" : "sidebar",
+                    "animationBands" : [
+
+                    ]
+                  },
+                  {
+                    "guid" : "tooltip--step_3",
+                    "animationBands" : [
+                      {
+                        "transitions" : [
+                          {
+                            "c1y" : 0.46,
+                            "animationKey" : "opacity",
+                            "gsapEase" : "CustomEase.create('','0.250000,0.460000,0.450000,0.940000')",
+                            "controlPoints" : "0.25,0.46,0.45,0.94",
+                            "active" : true,
+                            "c2x" : 0.45,
+                            "previousEasingDuration" : 0.20000000298023224,
+                            "damping" : 30,
+                            "type" : 0,
+                            "keyframes" : [
+                              {
+                                "value" : 0,
+                                "time" : 0,
+                                "parsedValue" : 0
+                              },
+                              {
+                                "value" : 1,
+                                "time" : 0.5,
+                                "parsedValue" : 1
+                              }
+                            ],
+                            "stiffness" : 300,
+                            "c2y" : 0.94,
+                            "c1x" : 0.25,
+                            "mass" : 3
+                          }
+                        ],
+                        "animationKey" : "opacity"
+                      }
+                    ]
+                  },
+                  {
+                    "guid" : "tooltip--step_2",
+                    "animationBands" : [
+                      {
+                        "transitions" : [
+                          {
+                            "c1y" : 0.46,
+                            "animationKey" : "opacity",
+                            "gsapEase" : "CustomEase.create('','0.250000,0.460000,0.450000,0.940000')",
+                            "controlPoints" : "0.25,0.46,0.45,0.94",
+                            "active" : true,
+                            "c2x" : 0.45,
+                            "previousEasingDuration" : 0.20000000298023224,
+                            "damping" : 30,
+                            "type" : 0,
+                            "keyframes" : [
+                              {
+                                "value" : 1,
+                                "time" : 0,
+                                "parsedValue" : 1
+                              },
+                              {
+                                "value" : 0,
+                                "time" : 0.012000000104308128,
+                                "parsedValue" : 0
+                              }
+                            ],
+                            "stiffness" : 300,
+                            "c2y" : 0.94,
+                            "c1x" : 0.25,
+                            "mass" : 3
+                          }
+                        ],
+                        "animationKey" : "opacity"
+                      }
+                    ]
+                  },
+                  {
+                    "guid" : "tooltip--step_1",
+                    "animationBands" : [
+
+                    ]
+                  }
+                ],
+                "duration" : 0.5,
+                "active" : true
+              }
+            ],
+            "type" : 0,
+            "parentScreenTransitionUid" : "",
+            "autoReturn" : 0
+          }
+        ],
+        "borderOptions" : {
+          "lineCap" : "butt",
+          "lineDash" : "100%"
+        },
+        "borderColor" : "rgba(0,0,0,0.000000)",
+        "opacity" : 1,
+        "clip" : false,
+        "parentLayerUid" : "",
+        "left" : 546,
+        "hidden" : false,
+        "overrides" : {
+
+        },
+        "blendingMode" : "normal",
+        "shadowOffsetY" : 0,
+        "isSymbolInstance" : false,
+        "path" : "",
+        "flattenGroup" : true,
+        "backgroundColor" : "rgba(0,0,0,0.000000)",
+        "userCode" : "",
+        "index" : 4,
+        "parentScreenUid" : "90351E82-C88C-4809-B970-459614E5EBAA",
+        "shadowColor" : "rgba(0,0,0,0.000000)",
+        "name" : "tooltip--step_2",
+        "height" : 152,
+        "borderWidth" : 0,
+        "top" : 353,
+        "isGroup" : false,
+        "verticalScroll" : false,
+        "parentLayerGuid" : "",
+        "imagePath" : "Final-Onboarding-01-images\/tooltip--step_2.png",
+        "cornerRadius" : 0,
+        "rasterized" : true,
+        "horizontalScroll" : false,
+        "shadowOffsetX" : 0,
+        "x" : 546,
+        "guid" : "tooltip--step_2",
+        "scale" : 1,
+        "parentSymbolID" : "",
+        "y" : 353
+      },
+      {
+        "sketchClassName" : "MSLayerGroup",
+        "uid" : "D61F27DD-52E4-4477-8218-5186123B6CF7",
+        "rotation" : -0,
+        "shadowRadius" : 0,
+        "width" : 323,
+        "borderOptions" : {
+          "lineCap" : "butt",
+          "lineDash" : "100%"
+        },
+        "borderColor" : "rgba(0,0,0,0.000000)",
+        "opacity" : 0,
+        "clip" : false,
+        "parentLayerUid" : "",
+        "left" : 546,
+        "hidden" : false,
+        "overrides" : {
+
+        },
+        "blendingMode" : "normal",
+        "shadowOffsetY" : 0,
+        "isSymbolInstance" : false,
+        "path" : "",
+        "flattenGroup" : true,
+        "backgroundColor" : "rgba(0,0,0,0.000000)",
+        "userCode" : "",
+        "index" : 5,
+        "parentScreenUid" : "90351E82-C88C-4809-B970-459614E5EBAA",
+        "shadowColor" : "rgba(0,0,0,0.000000)",
+        "name" : "tooltip--step_1",
+        "height" : 180,
+        "borderWidth" : 0,
+        "top" : 140,
+        "isGroup" : false,
+        "verticalScroll" : false,
+        "parentLayerGuid" : "",
+        "imagePath" : "Final-Onboarding-01-images\/tooltip--step_1.png",
+        "cornerRadius" : 0,
+        "rasterized" : true,
+        "horizontalScroll" : false,
+        "shadowOffsetX" : 0,
+        "x" : 546,
+        "guid" : "tooltip--step_1",
+        "scale" : 1,
+        "parentSymbolID" : "",
+        "y" : 140
+      }
+    ],
+    "width" : 1280,
+    "userCodeOnEnter" : "",
+    "symbolID" : "",
+    "name" : "300 Step 2"
+  },
+  {
+    "height" : 960,
+    "uid" : "9FCECB1A-26C1-4A36-9D69-7527E5745497",
+    "homeScreen" : false,
+    "layers" : [
+      {
+        "sketchClassName" : "MSLayerGroup",
+        "uid" : "C89B2648-5FFC-4576-9950-E620DF740C21",
+        "rotation" : -0,
+        "shadowRadius" : 0,
+        "width" : 1280,
+        "borderOptions" : {
+          "lineCap" : "butt",
+          "lineDash" : "100%"
+        },
+        "borderColor" : "rgba(0,0,0,0.000000)",
+        "opacity" : 1,
+        "clip" : false,
+        "parentLayerUid" : "",
+        "left" : 0,
+        "hidden" : false,
+        "overrides" : {
+
+        },
+        "blendingMode" : "normal",
+        "shadowOffsetY" : 0,
+        "isSymbolInstance" : false,
+        "path" : "",
+        "flattenGroup" : true,
+        "backgroundColor" : "rgba(0,0,0,0.000000)",
+        "userCode" : "",
+        "index" : 0,
+        "parentScreenUid" : "9FCECB1A-26C1-4A36-9D69-7527E5745497",
+        "shadowColor" : "rgba(0,0,0,0.000000)",
+        "name" : "layout",
+        "height" : 960,
+        "borderWidth" : 0,
+        "top" : 0,
+        "isGroup" : false,
+        "verticalScroll" : false,
+        "parentLayerGuid" : "",
+        "imagePath" : "Final-Onboarding-01-images\/layout.png",
+        "cornerRadius" : 0,
+        "rasterized" : true,
+        "horizontalScroll" : false,
+        "shadowOffsetX" : 0,
+        "x" : 0,
+        "guid" : "layout",
+        "scale" : 1,
+        "parentSymbolID" : "",
+        "y" : 0
+      },
+      {
+        "sketchClassName" : "MSLayerGroup",
+        "uid" : "4146EF47-911B-4333-A3FE-B0CBCAC07E17",
+        "rotation" : -0,
+        "shadowRadius" : 0,
+        "width" : 560,
+        "borderOptions" : {
+          "lineCap" : "butt",
+          "lineDash" : "100%"
+        },
+        "borderColor" : "rgba(0,0,0,0.000000)",
+        "opacity" : 1,
+        "clip" : false,
+        "parentLayerUid" : "",
+        "left" : 200,
+        "hidden" : false,
+        "overrides" : {
+
+        },
+        "blendingMode" : "normal",
+        "shadowOffsetY" : 0,
+        "isSymbolInstance" : false,
+        "path" : "",
+        "flattenGroup" : true,
+        "backgroundColor" : "rgba(0,0,0,0.000000)",
+        "userCode" : "",
+        "index" : 1,
+        "parentScreenUid" : "9FCECB1A-26C1-4A36-9D69-7527E5745497",
+        "shadowColor" : "rgba(0,0,0,0.000000)",
+        "name" : "main",
+        "height" : 632,
+        "borderWidth" : 0,
+        "top" : 164,
+        "isGroup" : false,
+        "verticalScroll" : false,
+        "parentLayerGuid" : "",
+        "imagePath" : "Final-Onboarding-01-images\/main.png",
+        "cornerRadius" : 0,
+        "rasterized" : true,
+        "horizontalScroll" : false,
+        "shadowOffsetX" : 0,
+        "x" : 200,
+        "guid" : "main",
+        "scale" : 1,
+        "parentSymbolID" : "",
+        "y" : 164
+      },
+      {
+        "sketchClassName" : "MSLayerGroup",
+        "uid" : "ACEE4816-BA35-4045-B858-6D66912F2F9C",
+        "rotation" : -0,
+        "shadowRadius" : 0,
+        "width" : 405,
+        "borderOptions" : {
+          "lineCap" : "butt",
+          "lineDash" : "100%"
+        },
+        "borderColor" : "rgba(0,0,0,0.000000)",
+        "opacity" : 1,
+        "clip" : false,
+        "parentLayerUid" : "",
+        "left" : 876,
+        "hidden" : false,
+        "overrides" : {
+
+        },
+        "blendingMode" : "normal",
+        "shadowOffsetY" : 0,
+        "isSymbolInstance" : false,
+        "path" : "",
+        "flattenGroup" : true,
+        "backgroundColor" : "rgba(0,0,0,0.000000)",
+        "userCode" : "",
+        "index" : 2,
+        "parentScreenUid" : "9FCECB1A-26C1-4A36-9D69-7527E5745497",
+        "shadowColor" : "rgba(0,0,0,0.000000)",
+        "name" : "sidebar",
+        "height" : 964,
+        "borderWidth" : 0,
+        "top" : -2,
+        "isGroup" : false,
+        "verticalScroll" : false,
+        "parentLayerGuid" : "",
+        "imagePath" : "Final-Onboarding-01-images\/sidebar.png",
+        "cornerRadius" : 0,
+        "rasterized" : true,
+        "horizontalScroll" : false,
+        "shadowOffsetX" : 0,
+        "x" : 876,
+        "guid" : "sidebar",
+        "scale" : 1,
+        "parentSymbolID" : "",
+        "y" : -2
+      },
+      {
+        "sketchClassName" : "MSLayerGroup",
+        "uid" : "AC6F1FA6-F531-4C55-828B-859CAD5B7292",
+        "rotation" : -0,
+        "shadowRadius" : 0,
+        "width" : 323,
+        "screenTransitions" : [
+          {
+            "action" : "Tap",
+            "uid" : "C28A15D5-D2A3-41B9-81CD-712E1749D5C7-13229-0000B7661E6D76F4",
+            "toScreenId" : "CE48AE73-3AC8-485C-8D3F-E71F073228CA",
+            "animation" : "Timeline",
+            "fromScreenId" : "9FCECB1A-26C1-4A36-9D69-7527E5745497",
+            "timelines" : [
+              {
+                "timelineLayers" : [
+                  {
+                    "guid" : "layout",
+                    "animationBands" : [
+
+                    ]
+                  },
+                  {
+                    "guid" : "main",
+                    "animationBands" : [
+
+                    ]
+                  },
+                  {
+                    "guid" : "sidebar",
+                    "animationBands" : [
+
+                    ]
+                  },
+                  {
+                    "guid" : "tooltip--step_3",
+                    "animationBands" : [
+                      {
+                        "transitions" : [
+                          {
+                            "c1y" : 0.46,
+                            "animationKey" : "opacity",
+                            "gsapEase" : "CustomEase.create('','0.250000,0.460000,0.450000,0.940000')",
+                            "controlPoints" : "0.25,0.46,0.45,0.94",
+                            "active" : true,
+                            "c2x" : 0.45,
+                            "previousEasingDuration" : 0.20000000298023224,
+                            "damping" : 30,
+                            "type" : 0,
+                            "keyframes" : [
+                              {
+                                "value" : 1,
+                                "time" : 0,
+                                "parsedValue" : 1
+                              },
+                              {
+                                "value" : 0,
+                                "time" : 0.012000000104308128,
+                                "parsedValue" : 0
+                              }
+                            ],
+                            "stiffness" : 300,
+                            "c2y" : 0.94,
+                            "c1x" : 0.25,
+                            "mass" : 3
+                          }
+                        ],
+                        "animationKey" : "opacity"
+                      }
+                    ]
+                  },
+                  {
+                    "guid" : "tooltip--step_2",
+                    "animationBands" : [
+
+                    ]
+                  },
+                  {
+                    "guid" : "tooltip--step_1",
+                    "animationBands" : [
+
+                    ]
+                  }
+                ],
+                "duration" : 0.012000000104308128,
+                "active" : true
+              }
+            ],
+            "type" : 0,
+            "parentScreenTransitionUid" : "",
+            "autoReturn" : 0
+          }
+        ],
+        "borderOptions" : {
+          "lineCap" : "butt",
+          "lineDash" : "100%"
+        },
+        "borderColor" : "rgba(0,0,0,0.000000)",
+        "opacity" : 1,
+        "clip" : false,
+        "parentLayerUid" : "",
+        "left" : 546,
+        "hidden" : false,
+        "overrides" : {
+
+        },
+        "blendingMode" : "normal",
+        "shadowOffsetY" : 0,
+        "isSymbolInstance" : false,
+        "path" : "",
+        "flattenGroup" : true,
+        "backgroundColor" : "rgba(0,0,0,0.000000)",
+        "userCode" : "",
+        "index" : 3,
+        "parentScreenUid" : "9FCECB1A-26C1-4A36-9D69-7527E5745497",
+        "shadowColor" : "rgba(0,0,0,0.000000)",
+        "name" : "tooltip--step_3",
+        "height" : 180,
+        "borderWidth" : 0,
+        "top" : 566,
+        "isGroup" : false,
+        "verticalScroll" : false,
+        "parentLayerGuid" : "",
+        "imagePath" : "Final-Onboarding-01-images\/tooltip--step_3.png",
+        "cornerRadius" : 0,
+        "rasterized" : true,
+        "horizontalScroll" : false,
+        "shadowOffsetX" : 0,
+        "x" : 546,
+        "guid" : "tooltip--step_3",
+        "scale" : 1,
+        "parentSymbolID" : "",
+        "y" : 566
+      },
+      {
+        "sketchClassName" : "MSLayerGroup",
+        "uid" : "601E130B-7C43-4C5E-B0A4-C9B2771E5DF1",
+        "rotation" : -0,
+        "shadowRadius" : 0,
+        "width" : 323,
+        "borderOptions" : {
+          "lineCap" : "butt",
+          "lineDash" : "100%"
+        },
+        "borderColor" : "rgba(0,0,0,0.000000)",
+        "opacity" : 0,
+        "clip" : false,
+        "parentLayerUid" : "",
+        "left" : 546,
+        "hidden" : false,
+        "overrides" : {
+
+        },
+        "blendingMode" : "normal",
+        "shadowOffsetY" : 0,
+        "isSymbolInstance" : false,
+        "path" : "",
+        "flattenGroup" : true,
+        "backgroundColor" : "rgba(0,0,0,0.000000)",
+        "userCode" : "",
+        "index" : 4,
+        "parentScreenUid" : "9FCECB1A-26C1-4A36-9D69-7527E5745497",
+        "shadowColor" : "rgba(0,0,0,0.000000)",
+        "name" : "tooltip--step_2",
+        "height" : 152,
+        "borderWidth" : 0,
+        "top" : 353,
+        "isGroup" : false,
+        "verticalScroll" : false,
+        "parentLayerGuid" : "",
+        "imagePath" : "Final-Onboarding-01-images\/tooltip--step_2.png",
+        "cornerRadius" : 0,
+        "rasterized" : true,
+        "horizontalScroll" : false,
+        "shadowOffsetX" : 0,
+        "x" : 546,
+        "guid" : "tooltip--step_2",
+        "scale" : 1,
+        "parentSymbolID" : "",
+        "y" : 353
+      },
+      {
+        "sketchClassName" : "MSLayerGroup",
+        "uid" : "BF4B48FE-95B1-4891-A4CD-CB2C490D06A0",
+        "rotation" : -0,
+        "shadowRadius" : 0,
+        "width" : 323,
+        "borderOptions" : {
+          "lineCap" : "butt",
+          "lineDash" : "100%"
+        },
+        "borderColor" : "rgba(0,0,0,0.000000)",
+        "opacity" : 0,
+        "clip" : false,
+        "parentLayerUid" : "",
+        "left" : 546,
+        "hidden" : false,
+        "overrides" : {
+
+        },
+        "blendingMode" : "normal",
+        "shadowOffsetY" : 0,
+        "isSymbolInstance" : false,
+        "path" : "",
+        "flattenGroup" : true,
+        "backgroundColor" : "rgba(0,0,0,0.000000)",
+        "userCode" : "",
+        "index" : 5,
+        "parentScreenUid" : "9FCECB1A-26C1-4A36-9D69-7527E5745497",
+        "shadowColor" : "rgba(0,0,0,0.000000)",
+        "name" : "tooltip--step_1",
+        "height" : 180,
+        "borderWidth" : 0,
+        "top" : 140,
+        "isGroup" : false,
+        "verticalScroll" : false,
+        "parentLayerGuid" : "",
+        "imagePath" : "Final-Onboarding-01-images\/tooltip--step_1.png",
+        "cornerRadius" : 0,
+        "rasterized" : true,
+        "horizontalScroll" : false,
+        "shadowOffsetX" : 0,
+        "x" : 546,
+        "guid" : "tooltip--step_1",
+        "scale" : 1,
+        "parentSymbolID" : "",
+        "y" : 140
+      }
+    ],
+    "width" : 1280,
+    "userCodeOnEnter" : "",
+    "symbolID" : "",
+    "name" : "400 Step 3"
+  },
+  {
+    "height" : 960,
+    "uid" : "CE48AE73-3AC8-485C-8D3F-E71F073228CA",
+    "homeScreen" : false,
+    "layers" : [
+      {
+        "sketchClassName" : "MSLayerGroup",
+        "uid" : "F02DC209-E1AF-4DF6-9A5D-AF9E52B60B72",
+        "rotation" : -0,
+        "shadowRadius" : 0,
+        "width" : 1280,
+        "borderOptions" : {
+          "lineCap" : "butt",
+          "lineDash" : "100%"
+        },
+        "borderColor" : "rgba(0,0,0,0.000000)",
+        "opacity" : 1,
+        "clip" : false,
+        "parentLayerUid" : "",
+        "left" : 0,
+        "hidden" : false,
+        "overrides" : {
+
+        },
+        "blendingMode" : "normal",
+        "shadowOffsetY" : 0,
+        "isSymbolInstance" : false,
+        "path" : "",
+        "flattenGroup" : true,
+        "backgroundColor" : "rgba(0,0,0,0.000000)",
+        "userCode" : "",
+        "index" : 0,
+        "parentScreenUid" : "CE48AE73-3AC8-485C-8D3F-E71F073228CA",
+        "shadowColor" : "rgba(0,0,0,0.000000)",
+        "name" : "layout",
+        "height" : 960,
+        "borderWidth" : 0,
+        "top" : 0,
+        "isGroup" : false,
+        "verticalScroll" : false,
+        "parentLayerGuid" : "",
+        "imagePath" : "Final-Onboarding-01-images\/layout.png",
+        "cornerRadius" : 0,
+        "rasterized" : true,
+        "horizontalScroll" : false,
+        "shadowOffsetX" : 0,
+        "x" : 0,
+        "guid" : "layout",
+        "scale" : 1,
+        "parentSymbolID" : "",
+        "y" : 0
+      },
+      {
+        "sketchClassName" : "MSLayerGroup",
+        "uid" : "CFE0E3F5-0D1C-4C2C-A63F-99D03A83152E",
+        "rotation" : -0,
+        "shadowRadius" : 0,
+        "width" : 560,
+        "borderOptions" : {
+          "lineCap" : "butt",
+          "lineDash" : "100%"
+        },
+        "borderColor" : "rgba(0,0,0,0.000000)",
+        "opacity" : 1,
+        "clip" : false,
+        "parentLayerUid" : "",
+        "left" : 200,
+        "hidden" : false,
+        "overrides" : {
+
+        },
+        "blendingMode" : "normal",
+        "shadowOffsetY" : 0,
+        "isSymbolInstance" : false,
+        "path" : "",
+        "flattenGroup" : true,
+        "backgroundColor" : "rgba(0,0,0,0.000000)",
+        "userCode" : "",
+        "index" : 1,
+        "parentScreenUid" : "CE48AE73-3AC8-485C-8D3F-E71F073228CA",
+        "shadowColor" : "rgba(0,0,0,0.000000)",
+        "name" : "main",
+        "height" : 632,
+        "borderWidth" : 0,
+        "top" : 164,
+        "isGroup" : false,
+        "verticalScroll" : false,
+        "parentLayerGuid" : "",
+        "imagePath" : "Final-Onboarding-01-images\/main.png",
+        "cornerRadius" : 0,
+        "rasterized" : true,
+        "horizontalScroll" : false,
+        "shadowOffsetX" : 0,
+        "x" : 200,
+        "guid" : "main",
+        "scale" : 1,
+        "parentSymbolID" : "",
+        "y" : 164
+      },
+      {
+        "sketchClassName" : "MSLayerGroup",
+        "uid" : "99DEDDE3-EBCA-4162-A86F-52D5B3D013CD",
+        "rotation" : -0,
+        "shadowRadius" : 0,
+        "width" : 405,
+        "borderOptions" : {
+          "lineCap" : "butt",
+          "lineDash" : "100%"
+        },
+        "borderColor" : "rgba(0,0,0,0.000000)",
+        "opacity" : 1,
+        "clip" : false,
+        "parentLayerUid" : "",
+        "left" : 876,
+        "hidden" : false,
+        "overrides" : {
+
+        },
+        "blendingMode" : "normal",
+        "shadowOffsetY" : 0,
+        "isSymbolInstance" : false,
+        "path" : "",
+        "flattenGroup" : true,
+        "backgroundColor" : "rgba(0,0,0,0.000000)",
+        "userCode" : "",
+        "index" : 2,
+        "parentScreenUid" : "CE48AE73-3AC8-485C-8D3F-E71F073228CA",
+        "shadowColor" : "rgba(0,0,0,0.000000)",
+        "name" : "sidebar",
+        "height" : 964,
+        "borderWidth" : 0,
+        "top" : -2,
+        "isGroup" : false,
+        "verticalScroll" : false,
+        "parentLayerGuid" : "",
+        "imagePath" : "Final-Onboarding-01-images\/sidebar.png",
+        "cornerRadius" : 0,
+        "rasterized" : true,
+        "horizontalScroll" : false,
+        "shadowOffsetX" : 0,
+        "x" : 876,
+        "guid" : "sidebar",
+        "scale" : 1,
+        "parentSymbolID" : "",
+        "y" : -2
+      },
+      {
+        "sketchClassName" : "MSLayerGroup",
+        "uid" : "58C5B67A-6C7D-44A8-BDDE-7D5D33B603E4",
+        "rotation" : -0,
+        "shadowRadius" : 0,
+        "width" : 323,
+        "borderOptions" : {
+          "lineCap" : "butt",
+          "lineDash" : "100%"
+        },
+        "borderColor" : "rgba(0,0,0,0.000000)",
+        "opacity" : 0,
+        "clip" : false,
+        "parentLayerUid" : "",
+        "left" : 546,
+        "hidden" : false,
+        "overrides" : {
+
+        },
+        "blendingMode" : "normal",
+        "shadowOffsetY" : 0,
+        "isSymbolInstance" : false,
+        "path" : "",
+        "flattenGroup" : true,
+        "backgroundColor" : "rgba(0,0,0,0.000000)",
+        "userCode" : "",
+        "index" : 3,
+        "parentScreenUid" : "CE48AE73-3AC8-485C-8D3F-E71F073228CA",
+        "shadowColor" : "rgba(0,0,0,0.000000)",
+        "name" : "tooltip--step_3",
+        "height" : 180,
+        "borderWidth" : 0,
+        "top" : 566,
+        "isGroup" : false,
+        "verticalScroll" : false,
+        "parentLayerGuid" : "",
+        "imagePath" : "Final-Onboarding-01-images\/tooltip--step_3.png",
+        "cornerRadius" : 0,
+        "rasterized" : true,
+        "horizontalScroll" : false,
+        "shadowOffsetX" : 0,
+        "x" : 546,
+        "guid" : "tooltip--step_3",
+        "scale" : 1,
+        "parentSymbolID" : "",
+        "y" : 566
+      },
+      {
+        "sketchClassName" : "MSLayerGroup",
+        "uid" : "A6E2B1C2-EF48-4763-8DBA-A39D00A83B7C",
+        "rotation" : -0,
+        "shadowRadius" : 0,
+        "width" : 323,
+        "borderOptions" : {
+          "lineCap" : "butt",
+          "lineDash" : "100%"
+        },
+        "borderColor" : "rgba(0,0,0,0.000000)",
+        "opacity" : 0,
+        "clip" : false,
+        "parentLayerUid" : "",
+        "left" : 546,
+        "hidden" : false,
+        "overrides" : {
+
+        },
+        "blendingMode" : "normal",
+        "shadowOffsetY" : 0,
+        "isSymbolInstance" : false,
+        "path" : "",
+        "flattenGroup" : true,
+        "backgroundColor" : "rgba(0,0,0,0.000000)",
+        "userCode" : "",
+        "index" : 4,
+        "parentScreenUid" : "CE48AE73-3AC8-485C-8D3F-E71F073228CA",
+        "shadowColor" : "rgba(0,0,0,0.000000)",
+        "name" : "tooltip--step_2",
+        "height" : 152,
+        "borderWidth" : 0,
+        "top" : 353,
+        "isGroup" : false,
+        "verticalScroll" : false,
+        "parentLayerGuid" : "",
+        "imagePath" : "Final-Onboarding-01-images\/tooltip--step_2.png",
+        "cornerRadius" : 0,
+        "rasterized" : true,
+        "horizontalScroll" : false,
+        "shadowOffsetX" : 0,
+        "x" : 546,
+        "guid" : "tooltip--step_2",
+        "scale" : 1,
+        "parentSymbolID" : "",
+        "y" : 353
+      },
+      {
+        "sketchClassName" : "MSLayerGroup",
+        "uid" : "B9BF33BA-78CD-46DC-876B-F3701E7474D7",
+        "rotation" : -0,
+        "shadowRadius" : 0,
+        "width" : 323,
+        "borderOptions" : {
+          "lineCap" : "butt",
+          "lineDash" : "100%"
+        },
+        "borderColor" : "rgba(0,0,0,0.000000)",
+        "opacity" : 0,
+        "clip" : false,
+        "parentLayerUid" : "",
+        "left" : 546,
+        "hidden" : false,
+        "overrides" : {
+
+        },
+        "blendingMode" : "normal",
+        "shadowOffsetY" : 0,
+        "isSymbolInstance" : false,
+        "path" : "",
+        "flattenGroup" : true,
+        "backgroundColor" : "rgba(0,0,0,0.000000)",
+        "userCode" : "",
+        "index" : 5,
+        "parentScreenUid" : "CE48AE73-3AC8-485C-8D3F-E71F073228CA",
+        "shadowColor" : "rgba(0,0,0,0.000000)",
+        "name" : "tooltip--step_1",
+        "height" : 180,
+        "borderWidth" : 0,
+        "top" : 140,
+        "isGroup" : false,
+        "verticalScroll" : false,
+        "parentLayerGuid" : "",
+        "imagePath" : "Final-Onboarding-01-images\/tooltip--step_1.png",
+        "cornerRadius" : 0,
+        "rasterized" : true,
+        "horizontalScroll" : false,
+        "shadowOffsetX" : 0,
+        "x" : 546,
+        "guid" : "tooltip--step_1",
+        "scale" : 1,
+        "parentSymbolID" : "",
+        "y" : 140
+      }
+    ],
+    "width" : 1280,
+    "userCodeOnEnter" : "",
+    "symbolID" : "",
+    "name" : "500 Done"
+  }
+];
+            
+            //---DO NOT MODIFY---
+            //MADesktopPreviewWindowController depends on exact match of strings in this block
+            var currentScreenTransitionUid = '';
+            var currentTimelineIndex = 0;
+            //---END OF DO NOT MODIFY---
+        </script>
+		<script src="mityaPreview.js"></script>
+		<script>
+			Framer.DeviceView.Devices["mitya_preview"] = {
+				"deviceType": "desktop",
+				"screenWidth": mityaSettings.screenWidth,
+				"screenHeight": mityaSettings.screenHeight,
+				"fullScreen": 1,
+				"padding":0,
+				"deviceImageWidth": mityaSettings.screenWidth,
+				"deviceImageHeight": mityaSettings.screenHeight
+			};
+			Framer.Device.deviceType = "mitya_preview";
+			Framer.Device.background.backgroundColor = "#111"
+            
+            Framer.Defaults.Animation.time = 0.2;
+            
+            Framer.Extras.Preloader.enable();
+            Framer.Extras.Preloader.setLogo("https://mitya.com/images/favicon.png");
+		</script>
+		<script>
+			''
+			runStartupUserCode();
+			//showHomeScreen()
+            setTimeout(showHomeScreen, 100);
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
