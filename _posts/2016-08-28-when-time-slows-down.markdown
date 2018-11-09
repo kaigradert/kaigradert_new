@@ -17,9 +17,9 @@ images:
 
 The weather was overcast, but we were eager to get out of the house for a little bit of nature and family time.
 
-The moment we set foot on the beach, the sun broke through the thick layer of clouds. The morning quickly reminded me what it is like to be a kid again.
+When we arrived at the beach, the sun broke through a layer of clouds. The morning quickly reminded me about my childhood.
 
-Aadi ran down the beach, holding shovels in his hands. He was stumbling and falling onto the sand. He rolled over with a big smile on his face. His face covered in sunscreen. The sand was sticking to his cheeks.
+We spread out the blanket and enjoyed the scenery. People were passing by. Dogs were chasing birds by the water. The Golden Gate Bridge stood firm and strong behind us. Aadi sat in the soft, warm sand. His scooper and shovels spread across his play area. He began digging deep holes, pouring sand from the shovels into his scooper and back onto the beach.
 
 <figure>
 <img src="/uploads/29263501556_0afe07861a_k.jpg" alt="Rolling & Falling">
@@ -35,7 +35,7 @@ And having fun
 </figcaption>
 </figure>
 
-We spread out the blanket and enjoyed the scenery. People were passing by. Dogs were chasing birds by the water. The Golden Gate Bridge stood firmly behind us. Aadi sat in the soft, warm sand. His scooper and shovels spread across his play area. He began digging deep holes, pouring sand from the shovels into his scooper and back onto the beach.
+Aadi ran down the beach, holding shovels in his hands. He was stumbling and falling onto the sand. He rolled over with a big smile on his face. His face covered in sunscreen. The sand was sticking to his cheeks.
 
 <figure>
 <img src="/uploads/29297284045_0614cda254_h.jpg" alt="Play time">
@@ -51,4 +51,4 @@ Precious moments
 </figcaption>
 </figure>
 
-Time slowed down as we watched Addi enjoy the simple pleasures of playing in the sand. It was a brief visit to the beach, but enough to replenish from a busy life. Having small moments of nature and family time is essential.
+Time slowed down as we watched Aadi enjoy the simple pleasures of playing in the sand. It was a brief visit to the beach, but enough to replenish from a busy work week. Having small moments of nature and family time is essential.
