@@ -13,6 +13,7 @@ images:
   title: 28676466863_0480154091_h
 - path: "/uploads/29297284045_0614cda254_h.jpg"
   title: 29297284045_0614cda254_h
+comments: 'no'
 ---
 
 The weather was overcast, but we were eager to get out of the house for a little bit of nature and family time.
