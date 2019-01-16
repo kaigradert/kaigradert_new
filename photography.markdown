@@ -18,7 +18,7 @@ In addition to my work as a designer, I am a passionate landscape and time-lapse
 I am available for worldwide assignments and coaching. Contact me at <a href="mailto:kai.gradert@gmail.com">kai.gradert@gmail.com</a> for bookings and licensing.
 
 <figure>
-  <a href="http://photos.kaigradert.com/Photography" target="_blank" title="Kai Gradert Photography Portfolio">
+  <a href="http://photos.kaigradert.com" target="_blank" title="Kai Gradert Photography Portfolio">
     <img src="/uploads/Hero%20-%20Photography.jpg" alt="Kai Gradert Photography">
   </a>
 <figcaption>
