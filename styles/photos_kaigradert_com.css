@@ -1,0 +1,61 @@
+// MISC
+
+html body div#using {
+  display: none !important;
+}
+
+div:empty {
+   /* display: none; */
+}
+
+.xl-headline,
+.menu-item,
+.item-label {
+  text-transform: uppercase;
+}
+
+h2.margin-top-l {
+  margin-top: 0.5em !important;
+}
+
+.font-size-small {
+  font-size: 13px;
+  color: #808080;
+}
+
+#content_page_wrapper ul {
+  // margin-bottom: 1.5em !important;
+}
+
+
+// DISQUS
+
+.blog .f_blog_post #disqus_thread {
+  margin-top: 3em;
+}
+
+
+// SOCIAL ICONS
+
+#kg_social section {
+  margin: 3em auto !important;
+  text-align: center !important;
+  width: 100px !important;
+  background-color: red !important;
+}
+
+#kg-social a {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin: 0 1em;
+}
+
+#kg-social svg {
+	height: 100%;
+	width: auto;
+}
+
+#kg-social svg path {
+	fill: #7f7f7f;
+}
