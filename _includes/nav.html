@@ -1,13 +1,1 @@
-<header class='header' role='banner'>
-  <h1>
-    <a href='/' title='{{ site.title }}'>{{ site.title }}</a>
-  </h1>
-  <nav>
-    {% assign sorted_pages = (site.pages | sort: 'position') %}
-    {% for nav in sorted_pages %}
-    {% if nav.title %}
-    <a class='{% if nav.url == page.url %}active{% endif %}' href='{{ nav.url }}' title='{{ nav.title }}'>{{ nav.title }}</a>
-    {% endif %}
-    {% endfor %}
-  </nav>
-</header>
+<header class="header" role="banner"> <h1> <a href="/" title="{{ site.title }}">{{ site.title }}</a> </h1> <nav> {% assign sorted_pages = (site.pages | sort: 'position') %} {% for nav in sorted_pages %} {% if nav.title %} <a class="{% if nav.url == page.url %}active{% endif %}" href="{{ nav.url }}" title="{{ nav.title }}">{{ nav.title }}</a> {% endif %} {% endfor %} </nav> </header> 

@@ -4,12 +4,6 @@
   %body
     {% include nav.html %}
     %section.main
-      .box.hide
-        .item.item1 Kai Gradert
-        .item.item2 BLOG
-        .item.item3 DESIGN
-        .item.item4 PHOTOGRAPHY
-        .item.item5 ABOUT
       {% if page.path contains 'index' %}
       {% include blog.html %}
       {% elsif page.path contains 'blog_tags' %}
