@@ -1,15 +1,43 @@
-<footer class='footer'>
+<footer class="footer">
   <ul>
-    {{ if site.contact }}
-    {% for data in site.contact %}
+    {{ if site.contact }} {% for data in site.contact %}
     <li>
-      <a href='{{ data[1] }}' rel='me' target='_blank' title='{{ site.title }} on {{ data[0] }}'>{{ data[0] }}</a>
+      <a
+        href="{{ data[1] }}"
+        rel="me"
+        target="_blank"
+        title="{{ site.title }} on {{ data[0] }}"
+        >{{ data[0] }}</a
+      >
     </li>
-    {% endfor %}
-    {{ endif }}
-    <li class='copyright'>
+    {% endfor %} {{ endif }}
+    <li class="copyright">
       &copy;{{ site.time | date: '%Y' }}
-      <a href='mailto: + {{ site.email }} + ?subject%3DWebsite%20Inquiry' target='_blank' title='Email {{ site.title }}'>{{ site.title }}</a>
+      <a
+        href="mailto: + {{ site.email }} + ?subject%3DWebsite%20Inquiry"
+        target="_blank"
+        title="Email {{ site.title }}"
+        >{{ site.title }}</a
+      >
     </li>
   </ul>
+  <!-- Fathom - simple website analytics - https://usefathom.com -->
+  <script>
+    (function(f, a, t, h, o, m) {
+      a[h] =
+        a[h] ||
+        function() {
+          (a[h].q = a[h].q || []).push(arguments);
+        };
+      (o = f.createElement('script')),
+        (m = f.getElementsByTagName('script')[0]);
+      o.async = 1;
+      o.src = t;
+      o.id = 'fathom-script';
+      m.parentNode.insertBefore(o, m);
+    })(document, window, 'https://cdn.usefathom.com/tracker.js', 'fathom');
+    fathom('set', 'siteId', 'ZDTAUZIW');
+    fathom('trackPageview');
+  </script>
+  <!-- / Fathom -->
 </footer>

@@ -1,18 +1,18 @@
 @import "bourbon"
 
-$colorBody:             #4d4d4d
-$colorMuted:            #999999
-$colorHeadline:         #262626
-$colorShaded:           rgba(black, 0.05)
-$colorBorder:           #e6e7e9
+$colorBody:             hsl(0, 0%, 20%)
+$colorMuted:            hsl(0, 0%, 60%)
+$colorHeadline:         hsl(0, 0%, 15%)
+$colorShaded:           hsla(0, 0%, 0%, 0.05)
+$colorBorder:           hsl(210, 5%, 90%)
 
-$colorLinkSunday:       #cc8f14
-$colorLinkMonday:       #6b990f
-$colorLinkTuesday:      #b80960
-$colorLinkWednesday:    #a26016
-$colorLinkThursday:     #127db3
-$colorLinkFriday:       #6b990f
-$colorLinkSaturday:     #6b990f
+$colorSunday:       hsl(40, 80%, 40%)
+$colorMonday:       hsl(80, 80%, 35%)
+$colorTuesday:      hsl(150, 80%, 30%)
+$colorWednesday:    hsl(200, 80%, 40%)
+$colorThursday:     hsl(250, 80%, 50%)
+$colorFriday:       hsl(290, 80%, 30%)
+$colorSaturday:     hsl(350, 80%, 30%)
 
 // Radius
 $goldenRatio:           1.618
@@ -28,7 +28,7 @@ $widthPage:             1140px
 // Mixins
 // ----------------------------------------------------------------------------
 
-=debug($color)
+=debug($color: red)
   background-color: rgba($color, 0.3)
 
 =radius($radius)
@@ -71,6 +71,84 @@ $widthPage:             1140px
     font-weight: 400
   @else if $weight == "bold"
     font-weight: 600
+
+
+// Flexbox SASS mixins
+// http://www.w3.org/TR/css3-flexbox
+// ----------------------------------------------------------------------------
+
+
+// FLEX CONTAINER
+=flexbox()
+  display: flex
+
+=flex-direction($direction)
+  // row | row-reverse | column | column-reverse
+  flex-direction: $direction
+
+=flex-wrap($wrap)
+  // nowrap | wrap | wrap-reverse
+  flex-wrap: $wrap
+
+=flex-flow($flow)
+  // <flex-direction> || <flex-wrap>
+  flex-flow: $flow
+
+=justify-content($justify)
+  // flex-start | flex-end | center | space-between | space-around
+  justify-content: $justify
+
+=align-items($align)
+  // flex-start | flex-end | center | baseline | stretch
+  align-items: $align
+
+=align-content($align)
+  // - applies to: multi-line flex containers
+  // flex-start | flex-end | center | space-between | space-around | stretch
+  align-content: $align
+
+
+// FLEX ITEMS
+=flex($values)
+  // <positive-number>, initial, auto, or none
+  flex: $values
+
+=order($val)
+  // <integer>
+  order: $val
+
+=flex-grow($grow)
+  // <number>
+  flex-grow: $grow
+
+=flex-shrink($shrink)
+  // <number>
+  flex-shrink: $shrink
+
+=align-self($align)
+  // auto | flex-start | flex-end | center | baseline | stretch
+  align-self: $align
+
+=flex-basis($width)
+  // - applies to: flex itemsnitial main size of the flex item
+  // <width>
+  flex-basis: $width
+
+.box
+  @include debug(yellow)
+  @include flexbox
+  @include flex-direction(row)
+  // @include justify-content(flex-end)
+  margin-top: 100px !important
+
+.item
+  @include debug(blue)
+  padding: 20px
+  & + .item
+    margin-left: 10px
+
+.item1
+  @include flex(1)
 
 
 // Helpers
@@ -122,6 +200,8 @@ $widthPage:             1140px
 .textalign--left
   text-align: left
 
+.hide
+  display: none
 
 
 // Basic
@@ -146,9 +226,9 @@ body
   overflow-x: hidden
   overflow-y: auto
   +for(handheld)
+    font-size: 20px
   +for(tablet)
   +for(desktop)
-    font-size: 20px
 
 a
   color: inherit
@@ -158,25 +238,25 @@ a
     cursor: pointer
 
 .day-0 a
-  color: $colorLinkSunday
+  color: $colorSunday
 
 .day-1 a
-  color: $colorLinkMonday
+  color: $colorMonday
 
 .day-2 a
-  color: $colorLinkTuesday
+  color: $colorTuesday
 
 .day-3 a
-  color: $colorLinkWednesday
+  color: $colorWednesday
 
 .day-4 a
-  color: $colorLinkThursday
+  color: $colorThursday
 
 .day-5 a
-  color: $colorLinkFriday
+  color: $colorFriday
 
 .day-6 a
-  color: $colorLinkSaturday
+  color: $colorSaturday
 
 p, ul
   line-height: 1.8
@@ -269,9 +349,9 @@ blockquote
   top: 0
   width: 100%
   z-index: 1
-  //transition-duration: .5s
-  //transition-property: height, padding-top, padding-left
-  //transition-timing-function: cubic-bezier( 0.215, 0.610, 0.355, 1.000 )
+  // transition-duration: .5s
+  // transition-property: height, padding-top, padding-left
+  // transition-timing-function: cubic-bezier( 0.215, 0.610, 0.355, 1.000 )
 
   // styling
   $linkPadding: 5px 6px
@@ -334,7 +414,6 @@ blockquote
       background-color: #fff
       color: #000
       text-decoration: none
-
 
 
 // Layout
@@ -484,25 +563,25 @@ figure.video
         color: #fff
 
 .day-0 .excerpt .tags_excerpt a.current
-  background-color: $colorLinkSunday
+  background-color: $colorSunday
 
 .day-1 .excerpt .tags_excerpt a.current
-  background-color: $colorLinkMonday
+  background-color: $colorMonday
 
 .day-2 .excerpt .tags_excerpt a.current
-  background-color: $colorLinkTuesday
+  background-color: $colorTuesday
 
 .day-3 .excerpt .tags_excerpt a.current
-  background-color: $colorLinkWednesday
+  background-color: $colorWednesday
 
 .day-4 .excerpt .tags_excerpt a.current
-  background-color: $colorLinkThursday
+  background-color: $colorThursday
 
 .day-5 .excerpt .tags_excerpt a.current
-  background-color: $colorLinkFriday
+  background-color: $colorFriday
 
 .day-6 .excerpt .tags_excerpt a.current
-  background-color: $colorLinkSaturday
+  background-color: $colorSaturday
 
 
 

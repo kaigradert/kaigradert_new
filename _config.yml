@@ -15,24 +15,23 @@ collections:
     title: Work
     output: true
 defaults:
-- scope:
-    path: ''
-    type: pages
-  values:
-    layout: default
-- scope:
-    path: ''
-    type: posts
-  values:
-    permalink: "/blog/:title/"
-    layout: default
-- scope:
-    path: ''
-    type: blog_tags
-  values:
-    layout: default
-description: I am a designer, photographer, and timelapse artist. I am currently living
-  in California. My interests range from photography to technology.
+  - scope:
+      path: ''
+      type: pages
+    values:
+      layout: default
+  - scope:
+      path: ''
+      type: posts
+    values:
+      permalink: '/blog/:title/'
+      layout: default
+  - scope:
+      path: ''
+      type: blog_tags
+    values:
+      layout: default
+description: I am a designer, photographer, and timelapse creator. I currently live in California. My interests range from photography to technology.
 author: Kai Gradert
 bio: Designer, Photographer, Father
 keywords: User Experience, Visual Design, UX, Design, Google, Apple, Consulting
@@ -42,24 +41,23 @@ url: http://kaigradert.com
 contact:
   AngelList: https://angel.co/kai
   Flickr: http://www.flickr.com/photos/kaigradert/sets/
-  Google: https://plus.google.com/+KaiGradert/
   Instagram: http://instagram.com/kaikemono
   LinkedIn: http://www.linkedin.com/in/kaigradert
   SmugMug: https://kaigradert.smugmug.com/
   Twitter: https://twitter.com/kaigradert
-  Micro Blog: https://micro.blog/kai
-baseurl: 
+baseurl:
 permalink: pretty
 markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
-gems:
-- jekyll-feed
-- jekyll-sitemap
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
 exclude:
-- Gemfile
-- Gemfile.lock
-- config.codekit3
-- styles/global.sass
-- ".gitignore"
+  - '.config.codekit3'
+  - '.gitignore'
+  - config.codekit3
+  - Gemfile
+  - Gemfile.lock
+  - styles/global.sass

@@ -1,0 +1,25 @@
+!!!
+%html{:class => "no-js {% if parent %}parent-{{ parent.slug }} {% endif %}page-{{ slug }} day-{{ site.time | date: '%w' }}", :lang => "en"}
+  {% include head.html %}
+  %body
+    {% include nav.html %}
+    %section.main
+      .box.hide
+        .item.item1 Kai Gradert
+        .item.item2 BLOG
+        .item.item3 DESIGN
+        .item.item4 PHOTOGRAPHY
+        .item.item5 ABOUT
+      {% if page.path contains 'index' %}
+      {% include blog.html %}
+      {% elsif page.path contains 'blog_tags' %}
+      {% include tag.html %}
+      {% elsif page.path contains 'work' %}
+      {% include projects.html %}
+      {% elsif page.path contains 'posts' %}
+      {% include article.html %}
+      {% else %}
+      {% include article.html %}
+      {% endif %}
+      {% include footer.html %}
+    {% include scripts.html %}
