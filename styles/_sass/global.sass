@@ -134,21 +134,26 @@ $widthPage:             1140px
   // <width>
   flex-basis: $width
 
-.box
+
+// Gallery
+// ----------------------------------------------------------------------------
+
+.gallery
+  margin-top: 7em !important
   @include debug(yellow)
   @include flexbox
-  @include flex-direction(row)
-  // @include justify-content(flex-end)
-  margin-top: 100px !important
+  @include flex-wrap(wrap)
 
 .item
-  @include debug(blue)
-  padding: 20px
+  @include debug(green)
+  &:first-child
+    @include debug(blue)
+    padding-top: 56.25%
+    width: 100%
   & + .item
-    margin-left: 10px
-
-.item1
-  @include flex(1)
+    margin-top: 2px
+    padding-top: 25%
+    width: 25%
 
 
 // Helpers

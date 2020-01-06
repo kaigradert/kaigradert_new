@@ -73,6 +73,14 @@
 		"oAP": "/_blog_tags/video.markdown",
 		"oF": 0
 		},
+	"/_config.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_config.yml",
+		"oF": 0
+		},
 	"/_drafts": {
 		"ft": 65536,
 		"oA": 1,
@@ -102,6 +110,20 @@
 		"nEA": 1,
 		"oA": 0,
 		"oAP": "/_includes/blog.html",
+		"oF": 0,
+		"oFM": 2,
+		"uDQ": 1,
+		"uUN": 0
+		},
+	"/_includes/_haml/flexbox.haml": {
+		"cB": 1,
+		"cDA": 0,
+		"eHT": 1,
+		"ft": 256,
+		"hM": 1,
+		"nEA": 1,
+		"oA": 0,
+		"oAP": "/_includes/flexbox.html",
 		"oF": 0,
 		"oFM": 2,
 		"uDQ": 1,
@@ -189,6 +211,14 @@
 		"oAP": "/_includes/excerpt.html",
 		"oF": 0
 		},
+	"/_includes/flexbox.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_includes/flexbox.html",
+		"oF": 0
+		},
 	"/_includes/footer.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -219,6 +249,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/_includes/meta.html",
+		"oF": 0
+		},
+	"/_includes/nav.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_includes/nav.html",
 		"oF": 0
 		},
 	"/_includes/projects.html": {
