@@ -593,74 +593,75 @@ figure.video
 // Work
 // ----------------------------------------------------------------------------
 
+// Todo: Fix slug classes
 .page-design
 
-  article.project
-    & + article
-      margin-top: 6em
-    figure
-      display: block
-      margin: 0
-      overflow: hidden
-      img
-        clear: both
-        display: block
-        float: left
-        margin: 0
-        max-width: 100%
-        width: 100%
-        & + img
-          margin-top: 2px
-    figcaption
-      margin: 0
-      p
-        margin: 0
-        &:first-of-type
-          margin-top: 1em
-
-  dl.meta
-    +fontSansSerif
-    @extend .listStyleNone
-    background-color: $colorShaded
-    color: $colorHeadline
-    line-height: 1
-    margin-top: 2px
+article.project
+  & + article
+    margin-top: 6em
+  figure
+    display: block
+    margin: 0
     overflow: hidden
-    div
+    img
+      clear: both
       display: block
-      padding: 10px 16px
-      +for(handheld)
-        float: none
-        box-shadow: rgba(white, 1) 0 2px 0
-      +for(tablet)
-        float: left
-        box-shadow: rgba(white, 1) 2px 0 0
-      +for(desktop)
-        float: left
-        box-shadow: rgba(white, 1) 2px 0 0
-    dt
-      font-size: 10px
-      font-weight: 700
+      float: left
       margin: 0
-      text-transform: uppercase
-      +for(handheld)
-        display: inline-block
-      +for(tablet)
-        display: block
-      +for(desktop)
-        display: block
-    dd
+      max-width: 100%
+      width: 100%
+      & + img
+        margin-top: 2px
+  figcaption
+    margin: 0
+    p
+      margin: 0
+      &:first-of-type
+        margin-top: 1em
+
+dl.meta
+  +fontSansSerif
+  @extend .listStyleNone
+  background-color: $colorShaded
+  color: $colorHeadline
+  line-height: 1
+  margin-top: 2px
+  overflow: hidden
+  div
+    display: block
+    padding: 10px 16px
+    +for(handheld)
+      float: none
+      box-shadow: rgba(white, 1) 0 2px 0
+    +for(tablet)
+      float: left
+      box-shadow: rgba(white, 1) 2px 0 0
+    +for(desktop)
+      float: left
+      box-shadow: rgba(white, 1) 2px 0 0
+  dt
+    font-size: 10px
+    font-weight: 700
+    margin: 0
+    text-transform: uppercase
+    +for(handheld)
+      display: inline-block
+    +for(tablet)
       display: block
-      font-size: 12px
-      margin: 0
-      +for(handheld)
-        display: inline-block
-      +for(tablet)
-        display: block
-        margin-top: 10px
-      +for(desktop)
-        display: block
-        margin-top: 10px
+    +for(desktop)
+      display: block
+  dd
+    display: block
+    font-size: 12px
+    margin: 0
+    +for(handheld)
+      display: inline-block
+    +for(tablet)
+      display: block
+      margin-top: 10px
+    +for(desktop)
+      display: block
+      margin-top: 10px
 
 
 
