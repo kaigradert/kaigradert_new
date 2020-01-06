@@ -139,20 +139,20 @@ $widthPage:             1140px
 // ----------------------------------------------------------------------------
 
 .gallery
-  margin-top: 7em !important
   @include debug(yellow)
   @include flexbox
   @include flex-wrap(wrap)
+  margin-top: 7em !important
 
 .item
-  @include debug(green)
-  &:first-child
+  outline: 2px white solid
+  &:nth-child(1)
     @include debug(blue)
     padding-top: 56.25%
     width: 100%
-  & + .item
-    margin-top: 2px
-    padding-top: 25%
+  &:nth-child(n+2)
+    @include debug(red)
+    padding-top: 18.75%
     width: 25%
 
 
