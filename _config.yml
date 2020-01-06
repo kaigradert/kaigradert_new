@@ -40,12 +40,12 @@ email: kai.gradert@gmail.com
 gravatar: 11e4ed5d85b6bccce20f8f86476785d6
 url: http://kaigradert.com
 contact:
-  AngelList: https://angel.co/kai
-  Flickr: http://www.flickr.com/photos/kaigradert/sets/
-  Instagram: http://instagram.com/kaikemono
-  LinkedIn: http://www.linkedin.com/in/kaigradert
-  SmugMug: https://kaigradert.smugmug.com/
   Twitter: https://twitter.com/kaigradert
+  AngelList: https://angel.co/kai
+  LinkedIn: http://www.linkedin.com/in/kaigradert
+  Instagram: http://instagram.com/kaikemono
+  Flickr: http://www.flickr.com/photos/kaigradert/sets/
+  SmugMug: https://kaigradert.smugmug.com/
 baseurl: 
 permalink: pretty
 markdown: kramdown
