@@ -15,7 +15,6 @@ lost_gems:
     caption: Beautiful soft light breaking through a large block of ice, producing
       soft diffused shadows on the black-sand beach. I captured this image on a trip
       to Iceland in 2015.
-    link: https://www.flickr.com/photos/kaigradert/31475940574
     image: "/uploads/Lost%20Gem%20-%20Sunrise%20on%20the%20Rocks.jpg"
     unsplash: 
   - week: Week 2
@@ -25,71 +24,60 @@ lost_gems:
       out the background. There is some charm to the blurry background, but I believe
       the image would be stronger with the mountains in focus. I wish had taken another
       short exposure of just the background.
-    link: https://www.flickr.com/photos/kaigradert/32222374481
     image: "/uploads/Lost%20Gem%20-%20Salt%20Formations.jpg"
     unsplash: 
   - week: Week 3
     title: A Bugs Life
     caption: Road trip. On the way to Death Valley. It was a warm and sunny day. The
       light was warm and golden. The windshield was covered in bugs.
-    link: https://www.flickr.com/photos/kaigradert/32381214115
     image: "/uploads/Lost%20Gem%20-%20A%20Bugs%20Life.jpg"
     unsplash: https://unsplash.com/@kai
   - week: Week 4
     title: Blue Hour
     caption: Big Oak Flat tunnel in Yosemite during the Blue Hour. The vibrant fluorescent
       light from the tunnel set against the blue evening light.
-    link: https://www.flickr.com/photos/kaigradert/32056121750
     image: "/uploads/Lost%20Gem%20-%20Blue%20Hour.jpg"
     unsplash: 
   - week: Week 5
     title: Icelandic Horse
     caption: When you look them in the eye, you can sense a thoughtfulness and calm
       that you don't get with a lot of other creatures.
-    link: https://www.flickr.com/photos/kaigradert/32708718482/in/album-72157679118130865/
     image: "/uploads/Lost%20Gem%20-%20Icelandic%20Horse.jpg"
     unsplash: 
   - week: Week 6
     title: Curiosity
     caption: Eight months old. A short weekend camping trip with Aadi and friends.
-    link: https://www.flickr.com/photos/kaigradert/32024923654/
     image: "/uploads/Lost%20Gem%20-%20Curiosity.jpg"
     unsplash: 
   - week: Week 7
     title: Morning Meditation
     caption: A quiet Summer morning during a visit to Joe's and Martha's cabin in
       Sierraville. Aadi started walking during this trip. Good times.
-    link: https://www.flickr.com/photos/kaigradert/32764031571/in/album-72157677641911010/
     image: "/uploads/Lost%20Gem%20-%20Morning%20Meditation.jpg"
     unsplash: https://unsplash.com/@kai
   - week: Week 8
     title: Day Hike at the Griffith Observatory.
     caption: 
-    link: https://www.flickr.com/photos/kaigradert/32734730090/in/album-72157677641911010/
     image: "/uploads/Lost%20Gem%20-%20Day%20Hike%20at%20the%20Griffith%20Observatory.jpg"
     unsplash: https://unsplash.com/@kai
   - week: Week 9
     title: Buttery Sky
     caption: On a cold winter evening in Palm Springs.
-    link: https://www.flickr.com/photos/kaigradert/33697870091/in/album-72157677641911010/
     image: "/uploads/20141223-_MG_0141-Edit-2.jpg"
     unsplash: https://unsplash.com/@kai
   - week: Week 10
     title: Black Rock
     caption: Rock formation on a black sand beach in Iceland.
-    link: https://www.flickr.com/photos/kaigradert/33671321972/in/album-72157663559026033/
     image: "/uploads/0150323-2015-03-23_143139__MG_9747-Edit.jpg"
     unsplash: 
   - week: Week 11
     title: Golden Gate
     caption: A calm and clear morning at the Golden Gate Bridge.
-    link: https://www.flickr.com/photos/kaigradert/33002109614/in/album-72157663559026033/
     image: "/uploads/MG_5968-Edit.jpg"
     unsplash: 
   - week: Week 12
     title: Converse All Star
     caption: Experimenting with light painting on an old pair of sneakers.
-    link: https://www.flickr.com/photos/kaigradert/33699200951/in/album-72157677641911010/
     image: "/uploads/20150123-_MG_0007.jpg"
     unsplash: https://unsplash.com/@kai
 ---
