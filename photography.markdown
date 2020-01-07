@@ -15,7 +15,8 @@ In addition to my work as a designer, I am a passionate landscape and time-lapse
 * <a href="https://twitter.com/kaigradert" target="_blank" title="Kai Gradert on Twitter">Follow me on Twitter</a>
 * <a href="https://vimeo.com/kaigradert" target="_blank" title="Kai Gradert on Vimeo">Follow me on Vimeo</a>
 
-I am available for assignments and coaching. Contact me at <a href="mailto:kai.gradert@gmail.com">kai.gradert@gmail.com</a> for bookings and licensing.
+I am available for assignments and coaching.
+Contact me at <a href="mailto:kai.gradert@gmail.com">kai.gradert@gmail.com</a> for bookings and licensing.
 
 <figure>
   <a href="http://photos.kaigradert.com" target="_blank" title="Kai Gradert Photography Portfolio">
