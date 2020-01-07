@@ -1,0 +1,19 @@
+{% for week in page.lost_gems %}
+{% for entry in week reversed %}
+%h3 {{ entry.week }}
+%figure
+  %img{:alt => "{{ entry.week }}", :height => "", :src => "{{ entry.image }}", :width => ""}/
+  {% if entry.caption or entry.title %}
+  %figcaption.textalign--left
+    %h3 {{ entry.title }}
+    {% if entry.caption or entry.unsplash %}
+    %p
+      {{ entry.caption }}
+      {% if entry.unsplash %}
+      Also available at:
+      %a{:href => "{{ entry.unsplash }}", :target => "_blank"} {{ entry.unsplash }}
+      {% endif %}
+  {% endif %}
+  {% endif %}
+{% endfor %}
+{% endfor %}

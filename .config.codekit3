@@ -115,6 +115,20 @@
 		"uDQ": 1,
 		"uUN": 0
 		},
+	"/_includes/_haml/comments.haml": {
+		"cB": 1,
+		"cDA": 0,
+		"eHT": 1,
+		"ft": 256,
+		"hM": 1,
+		"nEA": 1,
+		"oA": 0,
+		"oAP": "/_includes/comments.html",
+		"oF": 0,
+		"oFM": 2,
+		"uDQ": 1,
+		"uUN": 0
+		},
 	"/_includes/_haml/flexbox.haml": {
 		"cB": 1,
 		"cDA": 0,
@@ -138,6 +152,48 @@
 		"nEA": 1,
 		"oA": 0,
 		"oAP": "/_includes/footer.html",
+		"oF": 0,
+		"oFM": 2,
+		"uDQ": 1,
+		"uUN": 0
+		},
+	"/_includes/_haml/head.haml": {
+		"cB": 1,
+		"cDA": 0,
+		"eHT": 1,
+		"ft": 256,
+		"hM": 1,
+		"nEA": 1,
+		"oA": 0,
+		"oAP": "/_includes/head.html",
+		"oF": 0,
+		"oFM": 2,
+		"uDQ": 1,
+		"uUN": 0
+		},
+	"/_includes/_haml/lostgems.haml": {
+		"cB": 1,
+		"cDA": 0,
+		"eHT": 1,
+		"ft": 256,
+		"hM": 1,
+		"nEA": 1,
+		"oA": 0,
+		"oAP": "/_includes/lostgems.html",
+		"oF": 0,
+		"oFM": 2,
+		"uDQ": 1,
+		"uUN": 0
+		},
+	"/_includes/_haml/meta.haml": {
+		"cB": 1,
+		"cDA": 0,
+		"eHT": 1,
+		"ft": 256,
+		"hM": 1,
+		"nEA": 1,
+		"oA": 0,
+		"oAP": "/_includes/meta.html",
 		"oF": 0,
 		"oFM": 2,
 		"uDQ": 1,
@@ -243,6 +299,14 @@
 		"oAP": "/_includes/lost_gems.html",
 		"oF": 0
 		},
+	"/_includes/lostgems.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_includes/lostgems.html",
+		"oF": 0
+		},
 	"/_includes/meta.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -257,6 +321,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/_includes/nav.html",
+		"oF": 0
+		},
+	"/_includes/projects.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_includes/projects.html",
 		"oF": 0
 		},
 	"/_includes/scripts.html": {
@@ -321,12 +393,12 @@
 		"oAP": "/build/_work",
 		"oF": 0
 		},
-	"/about.markdown": {
+	"/cheatsheet.markdown": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/about.markdown",
+		"oAP": "/cheatsheet.markdown",
 		"oF": 0
 		},
 	"/Gemfile": {

@@ -1,0 +1,24 @@
+%head
+  %meta{:charset => "utf-8"}/
+  {% include meta.html %}
+  {% feed_meta %}
+  %meta{:content => "on", "http-equiv" => "cleartype"}/
+  %meta{:content => "True", :name => "HandheldFriendly"}/
+  %meta{:content => "width=device-width, minimum-scale=1, initial-scale=1", :name => "viewport"}/
+  %link{:href => "/uploads/favicon.ico", :rel => "shortcut icon"}/
+
+  / STYLE SHEETS
+  %link{:href => "/styles/global.css", :rel => "stylesheet", :type => "text/css"}/
+  %link{:href => "https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css", :media => "screen", :rel => "stylesheet", :type => "text/css"}/
+
+  / MODERNIZR
+  %script{:src => "http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js", :type => "text/javascript"}
+
+  / FIGHT FOUC! http://www.paulirish.com/2009/avoiding-the-fouc-v3/
+  :javascript
+    document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/,'js no-fouc');
+
+  / TYPEKIT
+  %script{:src => "https://use.typekit.net/boj0vyn.js"}
+  :javascript
+    try{Typekit.load({ async: true });}catch(e){}
