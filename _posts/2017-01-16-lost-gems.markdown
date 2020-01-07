@@ -85,3 +85,5 @@ lost_gems:
 A common problem of working with a digital camera is the number of images you generate over time.
 
 The goal of this project is to reduce the size of my photo catalog and hopefully rediscover a few forgotten gems. I will go through the catalog on a regular basis and publish one image from the archive per week. It will be a mixed bag of photos. Enjoy!
+
+**Update:** I have abandoned this project after twelve weeks because my photo catalog grew exponentially over the past few years.
