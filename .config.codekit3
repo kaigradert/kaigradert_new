@@ -73,6 +73,14 @@
 		"oAP": "/_blog_tags/video.markdown",
 		"oF": 0
 		},
+	"/_cheatsheet.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_cheatsheet.txt",
+		"oF": 0
+		},
 	"/_config.yml": {
 		"cB": 0,
 		"ft": 8192,
@@ -393,12 +401,12 @@
 		"oAP": "/build/_work",
 		"oF": 0
 		},
-	"/cheatsheet.markdown": {
+	"/about.markdown": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/cheatsheet.markdown",
+		"oAP": "/about.markdown",
 		"oF": 0
 		},
 	"/Gemfile": {
