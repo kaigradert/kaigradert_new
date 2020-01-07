@@ -179,7 +179,7 @@
 		"uDQ": 1,
 		"uUN": 0
 		},
-	"/_includes/_haml/lostgems.haml": {
+	"/_includes/_haml/lost_gems.haml": {
 		"cB": 1,
 		"cDA": 0,
 		"eHT": 1,
@@ -187,7 +187,7 @@
 		"hM": 1,
 		"nEA": 1,
 		"oA": 0,
-		"oAP": "/_includes/lostgems.html",
+		"oAP": "/_includes/lost_gems.html",
 		"oF": 0,
 		"oFM": 2,
 		"uDQ": 1,
@@ -305,14 +305,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/_includes/lost_gems.html",
-		"oF": 0
-		},
-	"/_includes/lostgems.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_includes/lostgems.html",
 		"oF": 0
 		},
 	"/_includes/meta.html": {
