@@ -25,4 +25,4 @@ Notable among Kai’s achievements is his design of <a class="fancybox" href="/u
 
 As an active member of the UX Community, Kai’s mix of skills continues to lead to diverse projects with new and exciting outcomes.
 
-Kai currently lives in Santa Barbara, working at <a href="https://angel.co/kai" title="Kai Gradert on AngelList" target="_blank">AngelList</a>. When he’s not designing, he enjoys riding his motorcycle, capturing [timelapse photography](/blog/tags/photography/), traveling the world, and practicing yoga.
+Kai currently lives in Santa Barbara. When he’s not designing, he enjoys riding his motorcycle, capturing [timelapse photography](/blog/tags/photography/), and spending time with his family.
